@@ -1,0 +1,3 @@
+EMS-i andmestik
+
+Laadige EMS-i MARCXML-andmed alla ja koostage toimiv kohalik otsingulahendus (nt CSV/SQLite). Andmestik: https://ems.elnet.ee/temp/ems_marc_tais.xml ; juhend: https://ems.elnet.ee/abi.php . Dokumenteerige teisendamine, päringud ja kontroll; vältige aeglast päringut iga sõna kohta eraldi. Kui EMS-i semantiline otsing kasutab LLM-i, märkige see selgelt.

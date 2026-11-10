@@ -1,0 +1,12 @@
+{
+  "tests_per_platform": 53,
+  "http_checks": 13,
+  "validation_ok": true,
+  "corpus_sha256_consistent": true,
+  "benchmark_source_files_verified": 12,
+  "benchmark_inputs_verified": 6,
+  "evaluation_cases": 13,
+  "local_document_links_verified": 26,
+  "preparation_storage": "Linux container with a Windows workspace bind mount; isolated .stage5-preparation; not production named volume",
+  "main_service_storage": "Docker named volume, separate from local benchmark data"
+}

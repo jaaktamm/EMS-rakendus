@@ -1,0 +1,29 @@
+.venv/
+.venv*/
+venv/
+env/
+.stage1-extensions/
+.stage1-linux-wheels/
+__pycache__/
+*.py[cod]
+*$py.class
+stage1_download.xml
+stage1_download.xml.part
+ems_marc_tais.xml
+data/
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+*.db
+.chrome-stage4/
+.stage5-preparation*/
+
+# Local configuration and personal inputs
+.env
+.env.*
+!.env.example
+*.log
+tode_ja_oigus_i.txt
+*.pdf
+Võtmesõnade ekstraheerimine_2026.pdf

@@ -1,0 +1,16 @@
+﻿services:
+  ems:
+    build: .
+    image: ems-local:stage5
+    ports:
+      - "127.0.0.1:${EMS_PORT:-8000}:8000"
+    environment:
+      EMS_DATA_DIR: /data
+      EMS_MAX_INPUT_BYTES: ${EMS_MAX_INPUT_BYTES:-5242880}
+    volumes:
+      - ems_data:/data
+    stop_grace_period: 120s
+
+volumes:
+  ems_data:
+

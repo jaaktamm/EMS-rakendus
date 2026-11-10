@@ -1,0 +1,638 @@
+{
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "runs": 5,
+  "description": "Synthetic repeated sentences, warm OS cache; no relevance accuracy claim.",
+  "measurements": [
+    {
+      "words_by_whitespace": 100,
+      "first": {
+        "timings": {
+          "analysis_seconds": 0.3303535000013653,
+          "candidates_seconds": 0.004431799985468388,
+          "matching_seconds": 0.029816900001605973,
+          "ranking_seconds": 0.0009926999919116497,
+          "details_seconds": 0.14063950002309866,
+          "total_seconds": 0.50623440000345
+        },
+        "diagnostics": {
+          "sentences": 19,
+          "tokens": 118,
+          "ambiguous_tokens": 0,
+          "fallback_tokens": 0,
+          "candidate_occurrences": 343,
+          "unique_keys": 75,
+          "matched_label_keys": 8,
+          "suppressed_nested_concepts": 0,
+          "sql_calls": 5
+        }
+      },
+      "all_runs": [
+        {
+          "timings": {
+            "analysis_seconds": 0.3303535000013653,
+            "candidates_seconds": 0.004431799985468388,
+            "matching_seconds": 0.029816900001605973,
+            "ranking_seconds": 0.0009926999919116497,
+            "details_seconds": 0.14063950002309866,
+            "total_seconds": 0.50623440000345
+          },
+          "diagnostics": {
+            "sentences": 19,
+            "tokens": 118,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 343,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.08951660001184791,
+            "candidates_seconds": 0.0046178000047802925,
+            "matching_seconds": 0.023886899987701327,
+            "ranking_seconds": 0.0006334000208880752,
+            "details_seconds": 0.13013459998182952,
+            "total_seconds": 0.24878930000704713
+          },
+          "diagnostics": {
+            "sentences": 19,
+            "tokens": 118,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 343,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.06750340000144206,
+            "candidates_seconds": 0.00321359999361448,
+            "matching_seconds": 0.02448079999885522,
+            "ranking_seconds": 0.0005558000120799989,
+            "details_seconds": 0.09636569998110645,
+            "total_seconds": 0.1921192999870982
+          },
+          "diagnostics": {
+            "sentences": 19,
+            "tokens": 118,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 343,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.07538120000390336,
+            "candidates_seconds": 0.004546899988781661,
+            "matching_seconds": 0.02141680000931956,
+            "ranking_seconds": 0.0008442999969702214,
+            "details_seconds": 0.09980050000012852,
+            "total_seconds": 0.20198969999910332
+          },
+          "diagnostics": {
+            "sentences": 19,
+            "tokens": 118,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 343,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.05773249999037944,
+            "candidates_seconds": 0.0031248000159393996,
+            "matching_seconds": 0.025687099987408146,
+            "ranking_seconds": 0.0006707000138703734,
+            "details_seconds": 0.09827839999343269,
+            "total_seconds": 0.18549350000103004
+          },
+          "diagnostics": {
+            "sentences": 19,
+            "tokens": 118,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 343,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        }
+      ],
+      "summary": {
+        "analysis_seconds": {
+          "median": 0.07538120000390336,
+          "p95": 0.3303535000013653
+        },
+        "candidates_seconds": {
+          "median": 0.004431799985468388,
+          "p95": 0.0046178000047802925
+        },
+        "matching_seconds": {
+          "median": 0.02448079999885522,
+          "p95": 0.029816900001605973
+        },
+        "ranking_seconds": {
+          "median": 0.0006707000138703734,
+          "p95": 0.0009926999919116497
+        },
+        "details_seconds": {
+          "median": 0.09980050000012852,
+          "p95": 0.14063950002309866
+        },
+        "total_seconds": {
+          "median": 0.20198969999910332,
+          "p95": 0.50623440000345
+        }
+      },
+      "repeats_only": {
+        "median": 0.19705449999310076,
+        "p95": 0.24878930000704713
+      }
+    },
+    {
+      "words_by_whitespace": 1000,
+      "first": {
+        "timings": {
+          "analysis_seconds": 0.6933389000187162,
+          "candidates_seconds": 0.028555400000186637,
+          "matching_seconds": 0.017930699978023767,
+          "ranking_seconds": 0.004802600014954805,
+          "details_seconds": 0.08399069998995401,
+          "total_seconds": 0.8286183000018355
+        },
+        "diagnostics": {
+          "sentences": 182,
+          "tokens": 1181,
+          "ambiguous_tokens": 0,
+          "fallback_tokens": 0,
+          "candidate_occurrences": 3454,
+          "unique_keys": 75,
+          "matched_label_keys": 8,
+          "suppressed_nested_concepts": 0,
+          "sql_calls": 5
+        }
+      },
+      "all_runs": [
+        {
+          "timings": {
+            "analysis_seconds": 0.6933389000187162,
+            "candidates_seconds": 0.028555400000186637,
+            "matching_seconds": 0.017930699978023767,
+            "ranking_seconds": 0.004802600014954805,
+            "details_seconds": 0.08399069998995401,
+            "total_seconds": 0.8286183000018355
+          },
+          "diagnostics": {
+            "sentences": 182,
+            "tokens": 1181,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 3454,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.6861765000212472,
+            "candidates_seconds": 0.03610089997528121,
+            "matching_seconds": 0.02583450000383891,
+            "ranking_seconds": 0.0077892999979667366,
+            "details_seconds": 0.12540449999505654,
+            "total_seconds": 0.8813056999933906
+          },
+          "diagnostics": {
+            "sentences": 182,
+            "tokens": 1181,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 3454,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.9677159999846481,
+            "candidates_seconds": 0.05172720001428388,
+            "matching_seconds": 0.02431919999071397,
+            "ranking_seconds": 0.007540099992183968,
+            "details_seconds": 0.0948295000125654,
+            "total_seconds": 1.1461319999943953
+          },
+          "diagnostics": {
+            "sentences": 182,
+            "tokens": 1181,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 3454,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.7898385000007693,
+            "candidates_seconds": 0.047890399990137666,
+            "matching_seconds": 0.029018100001849234,
+            "ranking_seconds": 0.006763399986084551,
+            "details_seconds": 0.09663899999577552,
+            "total_seconds": 0.9701493999746162
+          },
+          "diagnostics": {
+            "sentences": 182,
+            "tokens": 1181,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 3454,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.883912200020859,
+            "candidates_seconds": 0.04354759998386726,
+            "matching_seconds": 0.01836590000311844,
+            "ranking_seconds": 0.004477000009501353,
+            "details_seconds": 0.09598789998563007,
+            "total_seconds": 1.0462906000029761
+          },
+          "diagnostics": {
+            "sentences": 182,
+            "tokens": 1181,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 3454,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        }
+      ],
+      "summary": {
+        "analysis_seconds": {
+          "median": 0.7898385000007693,
+          "p95": 0.9677159999846481
+        },
+        "candidates_seconds": {
+          "median": 0.04354759998386726,
+          "p95": 0.05172720001428388
+        },
+        "matching_seconds": {
+          "median": 0.02431919999071397,
+          "p95": 0.029018100001849234
+        },
+        "ranking_seconds": {
+          "median": 0.006763399986084551,
+          "p95": 0.0077892999979667366
+        },
+        "details_seconds": {
+          "median": 0.09598789998563007,
+          "p95": 0.12540449999505654
+        },
+        "total_seconds": {
+          "median": 0.9701493999746162,
+          "p95": 1.1461319999943953
+        }
+      },
+      "repeats_only": {
+        "median": 1.0082199999887962,
+        "p95": 1.1461319999943953
+      }
+    },
+    {
+      "words_by_whitespace": 10000,
+      "first": {
+        "timings": {
+          "analysis_seconds": 8.843242999981157,
+          "candidates_seconds": 0.3487784000171814,
+          "matching_seconds": 0.02484800000092946,
+          "ranking_seconds": 0.13340739998966455,
+          "details_seconds": 0.1228895999956876,
+          "total_seconds": 9.47316639998462
+        },
+        "diagnostics": {
+          "sentences": 1819,
+          "tokens": 11818,
+          "ambiguous_tokens": 0,
+          "fallback_tokens": 0,
+          "candidate_occurrences": 34543,
+          "unique_keys": 75,
+          "matched_label_keys": 8,
+          "suppressed_nested_concepts": 0,
+          "sql_calls": 5
+        }
+      },
+      "all_runs": [
+        {
+          "timings": {
+            "analysis_seconds": 8.843242999981157,
+            "candidates_seconds": 0.3487784000171814,
+            "matching_seconds": 0.02484800000092946,
+            "ranking_seconds": 0.13340739998966455,
+            "details_seconds": 0.1228895999956876,
+            "total_seconds": 9.47316639998462
+          },
+          "diagnostics": {
+            "sentences": 1819,
+            "tokens": 11818,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 34543,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 7.556272700021509,
+            "candidates_seconds": 0.3671838000009302,
+            "matching_seconds": 0.024173499987227842,
+            "ranking_seconds": 0.09235500000067987,
+            "details_seconds": 0.09509220000472851,
+            "total_seconds": 8.135077200015076
+          },
+          "diagnostics": {
+            "sentences": 1819,
+            "tokens": 11818,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 34543,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 9.527414199983468,
+            "candidates_seconds": 0.38181320001604035,
+            "matching_seconds": 0.03218599999672733,
+            "ranking_seconds": 0.09392290000687353,
+            "details_seconds": 0.08216299998457544,
+            "total_seconds": 10.117499299987685
+          },
+          "diagnostics": {
+            "sentences": 1819,
+            "tokens": 11818,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 34543,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 6.609965100011323,
+            "candidates_seconds": 0.33455569998477586,
+            "matching_seconds": 0.019662800012156367,
+            "ranking_seconds": 0.06595379998907447,
+            "details_seconds": 0.06522889999905601,
+            "total_seconds": 7.095366299996385
+          },
+          "diagnostics": {
+            "sentences": 1819,
+            "tokens": 11818,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 34543,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        },
+        {
+          "timings": {
+            "analysis_seconds": 7.621537099999841,
+            "candidates_seconds": 0.38036780001129955,
+            "matching_seconds": 0.02422140000271611,
+            "ranking_seconds": 0.1129149999760557,
+            "details_seconds": 0.12058440002147108,
+            "total_seconds": 8.259625700011384
+          },
+          "diagnostics": {
+            "sentences": 1819,
+            "tokens": 11818,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 34543,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          }
+        }
+      ],
+      "summary": {
+        "analysis_seconds": {
+          "median": 7.621537099999841,
+          "p95": 9.527414199983468
+        },
+        "candidates_seconds": {
+          "median": 0.3671838000009302,
+          "p95": 0.38181320001604035
+        },
+        "matching_seconds": {
+          "median": 0.02422140000271611,
+          "p95": 0.03218599999672733
+        },
+        "ranking_seconds": {
+          "median": 0.09392290000687353,
+          "p95": 0.13340739998966455
+        },
+        "details_seconds": {
+          "median": 0.09509220000472851,
+          "p95": 0.1228895999956876
+        },
+        "total_seconds": {
+          "median": 8.259625700011384,
+          "p95": 10.117499299987685
+        }
+      },
+      "repeats_only": {
+        "median": 8.19735145001323,
+        "p95": 10.117499299987685
+      }
+    }
+  ],
+  "session_startup_seconds": 5.262730600021314,
+  "query_plan": "┌─────────────────────────────────────┐\n│┌───────────────────────────────────┐│\n││    Query Profiling Information    ││\n│└───────────────────────────────────┘│\n└─────────────────────────────────────┘\nEXPLAIN ANALYZE SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.surface_key WHERE k.kind='exact' AND s.language='et' AND s.role IN ('preferred','alternative') UNION ALL SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.lemma_key WHERE k.kind='lemma' AND s.language='et' AND s.role IN ('preferred','alternative')\n┌────────────────────────────────────────────────┐\n│┌──────────────────────────────────────────────┐│\n││              Total Time: 0.0151s             ││\n│└──────────────────────────────────────────────┘│\n└────────────────────────────────────────────────┘\n┌───────────────────────────┐\n│           QUERY           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│      EXPLAIN_ANALYZE      │\n│    ────────────────────   │\n│                           │\n│           0 rows          │\n│           0.00s           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│           UNION           │\n│    ────────────────────   │\n│                           ├───────────────────────────────────────────┐\n│           2 rows          │                                           │\n│           0.00s           │                                           │\n└─────────────┬─────────────┘                                           │\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         PROJECTION        │                             │         PROJECTION        │\n│    ────────────────────   │                             │    ────────────────────   │\n│            kind           │                             │            kind           │\n│         match_key         │                             │         match_key         │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│            role           │                             │            role           │\n│          language         │                             │          language         │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│           0 rows          │                             │           2 rows          │\n│           0.00s           │                             │           0.00s           │\n└─────────────┬─────────────┘                             └─────────────┬─────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         HASH_JOIN         │                             │         HASH_JOIN         │\n│    ────────────────────   │                             │    ────────────────────   │\n│      Join Type: INNER     │                             │      Join Type: INNER     │\n│                           │                             │                           │\n│        Conditions:        │                             │        Conditions:        │\n│  surface_key = match_key  ├──────────────┐              │   lemma_key = match_key   ├──────────────┐\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│           0 rows          │              │              │           2 rows          │              │\n│           0.00s           │              │              │           0.00s           │              │\n└─────────────┬─────────────┘              │              └─────────────┬─────────────┘              │\n┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐\n│           FILTER          ││         TABLE_SCAN        ││           FILTER          ││         TABLE_SCAN        │\n│    ────────────────────   ││    ────────────────────   ││    ────────────────────   ││    ────────────────────   │\n│ ((role = 'preferred') OR  ││           Table:          ││ ((role = 'preferred') OR  ││           Table:          │\n│  (role = 'alternative'))  ││ \"temp\".main.candidate_keys││  (role = 'alternative'))  ││ \"temp\".main.candidate_keys│\n│                           ││                           ││                           ││                           │\n│                           ││   Type: Sequential Scan   ││                           ││   Type: Sequential Scan   │\n│                           ││                           ││                           ││                           │\n│                           ││        Projections:       ││                           ││        Projections:       │\n│           0.00s           ││         match_key         ││           0.00s           ││         match_key         │\n│                           ││            kind           ││                           ││            kind           │\n│                           ││                           ││                           ││                           │\n│                           ││   Filters: kind='exact'   ││                           ││   Filters: kind='lemma'   │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│           2 rows          ││           6 rows          ││           2 rows          ││           6 rows          │\n│          (0.00s)          ││           0.00s           ││          (0.00s)          ││           0.00s           │\n└─────────────┬─────────────┘└───────────────────────────┘└─────────────┬─────────────┘└───────────────────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         TABLE_SCAN        │                             │         TABLE_SCAN        │\n│    ────────────────────   │                             │    ────────────────────   │\n│           Table:          │                             │           Table:          │\n│   idx.main.search_label   │                             │   idx.main.search_label   │\n│                           │                             │                           │\n│   Type: Sequential Scan   │                             │   Type: Sequential Scan   │\n│                           │                             │                           │\n│        Projections:       │                             │        Projections:       │\n│        surface_key        │                             │         lemma_key         │\n│          language         │                             │          language         │\n│            role           │                             │            role           │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│          Filters:         │                             │          Filters:         │\n│       language='et'       │                             │       language='et'       │\n│    optional: role IN (    │                             │    optional: role IN (    │\n│'preferred', 'alternative')│                             │'preferred', 'alternative')│\n│                           │                             │                           │\n│      Dynamic Filters:     │                             │      Dynamic Filters:     │\n│ optional: surface_key IN (│                             │ optional: lemma_key IN ('[│\n│   '[\"kasutatakse\"]', '[   │                             │ \"raamatukogu\",\"kasutama\"]'│\n│     \"raamatukogudes\",     │                             │    , '[\"kasutama\"]', '[   │\n│       \"kasutatakse\",      │                             │    \"raamatukogu\"]', '[    │\n│  \"tehisintellekti\"]', '[  │                             │ \"kasutama\",\"tehisintellekt│\n│   \"raamatukogudes\"]', '[  │                             │ \"]', '[\"tehisintellekt\"]',│\n│  \"tehisintellekti\"]', '[  │                             │  '[\"raamatukogu\",\"kasutama│\n│       \"kasutatakse\",      │                             │ \",\"tehisintellekt\"]') AND │\n│  \"tehisintellekti\"]', '[  │                             │   optional: lemma_key>='[ │\n│     \"raamatukogudes\",     │                             │ \"kasutama\",\"tehisintellekt│\n│    \"kasutatakse\"]') AND   │                             │     \"]' AND optional:     │\n│  optional: surface_key>='[│                             │        lemma_key<='[      │\n│       \"kasutatakse\",      │                             │   \"tehisintellekt\"]' AND  │\n│  \"tehisintellekti\"]' AND  │                             │  optional: lemma_key IN BF│\n│  optional: surface_key<='[│                             │        (match_key)        │\n│  \"tehisintellekti\"]' AND  │                             │                           │\n│  optional: surface_key IN │                             │                           │\n│        BF(match_key)      │                             │                           │\n│                           │                             │                           │\n│                           │                             │           0.01s           │\n│                           │                             │                           │\n│           2 rows          │                             │           2 rows          │\n│           0.01s           │                             │          (0.01s)          │\n└───────────────────────────┘                             └───────────────────────────┘\n",
+  "plan_diagnostics": {
+    "sentences": 1,
+    "tokens": 4,
+    "ambiguous_tokens": 0,
+    "fallback_tokens": 0,
+    "candidate_occurrences": 6,
+    "unique_keys": 12,
+    "matched_label_keys": 2,
+    "suppressed_nested_concepts": 0,
+    "sql_calls": 6
+  },
+  "strategy_comparison": {
+    "surface": [
+      {
+        "ems_id": "EMS003867",
+        "preferred_label": "raamatukogud",
+        "match_type": "exact",
+        "matched_label": "raamatukogud",
+        "score": 111.0
+      },
+      {
+        "ems_id": "EMS174969",
+        "preferred_label": "eesti",
+        "match_type": "exact",
+        "matched_label": "eesti",
+        "score": 111.0
+      }
+    ],
+    "lemma": [
+      {
+        "ems_id": "EMS003867",
+        "preferred_label": "raamatukogud",
+        "match_type": "exact",
+        "matched_label": "raamatukogud",
+        "score": 112.755
+      },
+      {
+        "ems_id": "EMS174969",
+        "preferred_label": "eesti",
+        "match_type": "exact",
+        "matched_label": "eesti",
+        "score": 111.0
+      },
+      {
+        "ems_id": "EMS000500",
+        "preferred_label": "tehisintellekt",
+        "match_type": "lemma",
+        "matched_label": "tehisintellekt",
+        "score": 91.0
+      },
+      {
+        "ems_id": "EMS000807",
+        "preferred_label": "raamatud",
+        "match_type": "lemma",
+        "matched_label": "raamatud",
+        "score": 91.0
+      },
+      {
+        "ems_id": "EMS009270",
+        "preferred_label": "teaduskirjandus",
+        "match_type": "lemma",
+        "matched_label": "teaduskirjandus",
+        "score": 91.0
+      },
+      {
+        "ems_id": "EMS014908",
+        "preferred_label": "lugejad",
+        "match_type": "lemma",
+        "matched_label": "lugejad",
+        "score": 91.0
+      },
+      {
+        "ems_id": "EMS023303",
+        "preferred_label": "infotehnoloogia",
+        "match_type": "lemma",
+        "matched_label": "infotehnoloogia",
+        "score": 91.0
+      },
+      {
+        "ems_id": "EMS155001587",
+        "preferred_label": "andmebaasid",
+        "match_type": "lemma",
+        "matched_label": "andmebaasid",
+        "score": 91.0
+      }
+    ],
+    "lemma-synonyms": [
+      {
+        "ems_id": "EMS003867",
+        "preferred_label": "raamatukogud",
+        "match_type": "exact",
+        "matched_label": "raamatukogud",
+        "score": 112.755
+      },
+      {
+        "ems_id": "EMS174969",
+        "preferred_label": "eesti",
+        "match_type": "exact",
+        "matched_label": "eesti",
+        "score": 111.0
+      },
+      {
+        "ems_id": "EMS000500",
+        "preferred_label": "tehisintellekt",
+        "match_type": "lemma",
+        "matched_label": "tehisintellekt",
+        "score": 91.0
+      },
+      {
+        "ems_id": "EMS000807",
+        "preferred_label": "raamatud",
+        "match_type": "lemma",
+        "matched_label": "raamatud",
+        "score": 91.0
+      },
+      {
+        "ems_id": "EMS009270",
+        "preferred_label": "teaduskirjandus",
+        "match_type": "lemma",
+        "matched_label": "teaduskirjandus",
+        "score": 91.0
+      },
+      {
+        "ems_id": "EMS014908",
+        "preferred_label": "lugejad",
+        "match_type": "lemma",
+        "matched_label": "lugejad",
+        "score": 91.0
+      },
+      {
+        "ems_id": "EMS023303",
+        "preferred_label": "infotehnoloogia",
+        "match_type": "lemma",
+        "matched_label": "infotehnoloogia",
+        "score": 91.0
+      },
+      {
+        "ems_id": "EMS155001587",
+        "preferred_label": "andmebaasid",
+        "match_type": "lemma",
+        "matched_label": "andmebaasid",
+        "score": 91.0
+      }
+    ]
+  }
+}

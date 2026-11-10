@@ -1,0 +1,71 @@
+{
+  "url": "http://127.0.0.1:8000",
+  "checks": [
+    {
+      "name": "health",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "name": "search_form",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "name": "keywords_form",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "name": "lemma_lookup",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "name": "textarea",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "name": "utf8_bom_upload",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "name": "both_inputs",
+      "status": 400,
+      "ok": true
+    },
+    {
+      "name": "bad_encoding",
+      "status": 400,
+      "ok": true
+    },
+    {
+      "name": "empty_text",
+      "status": 400,
+      "ok": true
+    },
+    {
+      "name": "wrong_extension",
+      "status": 400,
+      "ok": true
+    },
+    {
+      "name": "oversized_file",
+      "status": 400,
+      "ok": true
+    },
+    {
+      "name": "escaped_html",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "name": "fresh_form_has_no_previous_text",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "all_ok": true
+}

@@ -1,0 +1,25 @@
+{
+  "provenance": "Assistant-authored synthetic development cases, reviewed individually against EMS fields during stage 5. Not independently human-annotated and not a gold standard. No model or ranking parameters tuned on these cases.",
+  "scope": "Literal controlled-term mention detection (concept ID and original character span), not document topic relevance.",
+  "cases": [
+    {"id":"preferred", "text":"Raamatukogud.", "mentions":[{"ems_id":"EMS003867","surface":"Raamatukogud"}], "note":"Preferred EMS label, capitalization normalized."},
+    {"id":"inflection", "text":"Raamatukogudes.", "mentions":[{"ems_id":"EMS003867","surface":"Raamatukogudes"}], "note":"Estonian inessive plural; lemma should recover preferred plural term."},
+    {"id":"synonym", "text":"Mandibula.", "mentions":[{"ems_id":"EMS145598","surface":"Mandibula"}], "note":"EMS 450 synonym mandibula, preferred alalõualuu."},
+    {"id":"synonym_inflection", "text":"Õppuritele.", "mentions":[{"ems_id":"EMS006754","surface":"Õppuritele"}], "note":"Inflected form of EMS synonym õppurid, preferred õpilased."},
+    {"id":"multiword", "text":"Loomuliku keele töötlust.", "mentions":[{"ems_id":"EMS145464","surface":"Loomuliku keele töötlust"},{"ems_id":"EMS010646","surface":"Loomuliku keele"}], "note":"Includes the valid nested two-token term loomulik keel. Annotation reviewed against the EMS source: mention detection is not a most-specific-topic judgment; the longer term should rank first."},
+    {"id":"conjunction", "text":"Keha ja vaim.", "mentions":[{"ems_id":"EMS004317","surface":"Keha ja vaim"}], "note":"Preferred label contains stopword ja; keep phrase intact."},
+    {"id":"sentence_boundary", "text":"Roheline. Majandus.", "mentions":[{"ems_id":"EMS169577","surface":"Roheline"},{"ems_id":"EMS014960","surface":"Majandus"}], "note":"Two independent mentions, no cross-sentence phrase."},
+    {"id":"frequency", "text":"Raamatukogud. Raamatukogudes.", "mentions":[{"ems_id":"EMS003867","surface":"Raamatukogud"},{"ems_id":"EMS003867","surface":"Raamatukogudes"}], "note":"One concept, two distinct occurrences, two surface forms."},
+    {"id":"compound", "text":"Infotehnoloogias.", "mentions":[{"ems_id":"EMS023303","surface":"Infotehnoloogias"}], "note":"Preserve compound; do not introduce independent tehnoloogia match."},
+    {"id":"unicode_nfd", "text":"Õpilased.", "mentions":[{"ems_id":"EMS006754","surface":"Õpilased"}], "note":"Decomposed tilde; offsets refer to original codepoints, not NFC text."},
+    {"id":"negative", "text":"xyzqwerty.", "mentions":[], "note":"No EMS label intended; must not fill up to ten results."},
+    {"id":"verb_ambiguity", "text":"Saavad.", "mentions":[], "note":"A verb, not the noun sai (bread). Deliberate morphological ambiguity stress case; report false positives without changing the annotation to fit the model."},
+    {"id":"alias_merge", "text":"Mandibula. Alalõualuu.", "mentions":[{"ems_id":"EMS145598","surface":"Mandibula"},{"ems_id":"EMS145598","surface":"Alalõualuu"}], "note":"Synonym and preferred label belong to one concept but two mentions."}
+  ],
+  "topic_probe": {
+    "text":"Lugejad saavad nüüd teoseid tagastada ka pärast tööpäeva. Laenutusaega saab pikendada kodust lahkumata.",
+    "illustrative_theme":"Raamatukoguteenused",
+    "independent_topic_annotation":false,
+    "note":"Illustration only. Inferred theme is not counted as a literal term mention or a human relevance judgment."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "index_id": "20261028T224121Z-16c4d5f2069f",
+  "index_version": 1,
+  "source_run_id": "20261028T222627Z-73b1935b3360",
+  "source_sha256": "cc9bd08ab1a29a38d7d7e279b9ef051ea885ce5219ed5d42ae2cd8f5517e2081",
+  "analyzer_fingerprint": "1071c94e8c05e5858365406d171ffaeb17df822c0dd6aa167d97ec59a3049927",
+  "analyzer": {
+    "normalizer": "nfc-casefold-token-v1",
+    "morphology": {
+      "disambiguate": true,
+      "guess": true,
+      "propername": true,
+      "phonetic": false,
+      "compound": true,
+      "stem": false,
+      "slang_lex": false,
+      "use_reorderer": true,
+      "predisambiguate": false,
+      "postdisambiguate": false
+    },
+    "ambiguity_policy": "sorted_distinct_normalized_lemmas_first; no Cartesian expansion",
+    "packages": {
+      "estnltk": "1.7.5",
+      "estnltk-core": "1.7.5",
+      "nltk": "3.10.4",
+      "regex": "2026.9.29"
+    },
+    "resources_sha256": {
+      "punkt_tab/estonian/abbrev_types.txt": "0307878fb32af1e21d8f3ba0644e39c89602f2f8aa4e4304943f7e9e0fd081b2",
+      "punkt_tab/estonian/collocations.tab": "f1400a7ebf3c82a3d5aac886eb5bf06a1a840946cf052bb1532da7c25094797f",
+      "punkt_tab/estonian/ortho_context.tab": "768b7e6e2ba93ff096e244af175c343b1a73463c4a1b99beebe6a9aa57ea1d78",
+      "punkt_tab/estonian/sent_starters.txt": "7ade7bb8ca7c527aac09517a6efbdf4f749e9a9fc0e43d2856c58be847030c83",
+      "vabamorf/2020-01-22_nosp/et.dct": "69ca6f48eeceac8d54fcc81de09f14b137bbb5fa8aed04606c14c891646423e7",
+      "vabamorf/2020-01-22_nosp/et3.dct": "310bc64933ec697807d8a6965c37618ae9e4c75a9135767783fe20277c03f688",
+      "vabamorf/2020-01-22_sp/et.dct": "51b8e689ae2db99e2ac0962c8f4896272aab5ba4b3ebdf100083e0a6a10020f9",
+      "vabamorf/2020-01-22_sp/et3.dct": "f01e9ad48332a39b2bfd9ee2d88c99b7bb899a63e5e49b1e3664949e2f563b35"
+    }
+  },
+  "label_count": 123612,
+  "label_counts": [
+    {
+      "language": "en",
+      "role": "english_equivalent",
+      "count": 57357
+    },
+    {
+      "language": "et",
+      "role": "alternative",
+      "count": 24010
+    },
+    {
+      "language": "et",
+      "role": "preferred",
+      "count": 42245
+    }
+  ],
+  "warning_labels": 2927,
+  "et_phrase_lengths": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12
+  ],
+  "seconds": 198.83610990000307,
+  "created_at_utc": "2026-10-28T22:44:40.507270+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "health": {
+    "status": "ready"
+  },
+  "lemma_match": true,
+  "routes": [
+    "Iface\tDestination\tGateway \tFlags\tRefCnt\tUse\tMetric\tMask\t\tMTU\tWindow\tIRTT                                                       "
+  ],
+  "base_run_id": "20261028T231342Z-a90e78b75ebf",
+  "index_id": "20261028T231559Z-56ca5f770cf9"
+}

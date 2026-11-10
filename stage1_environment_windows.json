@@ -1,0 +1,105 @@
+{
+  "versions": {
+    "duckdb": "1.5.5",
+    "estnltk": "1.7.5",
+    "estnltk-core": "1.7.5",
+    "fastapi": "0.162.0",
+    "starlette": "1.10.0",
+    "pydantic": "2.14.1",
+    "uvicorn": "0.54.0",
+    "jinja2": "3.1.6",
+    "python-multipart": "0.0.32",
+    "httpx": "0.28.1",
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "nltk": "3.10.4"
+  },
+  "morphology": [
+    {
+      "text": "Õpilased",
+      "start": 0,
+      "end": 8,
+      "lemmas": [
+        "õpilane"
+      ]
+    },
+    {
+      "text": "lugesid",
+      "start": 9,
+      "end": 16,
+      "lemmas": [
+        "lugema"
+      ]
+    },
+    {
+      "text": "raamatuid",
+      "start": 17,
+      "end": 26,
+      "lemmas": [
+        "raamat"
+      ]
+    },
+    {
+      "text": ".",
+      "start": 26,
+      "end": 27,
+      "lemmas": [
+        "."
+      ]
+    },
+    {
+      "text": "Eesti",
+      "start": 28,
+      "end": 33,
+      "lemmas": [
+        "Eesti"
+      ]
+    },
+    {
+      "text": "raamatukogudes",
+      "start": 34,
+      "end": 48,
+      "lemmas": [
+        "raamatukogu"
+      ]
+    },
+    {
+      "text": "on",
+      "start": 49,
+      "end": 51,
+      "lemmas": [
+        "olema",
+        "olema"
+      ]
+    },
+    {
+      "text": "vanad",
+      "start": 52,
+      "end": 57,
+      "lemmas": [
+        "vana"
+      ]
+    },
+    {
+      "text": "raamatud",
+      "start": 58,
+      "end": 66,
+      "lemmas": [
+        "raamat"
+      ]
+    },
+    {
+      "text": ".",
+      "start": 66,
+      "end": 67,
+      "lemmas": [
+        "."
+      ]
+    }
+  ],
+  "multipart_test": "passed",
+  "html_escape_test": "passed",
+  "duckdb_list_test": "passed",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.9"
+}

@@ -1,0 +1,253 @@
+{
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+    "cpu": "AMD Ryzen 5 PRO 4650U with Radeon Graphics",
+    "logical_cpus": 12,
+    "system_memory_bytes": 16359043072,
+    "container_memory_limit": "max",
+    "duckdb_memory_limit": "512MB",
+    "duckdb_threads": 2,
+    "packages": {
+      "duckdb": "1.5.5",
+      "estnltk": "1.7.5",
+      "estnltk-core": "1.7.5",
+      "nltk": "3.10.4",
+      "regex": "2026.9.29"
+    },
+    "p95_method": "nearest rank; with 5 observations p95 equals max",
+    "cache_policy": "fresh Python process per case; OS file cache is not cleared"
+  },
+  "runs": 1,
+  "scope": "fresh download, import and linguistic index; no preparation percentiles claimed from one run",
+  "total_preparation_seconds": 537.996854839992,
+  "base_metadata": {
+    "run_id": "20261028T235159Z-870a5b5eec7d",
+    "schema_version": 1,
+    "import_version": "2.0.0",
+    "started_at_utc": "2026-10-28T23:51:59.987315+00:00",
+    "completed_at_utc": "2026-10-28T23:56:46.772064+00:00",
+    "status": "ready",
+    "source": {
+      "source_url": "https://ems.elnet.ee/temp/ems_marc_tais.xml",
+      "downloaded_at_utc": "2026-10-28T23:52:02.151688+00:00",
+      "acquired_at_utc": "2026-10-28T23:52:00.000345+00:00",
+      "acquisition": "download",
+      "original_path": null,
+      "http_metadata": {
+        "Date": "Wed, 28 Oct 2026 23:52:20 GMT",
+        "Server": "Apache/2.4.52",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Last-Modified": "Wed, 28 Oct 2026 10:23:55 GMT",
+        "ETag": "\"5211383-65ee3f5d2931c-gzip\"",
+        "Accept-Ranges": "bytes",
+        "Vary": "Accept-Encoding",
+        "Content-Encoding": "gzip",
+        "Keep-Alive": "timeout=5, max=100",
+        "Connection": "Keep-Alive",
+        "Transfer-Encoding": "chunked",
+        "Content-Type": "application/xml"
+      },
+      "sha256": "cc9bd08ab1a29a38d7d7e279b9ef051ea885ce5219ed5d42ae2cd8f5517e2081",
+      "byte_count": 86053763,
+      "download_seconds": 2.1513879480044125
+    },
+    "source_counts": {
+      "records": 42245,
+      "fields": {
+        "leader": 42245,
+        "001": 42245,
+        "072": 57024,
+        "003": 42245,
+        "008": 42245,
+        "024": 42245,
+        "040": 42245,
+        "148": 121,
+        "448": 121,
+        "548": 215,
+        "150": 33717,
+        "450": 67106,
+        "550": 150713,
+        "680": 12329,
+        "555": 5381,
+        "670": 11423,
+        "551": 19226,
+        "155": 1277,
+        "455": 2285,
+        "151": 7130,
+        "451": 11855
+      },
+      "subfields": {
+        "072$a": 57024,
+        "072$2": 57024,
+        "024$0": 42245,
+        "040$a": 42245,
+        "040$b": 42245,
+        "040$c": 42245,
+        "040$f": 42245,
+        "148$a": 121,
+        "148$0": 121,
+        "448$a": 121,
+        "548$w": 172,
+        "548$a": 215,
+        "548$0": 215,
+        "150$a": 33717,
+        "150$0": 33717,
+        "450$a": 67106,
+        "550$w": 80629,
+        "550$a": 150713,
+        "550$0": 150713,
+        "680$i": 12329,
+        "555$a": 5381,
+        "555$0": 5381,
+        "670$a": 11423,
+        "555$w": 3056,
+        "551$w": 17185,
+        "551$a": 19226,
+        "551$0": 19226,
+        "155$a": 1277,
+        "155$0": 1277,
+        "455$a": 2285,
+        "151$a": 7130,
+        "151$0": 7130,
+        "451$a": 11855
+      },
+      "indicators": {
+        "072| |7": 57024,
+        "024| |8": 42245,
+        "040| | ": 42245,
+        "148| | ": 121,
+        "448| |9": 121,
+        "548| | ": 215,
+        "150| | ": 33717,
+        "450| | ": 19922,
+        "450| |9": 47184,
+        "550| | ": 150713,
+        "680| | ": 12329,
+        "555| | ": 5381,
+        "670| | ": 11423,
+        "551| | ": 19226,
+        "155| | ": 1277,
+        "455| |9": 1694,
+        "455| | ": 591,
+        "151| | ": 7130,
+        "451| | ": 3497,
+        "451| |9": 8358
+      },
+      "leader_status": {
+        "n": 42245
+      },
+      "record_type": {
+        "a": 42245
+      }
+    },
+    "environment": {
+      "python": "3.11.9",
+      "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+      "packages": {
+        "duckdb": "1.5.5",
+        "requests": "2.34.2",
+        "defusedxml": "0.7.1"
+      }
+    },
+    "timings": {
+      "source_acquisition_seconds": 4.923889957994106,
+      "download_seconds": 2.1513879480044125,
+      "xml_import_seconds": 165.7459744480002,
+      "semantic_derivation_seconds": 74.3595516810019,
+      "xml_import_and_derivation_seconds": 240.10556911599997,
+      "validation_seconds": 41.697610595001606
+    }
+  },
+  "index_metadata": {
+    "index_id": "20261028T235648Z-29f94d99fca1",
+    "index_version": 1,
+    "source_run_id": "20261028T235159Z-870a5b5eec7d",
+    "source_sha256": "cc9bd08ab1a29a38d7d7e279b9ef051ea885ce5219ed5d42ae2cd8f5517e2081",
+    "analyzer_fingerprint": "1071c94e8c05e5858365406d171ffaeb17df822c0dd6aa167d97ec59a3049927",
+    "analyzer": {
+      "normalizer": "nfc-casefold-token-v1",
+      "morphology": {
+        "disambiguate": true,
+        "guess": true,
+        "propername": true,
+        "phonetic": false,
+        "compound": true,
+        "stem": false,
+        "slang_lex": false,
+        "use_reorderer": true,
+        "predisambiguate": false,
+        "postdisambiguate": false
+      },
+      "ambiguity_policy": "sorted_distinct_normalized_lemmas_first; no Cartesian expansion",
+      "packages": {
+        "estnltk": "1.7.5",
+        "estnltk-core": "1.7.5",
+        "nltk": "3.10.4",
+        "regex": "2026.9.29"
+      },
+      "resources_sha256": {
+        "punkt_tab/estonian/abbrev_types.txt": "0307878fb32af1e21d8f3ba0644e39c89602f2f8aa4e4304943f7e9e0fd081b2",
+        "punkt_tab/estonian/collocations.tab": "f1400a7ebf3c82a3d5aac886eb5bf06a1a840946cf052bb1532da7c25094797f",
+        "punkt_tab/estonian/ortho_context.tab": "768b7e6e2ba93ff096e244af175c343b1a73463c4a1b99beebe6a9aa57ea1d78",
+        "punkt_tab/estonian/sent_starters.txt": "7ade7bb8ca7c527aac09517a6efbdf4f749e9a9fc0e43d2856c58be847030c83",
+        "vabamorf/2020-01-22_nosp/et.dct": "69ca6f48eeceac8d54fcc81de09f14b137bbb5fa8aed04606c14c891646423e7",
+        "vabamorf/2020-01-22_nosp/et3.dct": "310bc64933ec697807d8a6965c37618ae9e4c75a9135767783fe20277c03f688",
+        "vabamorf/2020-01-22_sp/et.dct": "51b8e689ae2db99e2ac0962c8f4896272aab5ba4b3ebdf100083e0a6a10020f9",
+        "vabamorf/2020-01-22_sp/et3.dct": "f01e9ad48332a39b2bfd9ee2d88c99b7bb899a63e5e49b1e3664949e2f563b35"
+      }
+    },
+    "label_count": 123612,
+    "label_counts": [
+      {
+        "language": "en",
+        "role": "english_equivalent",
+        "count": 57357
+      },
+      {
+        "language": "et",
+        "role": "alternative",
+        "count": 24010
+      },
+      {
+        "language": "et",
+        "role": "preferred",
+        "count": 42245
+      }
+    ],
+    "warning_labels": 2927,
+    "et_phrase_lengths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12
+    ],
+    "seconds": 249.5809599260101,
+    "created_at_utc": "2026-10-29T00:00:57.664296+00:00",
+    "timings": {
+      "et_label_analysis_seconds": 163.93652254578774,
+      "other_label_tokenization_seconds": 76.12161483582167,
+      "staging_total_seconds": 247.9285880690004,
+      "bulk_load_seconds": 1.2378123749949737,
+      "index_validation_seconds": 0.054954940991592593
+    }
+  },
+  "peak_rss_bytes": 667996160,
+  "independent_revalidation": {
+    "ok": true,
+    "concepts": 42245,
+    "raw_fidelity": {
+      "records_checked": 42245,
+      "mismatch_examples": []
+    },
+    "unresolved_relations": 0,
+    "seconds": 34.11661991500296
+  }
+}

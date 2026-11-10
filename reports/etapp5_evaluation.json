@@ -1,0 +1,1146 @@
+{
+  "provenance": "Assistant-authored synthetic development cases, reviewed individually against EMS fields during stage 5. Not independently human-annotated and not a gold standard. No model or ranking parameters tuned on these cases.",
+  "scope": "Literal controlled-term mention detection (concept ID and original character span), not document topic relevance.",
+  "cases_sha256": "3fce20b3ee8aa58a08a93615069d0f02b5368da2598eb37fffa7ece2643b1c7b",
+  "strategies": {
+    "surface": {
+      "micro": {
+        "tp": 7,
+        "fp": 0,
+        "fn": 8,
+        "precision": 1.0,
+        "recall": 0.4666666666666667,
+        "f1": 0.6363636363636364
+      },
+      "cases": [
+        {
+          "id": "preferred",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ]
+          ],
+          "result_ids": [
+            "EMS003867"
+          ]
+        },
+        {
+          "id": "inflection",
+          "metrics": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "expected_mentions": [
+            [
+              "EMS003867",
+              0,
+              14
+            ]
+          ],
+          "predicted_mentions": [],
+          "result_ids": []
+        },
+        {
+          "id": "synonym",
+          "metrics": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "expected_mentions": [
+            [
+              "EMS145598",
+              0,
+              9
+            ]
+          ],
+          "predicted_mentions": [],
+          "result_ids": []
+        },
+        {
+          "id": "synonym_inflection",
+          "metrics": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "expected_mentions": [
+            [
+              "EMS006754",
+              0,
+              10
+            ]
+          ],
+          "predicted_mentions": [],
+          "result_ids": []
+        },
+        {
+          "id": "multiword",
+          "metrics": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "expected_mentions": [
+            [
+              "EMS010646",
+              0,
+              15
+            ],
+            [
+              "EMS145464",
+              0,
+              24
+            ]
+          ],
+          "predicted_mentions": [],
+          "result_ids": []
+        },
+        {
+          "id": "conjunction",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS004317",
+              0,
+              12
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS004317",
+              0,
+              12
+            ]
+          ],
+          "result_ids": [
+            "EMS004317"
+          ]
+        },
+        {
+          "id": "sentence_boundary",
+          "metrics": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS014960",
+              10,
+              18
+            ],
+            [
+              "EMS169577",
+              0,
+              8
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS014960",
+              10,
+              18
+            ],
+            [
+              "EMS169577",
+              0,
+              8
+            ]
+          ],
+          "result_ids": [
+            "EMS014960",
+            "EMS169577"
+          ]
+        },
+        {
+          "id": "frequency",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666
+          },
+          "expected_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ],
+            [
+              "EMS003867",
+              14,
+              28
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ]
+          ],
+          "result_ids": [
+            "EMS003867"
+          ]
+        },
+        {
+          "id": "compound",
+          "metrics": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "expected_mentions": [
+            [
+              "EMS023303",
+              0,
+              16
+            ]
+          ],
+          "predicted_mentions": [],
+          "result_ids": []
+        },
+        {
+          "id": "unicode_nfd",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS006754",
+              0,
+              9
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS006754",
+              0,
+              9
+            ]
+          ],
+          "result_ids": [
+            "EMS006754"
+          ]
+        },
+        {
+          "id": "negative",
+          "metrics": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "expected_mentions": [],
+          "predicted_mentions": [],
+          "result_ids": []
+        },
+        {
+          "id": "verb_ambiguity",
+          "metrics": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "expected_mentions": [],
+          "predicted_mentions": [],
+          "result_ids": []
+        },
+        {
+          "id": "alias_merge",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666
+          },
+          "expected_mentions": [
+            [
+              "EMS145598",
+              0,
+              9
+            ],
+            [
+              "EMS145598",
+              11,
+              21
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS145598",
+              11,
+              21
+            ]
+          ],
+          "result_ids": [
+            "EMS145598"
+          ]
+        }
+      ]
+    },
+    "lemma": {
+      "micro": {
+        "tp": 12,
+        "fp": 1,
+        "fn": 3,
+        "precision": 0.9230769230769231,
+        "recall": 0.8,
+        "f1": 0.8571428571428571
+      },
+      "cases": [
+        {
+          "id": "preferred",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ]
+          ],
+          "result_ids": [
+            "EMS003867"
+          ]
+        },
+        {
+          "id": "inflection",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS003867",
+              0,
+              14
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS003867",
+              0,
+              14
+            ]
+          ],
+          "result_ids": [
+            "EMS003867"
+          ]
+        },
+        {
+          "id": "synonym",
+          "metrics": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "expected_mentions": [
+            [
+              "EMS145598",
+              0,
+              9
+            ]
+          ],
+          "predicted_mentions": [],
+          "result_ids": []
+        },
+        {
+          "id": "synonym_inflection",
+          "metrics": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": null,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "expected_mentions": [
+            [
+              "EMS006754",
+              0,
+              10
+            ]
+          ],
+          "predicted_mentions": [],
+          "result_ids": []
+        },
+        {
+          "id": "multiword",
+          "metrics": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS010646",
+              0,
+              15
+            ],
+            [
+              "EMS145464",
+              0,
+              24
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS010646",
+              0,
+              15
+            ],
+            [
+              "EMS145464",
+              0,
+              24
+            ]
+          ],
+          "result_ids": [
+            "EMS145464",
+            "EMS010646"
+          ]
+        },
+        {
+          "id": "conjunction",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS004317",
+              0,
+              12
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS004317",
+              0,
+              12
+            ]
+          ],
+          "result_ids": [
+            "EMS004317"
+          ]
+        },
+        {
+          "id": "sentence_boundary",
+          "metrics": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS014960",
+              10,
+              18
+            ],
+            [
+              "EMS169577",
+              0,
+              8
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS014960",
+              10,
+              18
+            ],
+            [
+              "EMS169577",
+              0,
+              8
+            ]
+          ],
+          "result_ids": [
+            "EMS014960",
+            "EMS169577"
+          ]
+        },
+        {
+          "id": "frequency",
+          "metrics": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ],
+            [
+              "EMS003867",
+              14,
+              28
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ],
+            [
+              "EMS003867",
+              14,
+              28
+            ]
+          ],
+          "result_ids": [
+            "EMS003867"
+          ]
+        },
+        {
+          "id": "compound",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS023303",
+              0,
+              16
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS023303",
+              0,
+              16
+            ]
+          ],
+          "result_ids": [
+            "EMS023303"
+          ]
+        },
+        {
+          "id": "unicode_nfd",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS006754",
+              0,
+              9
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS006754",
+              0,
+              9
+            ]
+          ],
+          "result_ids": [
+            "EMS006754"
+          ]
+        },
+        {
+          "id": "negative",
+          "metrics": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "expected_mentions": [],
+          "predicted_mentions": [],
+          "result_ids": []
+        },
+        {
+          "id": "verb_ambiguity",
+          "metrics": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": null,
+            "f1": 0.0
+          },
+          "expected_mentions": [],
+          "predicted_mentions": [
+            [
+              "EMS019059",
+              0,
+              6
+            ]
+          ],
+          "result_ids": [
+            "EMS019059"
+          ]
+        },
+        {
+          "id": "alias_merge",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666
+          },
+          "expected_mentions": [
+            [
+              "EMS145598",
+              0,
+              9
+            ],
+            [
+              "EMS145598",
+              11,
+              21
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS145598",
+              11,
+              21
+            ]
+          ],
+          "result_ids": [
+            "EMS145598"
+          ]
+        }
+      ]
+    },
+    "lemma-synonyms": {
+      "micro": {
+        "tp": 15,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.9375,
+        "recall": 1.0,
+        "f1": 0.967741935483871
+      },
+      "cases": [
+        {
+          "id": "preferred",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ]
+          ],
+          "result_ids": [
+            "EMS003867"
+          ]
+        },
+        {
+          "id": "inflection",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS003867",
+              0,
+              14
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS003867",
+              0,
+              14
+            ]
+          ],
+          "result_ids": [
+            "EMS003867"
+          ]
+        },
+        {
+          "id": "synonym",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS145598",
+              0,
+              9
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS145598",
+              0,
+              9
+            ]
+          ],
+          "result_ids": [
+            "EMS145598"
+          ]
+        },
+        {
+          "id": "synonym_inflection",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS006754",
+              0,
+              10
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS006754",
+              0,
+              10
+            ]
+          ],
+          "result_ids": [
+            "EMS006754"
+          ]
+        },
+        {
+          "id": "multiword",
+          "metrics": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS010646",
+              0,
+              15
+            ],
+            [
+              "EMS145464",
+              0,
+              24
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS010646",
+              0,
+              15
+            ],
+            [
+              "EMS145464",
+              0,
+              24
+            ]
+          ],
+          "result_ids": [
+            "EMS145464",
+            "EMS010646"
+          ]
+        },
+        {
+          "id": "conjunction",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS004317",
+              0,
+              12
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS004317",
+              0,
+              12
+            ]
+          ],
+          "result_ids": [
+            "EMS004317"
+          ]
+        },
+        {
+          "id": "sentence_boundary",
+          "metrics": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS014960",
+              10,
+              18
+            ],
+            [
+              "EMS169577",
+              0,
+              8
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS014960",
+              10,
+              18
+            ],
+            [
+              "EMS169577",
+              0,
+              8
+            ]
+          ],
+          "result_ids": [
+            "EMS014960",
+            "EMS169577"
+          ]
+        },
+        {
+          "id": "frequency",
+          "metrics": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ],
+            [
+              "EMS003867",
+              14,
+              28
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS003867",
+              0,
+              12
+            ],
+            [
+              "EMS003867",
+              14,
+              28
+            ]
+          ],
+          "result_ids": [
+            "EMS003867"
+          ]
+        },
+        {
+          "id": "compound",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS023303",
+              0,
+              16
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS023303",
+              0,
+              16
+            ]
+          ],
+          "result_ids": [
+            "EMS023303"
+          ]
+        },
+        {
+          "id": "unicode_nfd",
+          "metrics": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS006754",
+              0,
+              9
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS006754",
+              0,
+              9
+            ]
+          ],
+          "result_ids": [
+            "EMS006754"
+          ]
+        },
+        {
+          "id": "negative",
+          "metrics": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precision": null,
+            "recall": null,
+            "f1": null
+          },
+          "expected_mentions": [],
+          "predicted_mentions": [],
+          "result_ids": []
+        },
+        {
+          "id": "verb_ambiguity",
+          "metrics": {
+            "tp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precision": 0.0,
+            "recall": null,
+            "f1": 0.0
+          },
+          "expected_mentions": [],
+          "predicted_mentions": [
+            [
+              "EMS019059",
+              0,
+              6
+            ]
+          ],
+          "result_ids": [
+            "EMS019059"
+          ]
+        },
+        {
+          "id": "alias_merge",
+          "metrics": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          "expected_mentions": [
+            [
+              "EMS145598",
+              0,
+              9
+            ],
+            [
+              "EMS145598",
+              11,
+              21
+            ]
+          ],
+          "predicted_mentions": [
+            [
+              "EMS145598",
+              0,
+              9
+            ],
+            [
+              "EMS145598",
+              11,
+              21
+            ]
+          ],
+          "result_ids": [
+            "EMS145598"
+          ]
+        }
+      ]
+    }
+  },
+  "case_count": 13,
+  "topic_probe": {
+    "text": "Lugejad saavad nüüd teoseid tagastada ka pärast tööpäeva. Laenutusaega saab pikendada kodust lahkumata.",
+    "illustrative_theme": "Raamatukoguteenused",
+    "independent_topic_annotation": false,
+    "note": "Illustration only. Inferred theme is not counted as a literal term mention or a human relevance judgment.",
+    "predicted_direct_terms": [
+      {
+        "ems_id": "EMS014908",
+        "label": "lugejad",
+        "matched_text": "Lugejad"
+      },
+      {
+        "ems_id": "EMS019059",
+        "label": "sai",
+        "matched_text": "saavad"
+      },
+      {
+        "ems_id": "EMS009452",
+        "label": "kodu",
+        "matched_text": "kodust"
+      },
+      {
+        "ems_id": "EMS170119",
+        "label": "headus",
+        "matched_text": "lahkumata"
+      }
+    ],
+    "relevance_metrics": null
+  }
+}

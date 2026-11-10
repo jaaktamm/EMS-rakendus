@@ -1,0 +1,4 @@
+-r requirements-web.txt
+httpx==0.28.1
+beautifulsoup4==4.15.0
+psutil==7.2.2

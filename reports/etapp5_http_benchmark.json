@@ -1,0 +1,145 @@
+{
+  "url": "http://127.0.0.1:8000",
+  "runs": 5,
+  "scope": "HTTP POST to HTML response; server already running with warm analyzer; no concurrent load",
+  "measurements": [
+    {
+      "words_by_whitespace": 100,
+      "input_path": "reports\\etapp5_inputs\\varied_100.txt",
+      "observations": [
+        {
+          "http_seconds": 0.7666642999975011,
+          "server_reported_seconds_rounded": 0.638,
+          "response_bytes": 23182
+        },
+        {
+          "http_seconds": 0.35993320000125095,
+          "server_reported_seconds_rounded": 0.347,
+          "response_bytes": 23182
+        },
+        {
+          "http_seconds": 0.4274984000076074,
+          "server_reported_seconds_rounded": 0.399,
+          "response_bytes": 23182
+        },
+        {
+          "http_seconds": 0.6138413999869954,
+          "server_reported_seconds_rounded": 0.579,
+          "response_bytes": 23182
+        },
+        {
+          "http_seconds": 0.3130057000089437,
+          "server_reported_seconds_rounded": 0.299,
+          "response_bytes": 23182
+        }
+      ],
+      "first_in_series": {
+        "http_seconds": 0.7666642999975011,
+        "server_reported_seconds_rounded": 0.638,
+        "response_bytes": 23182
+      },
+      "all_runs": {
+        "count": 5,
+        "median_seconds": 0.4274984000076074,
+        "p95_seconds": 0.7666642999975011
+      },
+      "repeats": {
+        "count": 4,
+        "median_seconds": 0.3937158000044292,
+        "p95_seconds": 0.6138413999869954
+      }
+    },
+    {
+      "words_by_whitespace": 1000,
+      "input_path": "reports\\etapp5_inputs\\varied_1000.txt",
+      "observations": [
+        {
+          "http_seconds": 1.8599702999927104,
+          "server_reported_seconds_rounded": 1.838,
+          "response_bytes": 29999
+        },
+        {
+          "http_seconds": 2.0755464999820106,
+          "server_reported_seconds_rounded": 2.041,
+          "response_bytes": 29999
+        },
+        {
+          "http_seconds": 1.8087023999833036,
+          "server_reported_seconds_rounded": 1.772,
+          "response_bytes": 29999
+        },
+        {
+          "http_seconds": 1.7444179000158329,
+          "server_reported_seconds_rounded": 1.696,
+          "response_bytes": 29999
+        },
+        {
+          "http_seconds": 2.0979888000001665,
+          "server_reported_seconds_rounded": 2.067,
+          "response_bytes": 29999
+        }
+      ],
+      "first_in_series": {
+        "http_seconds": 1.8599702999927104,
+        "server_reported_seconds_rounded": 1.838,
+        "response_bytes": 29999
+      },
+      "all_runs": {
+        "count": 5,
+        "median_seconds": 1.8599702999927104,
+        "p95_seconds": 2.0979888000001665
+      },
+      "repeats": {
+        "count": 4,
+        "median_seconds": 1.942124449982657,
+        "p95_seconds": 2.0979888000001665
+      }
+    },
+    {
+      "words_by_whitespace": 10000,
+      "input_path": "reports\\etapp5_inputs\\varied_10000.txt",
+      "observations": [
+        {
+          "http_seconds": 28.255514499993296,
+          "server_reported_seconds_rounded": 28.103,
+          "response_bytes": 132425
+        },
+        {
+          "http_seconds": 15.3908858000068,
+          "server_reported_seconds_rounded": 15.229,
+          "response_bytes": 132425
+        },
+        {
+          "http_seconds": 18.73857339998358,
+          "server_reported_seconds_rounded": 18.584,
+          "response_bytes": 132425
+        },
+        {
+          "http_seconds": 17.91460640000878,
+          "server_reported_seconds_rounded": 17.787,
+          "response_bytes": 132425
+        },
+        {
+          "http_seconds": 12.349360499996692,
+          "server_reported_seconds_rounded": 12.247,
+          "response_bytes": 132425
+        }
+      ],
+      "first_in_series": {
+        "http_seconds": 28.255514499993296,
+        "server_reported_seconds_rounded": 28.103,
+        "response_bytes": 132425
+      },
+      "all_runs": {
+        "count": 5,
+        "median_seconds": 17.91460640000878,
+        "p95_seconds": 28.255514499993296
+      },
+      "repeats": {
+        "count": 4,
+        "median_seconds": 16.65274610000779,
+        "p95_seconds": 18.73857339998358
+      }
+    }
+  ]
+}

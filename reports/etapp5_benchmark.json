@@ -1,0 +1,1871 @@
+{
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "cpu": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+    "logical_cpus": 12,
+    "system_memory_bytes": 33528926208,
+    "container_memory_limit": null,
+    "duckdb_memory_limit": "512MB",
+    "duckdb_threads": 2,
+    "packages": {
+      "duckdb": "1.5.5",
+      "estnltk": "1.7.5",
+      "estnltk-core": "1.7.5",
+      "nltk": "3.10.4",
+      "regex": "2026.9.29"
+    },
+    "p95_method": "nearest rank; with 5 observations p95 equals max",
+    "cache_policy": "fresh Python process per case; OS file cache is not cleared"
+  },
+  "runs_per_case": 5,
+  "measurements": [
+    {
+      "corpus": "repeated",
+      "words": 100,
+      "path": "reports\\etapp5_inputs\\repeated_100.txt",
+      "sha256": "80d6a9c2a00c44f48d2a3f7a1b8581347dc6dd5971f9672b0ab4106cc0726535",
+      "session_startup_seconds": 5.969838100019842,
+      "environment": {
+        "python": "3.11.9",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "cpu": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+        "logical_cpus": 12,
+        "system_memory_bytes": 33528926208,
+        "container_memory_limit": null,
+        "duckdb_memory_limit": "512MB",
+        "duckdb_threads": 2,
+        "packages": {
+          "duckdb": "1.5.5",
+          "estnltk": "1.7.5",
+          "estnltk-core": "1.7.5",
+          "nltk": "3.10.4",
+          "regex": "2026.9.29"
+        },
+        "p95_method": "nearest rank; with 5 observations p95 equals max",
+        "cache_policy": "fresh Python process per case; OS file cache is not cleared"
+      },
+      "index_manifest": {
+        "index_id": "20261028T224121Z-16c4d5f2069f",
+        "index_version": 1,
+        "source_run_id": "20261028T222627Z-73b1935b3360",
+        "analyzer_fingerprint": "1071c94e8c05e5858365406d171ffaeb17df822c0dd6aa167d97ec59a3049927",
+        "directory": "search_indexes/20261028T224121Z-16c4d5f2069f"
+      },
+      "input_sha256": "80d6a9c2a00c44f48d2a3f7a1b8581347dc6dd5971f9672b0ab4106cc0726535",
+      "words_by_whitespace": 100,
+      "unique_surface_words": 11,
+      "utf8_bytes": 1040,
+      "observations": [
+        {
+          "timings": {
+            "analysis_seconds": 0.3319584999990184,
+            "candidates_seconds": 0.0036776000051759183,
+            "matching_seconds": 0.03199849999509752,
+            "ranking_seconds": 0.0006800000264775008,
+            "details_seconds": 0.10372239997377619,
+            "total_seconds": 0.4720369999995455
+          },
+          "diagnostics": {
+            "sentences": 19,
+            "tokens": 118,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 343,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.06212219997541979,
+            "candidates_seconds": 0.0034506000229157507,
+            "matching_seconds": 0.02351749999797903,
+            "ranking_seconds": 0.0010365000052843243,
+            "details_seconds": 0.11823439999716356,
+            "total_seconds": 0.20836119999876246
+          },
+          "diagnostics": {
+            "sentences": 19,
+            "tokens": 118,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 343,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.09169879998080432,
+            "candidates_seconds": 0.004856600018683821,
+            "matching_seconds": 0.023903099994640797,
+            "ranking_seconds": 0.001251100009540096,
+            "details_seconds": 0.15307929998380132,
+            "total_seconds": 0.27478889998747036
+          },
+          "diagnostics": {
+            "sentences": 19,
+            "tokens": 118,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 343,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.08391230000415817,
+            "candidates_seconds": 0.004965800006175414,
+            "matching_seconds": 0.0344145999988541,
+            "ranking_seconds": 0.0011621000012382865,
+            "details_seconds": 0.21393479997641407,
+            "total_seconds": 0.33838959998684004
+          },
+          "diagnostics": {
+            "sentences": 19,
+            "tokens": 118,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 343,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.11220200001844205,
+            "candidates_seconds": 0.005324400000972673,
+            "matching_seconds": 0.03174509998643771,
+            "ranking_seconds": 0.0007848000095691532,
+            "details_seconds": 0.16061950000585057,
+            "total_seconds": 0.31067580002127215
+          },
+          "diagnostics": {
+            "sentences": 19,
+            "tokens": 118,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 343,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        }
+      ],
+      "first": {
+        "timings": {
+          "analysis_seconds": 0.3319584999990184,
+          "candidates_seconds": 0.0036776000051759183,
+          "matching_seconds": 0.03199849999509752,
+          "ranking_seconds": 0.0006800000264775008,
+          "details_seconds": 0.10372239997377619,
+          "total_seconds": 0.4720369999995455
+        },
+        "diagnostics": {
+          "sentences": 19,
+          "tokens": 118,
+          "ambiguous_tokens": 0,
+          "fallback_tokens": 0,
+          "candidate_occurrences": 343,
+          "unique_keys": 75,
+          "matched_label_keys": 8,
+          "suppressed_nested_concepts": 0,
+          "sql_calls": 5
+        },
+        "result_ids": [
+          "EMS003867",
+          "EMS174969",
+          "EMS000500",
+          "EMS000807",
+          "EMS021557",
+          "EMS138297"
+        ]
+      },
+      "all_runs_summary": {
+        "analysis_seconds": {
+          "count": 5,
+          "median_seconds": 0.09169879998080432,
+          "p95_seconds": 0.3319584999990184
+        },
+        "candidates_seconds": {
+          "count": 5,
+          "median_seconds": 0.004856600018683821,
+          "p95_seconds": 0.005324400000972673
+        },
+        "matching_seconds": {
+          "count": 5,
+          "median_seconds": 0.03174509998643771,
+          "p95_seconds": 0.0344145999988541
+        },
+        "ranking_seconds": {
+          "count": 5,
+          "median_seconds": 0.0010365000052843243,
+          "p95_seconds": 0.001251100009540096
+        },
+        "details_seconds": {
+          "count": 5,
+          "median_seconds": 0.15307929998380132,
+          "p95_seconds": 0.21393479997641407
+        },
+        "total_seconds": {
+          "count": 5,
+          "median_seconds": 0.31067580002127215,
+          "p95_seconds": 0.4720369999995455
+        }
+      },
+      "repeats_summary": {
+        "analysis_seconds": {
+          "count": 4,
+          "median_seconds": 0.08780554999248125,
+          "p95_seconds": 0.11220200001844205
+        },
+        "candidates_seconds": {
+          "count": 4,
+          "median_seconds": 0.004911200012429617,
+          "p95_seconds": 0.005324400000972673
+        },
+        "matching_seconds": {
+          "count": 4,
+          "median_seconds": 0.027824099990539253,
+          "p95_seconds": 0.0344145999988541
+        },
+        "ranking_seconds": {
+          "count": 4,
+          "median_seconds": 0.0010993000032613054,
+          "p95_seconds": 0.001251100009540096
+        },
+        "details_seconds": {
+          "count": 4,
+          "median_seconds": 0.15684939999482594,
+          "p95_seconds": 0.21393479997641407
+        },
+        "total_seconds": {
+          "count": 4,
+          "median_seconds": 0.29273235000437126,
+          "p95_seconds": 0.33838959998684004
+        }
+      },
+      "peak_rss_bytes": 250654720,
+      "query_plan": "┌─────────────────────────────────────┐\n│┌───────────────────────────────────┐│\n││    Query Profiling Information    ││\n│└───────────────────────────────────┘│\n└─────────────────────────────────────┘\nEXPLAIN ANALYZE SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.surface_key WHERE k.kind='exact' AND s.language='et' AND s.role IN ('preferred','alternative') UNION ALL SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.lemma_key WHERE k.kind='lemma' AND s.language='et' AND s.role IN ('preferred','alternative')\n┌────────────────────────────────────────────────┐\n│┌──────────────────────────────────────────────┐│\n││              Total Time: 0.0200s             ││\n│└──────────────────────────────────────────────┘│\n└────────────────────────────────────────────────┘\n┌───────────────────────────┐\n│           QUERY           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│      EXPLAIN_ANALYZE      │\n│    ────────────────────   │\n│                           │\n│           0 rows          │\n│           0.00s           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│           UNION           │\n│    ────────────────────   │\n│                           ├───────────────────────────────────────────┐\n│           8 rows          │                                           │\n│           0.00s           │                                           │\n└─────────────┬─────────────┘                                           │\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         PROJECTION        │                             │         PROJECTION        │\n│    ────────────────────   │                             │    ────────────────────   │\n│            kind           │                             │            kind           │\n│         match_key         │                             │         match_key         │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│            role           │                             │            role           │\n│          language         │                             │          language         │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│           2 rows          │                             │           6 rows          │\n│           0.00s           │                             │           0.00s           │\n└─────────────┬─────────────┘                             └─────────────┬─────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         HASH_JOIN         │                             │         HASH_JOIN         │\n│    ────────────────────   │                             │    ────────────────────   │\n│      Join Type: INNER     │                             │      Join Type: INNER     │\n│                           │                             │                           │\n│        Conditions:        │                             │        Conditions:        │\n│  surface_key = match_key  ├──────────────┐              │   lemma_key = match_key   ├──────────────┐\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│           2 rows          │              │              │           6 rows          │              │\n│           0.00s           │              │              │           0.00s           │              │\n└─────────────┬─────────────┘              │              └─────────────┬─────────────┘              │\n┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐\n│           FILTER          ││         TABLE_SCAN        ││           FILTER          ││         TABLE_SCAN        │\n│    ────────────────────   ││    ────────────────────   ││    ────────────────────   ││    ────────────────────   │\n│ ((role = 'preferred') OR  ││           Table:          ││ ((role = 'preferred') OR  ││           Table:          │\n│  (role = 'alternative'))  ││ \"temp\".main.candidate_keys││  (role = 'alternative'))  ││ \"temp\".main.candidate_keys│\n│                           ││                           ││                           ││                           │\n│                           ││   Type: Sequential Scan   ││                           ││   Type: Sequential Scan   │\n│                           ││                           ││                           ││                           │\n│                           ││        Projections:       ││                           ││        Projections:       │\n│           0.00s           ││         match_key         ││           0.00s           ││         match_key         │\n│                           ││            kind           ││                           ││            kind           │\n│                           ││                           ││                           ││                           │\n│                           ││   Filters: kind='exact'   ││                           ││   Filters: kind='lemma'   │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│          268 rows         ││          38 rows          ││          256 rows         ││          37 rows          │\n│          (0.00s)          ││           0.00s           ││          (0.00s)          ││           0.00s           │\n└─────────────┬─────────────┘└───────────────────────────┘└─────────────┬─────────────┘└───────────────────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         TABLE_SCAN        │                             │         TABLE_SCAN        │\n│    ────────────────────   │                             │    ────────────────────   │\n│           Table:          │                             │           Table:          │\n│   idx.main.search_label   │                             │   idx.main.search_label   │\n│                           │                             │                           │\n│   Type: Sequential Scan   │                             │   Type: Sequential Scan   │\n│                           │                             │                           │\n│        Projections:       │                             │        Projections:       │\n│        surface_key        │                             │         lemma_key         │\n│          language         │                             │          language         │\n│            role           │                             │            role           │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│          Filters:         │                             │          Filters:         │\n│       language='et'       │                             │       language='et'       │\n│    optional: role IN (    │                             │    optional: role IN (    │\n│'preferred', 'alternative')│                             │'preferred', 'alternative')│\n│                           │                             │                           │\n│      Dynamic Filters:     │                             │      Dynamic Filters:     │\n│ optional: surface_key IN (│                             │ optional: lemma_key IN ('[│\n│      '[\"kasutatakse\",     │                             │ \"tehisintellekt\",\"ja\"]', '│\n│  \"tehisintellekti\",\"ja\",  │                             │ [\"raamatukogu\",\"kasutama\"]│\n│ \"masinõppe\"]', '[\"ja\"]', '│                             │  ', '[\"ja\"]', '[\"eesti\",  │\n│    [\"kasutatakse\"]', '[   │                             │ \"raamatukogu\",\"kasutama\", │\n│ \"raamatukogud\",\"säilitavad│                             │   \"tehisintellekt\"]', '[  │\n│       \",\"vanu\"]', '[      │                             │ \"kasutama\"]', '[\"raamat\"]'│\n│  \"tehisintellekti\",\"ja\",  │                             │    , '[\"raamatukogu\",\"s   │\n│ \"masinõppe\",\"meetodeid\"]',│                             │  äilitama\"]', '[\"eesti\",  │\n│  '[\"vanu\",\"raamatuid\"]', '│                             │ \"raamatukogu\",\"kasutama\"]'│\n│ [\"eesti\",\"raamatukogudes\"]│                             │ , '[\"masinõpe\",\"meetod\"]',│\n│    ', '[\"kasutatakse\",    │                             │  '[\"raamatukogu\",\"kasutama│\n│  \"tehisintellekti\",\"ja\",  │                             │  \",\"tehisintellekt\",\"ja\", │\n│ \"masinõppe\",\"meetodeid\"]',│                             │ \"masinõpe\"]', '[\"kasutama\"│\n│     '[\"ja\",\"masinõppe\",   │                             │  ,\"tehisintellekt\",\"ja\",  │\n│ \"meetodeid\"]', '[\"vanu\"]',│                             │ \"masinõpe\"]', '[\"säilitama│\n│  '[\"säilitavad\",\"vanu\"]', │                             │  \",\"vana\",\"raamat\"]', '[  │\n│    '[\"raamatukogudes\",    │                             │ \"kasutama\",\"tehisintellekt│\n│       \"kasutatakse\",      │                             │ \",\"ja\",\"masinõpe\",\"meetod\"│\n│  \"tehisintellekti\"]', '[  │                             │   ]', '[\"ja\",\"masinõpe\",  │\n│ \"eesti\",\"raamatukogudes\", │                             │ \"meetod\"]', '[\"raamatukogu│\n│       \"kasutatakse\",      │                             │       \",\"kasutama\",       │\n│ \"tehisintellekti\",\"ja\"]', │                             │ \"tehisintellekt\",\"ja\"]', '│\n│ '[\"tehisintellekti\",\"ja\", │                             │        [\"kasutama\",       │\n│     \"masinõppe\"]', '[     │                             │   \"tehisintellekt\"]', '[  │\n│     \"raamatukogudes\",     │                             │ \"raamatukogu\",\"säilitama\",│\n│       \"kasutatakse\",      │                             │    \"vana\"]', '[\"eesti\",   │\n│  \"tehisintellekti\",\"ja\",  │                             │ \"raamatukogu\",\"kasutama\", │\n│ \"masinõppe\"]', '[\"eesti\", │                             │   \"tehisintellekt\",\"ja\",  │\n│     \"raamatukogudes\",     │                             │ \"masinõpe\",\"meetod\"]', '[ │\n│       \"kasutatakse\",      │                             │ \"eesti\"]', '[\"säilitama\"]'│\n│  \"tehisintellekti\",\"ja\",  │                             │ , '[\"ja\",\"masinõpe\"]', '[ │\n│     \"masinõppe\"]', '[     │                             │   \"eesti\",\"raamatukogu\",  │\n│ \"raamatukogud\",\"säilitavad│                             │ \"kasutama\",\"tehisintellekt│\n│    \"]', '[\"eesti\"]', '[   │                             │  \",\"ja\",\"masinõpe\"]', '[  │\n│  \"tehisintellekti\"]', '[  │                             │   \"tehisintellekt\",\"ja\",  │\n│ \"masinõppe\",\"meetodeid\"]',│                             │  \"masinõpe\"]', '[\"eesti\", │\n│     '[\"raamatukogudes\",   │                             │ \"raamatukogu\",\"kasutama\", │\n│       \"kasutatakse\",      │                             │ \"tehisintellekt\",\"ja\"]', '│\n│  \"tehisintellekti\",\"ja\",  │                             │ [\"masinõpe\"]', '[\"meetod\"]│\n│ \"masinõppe\",\"meetodeid\"]',│                             │      ', '[\"kasutama\",     │\n│  '[\"eesti\",\"raamatukogudes│                             │ \"tehisintellekt\",\"ja\"]', '│\n│   \",\"kasutatakse\"]', '[   │                             │ [\"säilitama\",\"vana\"]', '[ │\n│     \"meetodeid\"]', '[     │                             │   \"vana\",\"raamat\"]', '[   │\n│   \"raamatukogudes\"]', '[  │                             │   \"tehisintellekt\",\"ja\",  │\n│ \"tehisintellekti\",\"ja\"]', │                             │ \"masinõpe\",\"meetod\"]', '[ │\n│    '[\"raamatukogudes\",    │                             │ \"raamatukogu\"]', '[\"vana\"]│\n│  \"kasutatakse\"]', '[\"ja\", │                             │   ', '[\"raamatukogu\",\"s   │\n│     \"masinõppe\"]', '[     │                             │ äilitama\",\"vana\",\"raamat\" │\n│     \"raamatukogudes\",     │                             │    ]', '[\"raamatukogu\",   │\n│       \"kasutatakse\",      │                             │ \"kasutama\",\"tehisintellekt│\n│ \"tehisintellekti\",\"ja\"]', │                             │ \",\"ja\",\"masinõpe\",\"meetod\"│\n│    '[\"säilitavad\"]', '[   │                             │ ]', '[\"tehisintellekt\"]', │\n│       \"kasutatakse\",      │                             │ '[\"eesti\",\"raamatukogu\"]',│\n│  \"tehisintellekti\"]', '[  │                             │  '[\"raamatukogu\",\"kasutama│\n│       \"kasutatakse\",      │                             │ \",\"tehisintellekt\"]') AND │\n│ \"tehisintellekti\",\"ja\"]', │                             │   optional: lemma_key>='[ │\n│ '[\"eesti\",\"raamatukogudes\"│                             │   \"eesti\",\"raamatukogu\",  │\n│      ,\"kasutatakse\",      │                             │ \"kasutama\",\"tehisintellekt│\n│  \"tehisintellekti\",\"ja\",  │                             │ \",\"ja\",\"masinõpe\",\"meetod\"│\n│ \"masinõppe\",\"meetodeid\"]',│                             │ ]' AND optional: lemma_key│\n│     '[\"masinõppe\"]', '[   │                             │ <='[\"vana\"]' AND optional:│\n│    \"raamatukogud\"]', '[   │                             │ lemma_key IN BF(match_key)│\n│ \"raamatukogud\",\"säilitavad│                             │                           │\n│ \",\"vanu\",\"raamatuid\"]', '[│                             │                           │\n│ \"eesti\",\"raamatukogudes\", │                             │                           │\n│       \"kasutatakse\",      │                             │                           │\n│ \"tehisintellekti\"]', '[\"s │                             │           0.01s           │\n│     äilitavad\",\"vanu\",    │                             │                           │\n│     \"raamatuid\"]', '[     │                             │                           │\n│     \"raamatuid\"]') AND    │                             │                           │\n│  optional: surface_key>='[│                             │                           │\n│ \"eesti\",\"raamatukogudes\", │                             │                           │\n│       \"kasutatakse\",      │                             │                           │\n│  \"tehisintellekti\",\"ja\",  │                             │                           │\n│ \"masinõppe\",\"meetodeid\"]' │                             │                           │\n│  AND optional: surface_key│                             │                           │\n│ <='[\"vanu\"]' AND optional:│                             │                           │\n│      surface_key IN BF    │                             │                           │\n│        (match_key)        │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│          268 rows         │                             │          256 rows         │\n│           0.01s           │                             │          (0.01s)          │\n└───────────────────────────┘                             └───────────────────────────┘\n"
+    },
+    {
+      "corpus": "repeated",
+      "words": 1000,
+      "path": "reports\\etapp5_inputs\\repeated_1000.txt",
+      "sha256": "dcb0ceee8e8f11170808d1a33cbe1208daf583ab30b15680b8f56cbba70c64b1",
+      "session_startup_seconds": 5.742833500000415,
+      "environment": {
+        "python": "3.11.9",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "cpu": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+        "logical_cpus": 12,
+        "system_memory_bytes": 33528926208,
+        "container_memory_limit": null,
+        "duckdb_memory_limit": "512MB",
+        "duckdb_threads": 2,
+        "packages": {
+          "duckdb": "1.5.5",
+          "estnltk": "1.7.5",
+          "estnltk-core": "1.7.5",
+          "nltk": "3.10.4",
+          "regex": "2026.9.29"
+        },
+        "p95_method": "nearest rank; with 5 observations p95 equals max",
+        "cache_policy": "fresh Python process per case; OS file cache is not cleared"
+      },
+      "index_manifest": {
+        "index_id": "20261028T224121Z-16c4d5f2069f",
+        "index_version": 1,
+        "source_run_id": "20261028T222627Z-73b1935b3360",
+        "analyzer_fingerprint": "1071c94e8c05e5858365406d171ffaeb17df822c0dd6aa167d97ec59a3049927",
+        "directory": "search_indexes/20261028T224121Z-16c4d5f2069f"
+      },
+      "input_sha256": "dcb0ceee8e8f11170808d1a33cbe1208daf583ab30b15680b8f56cbba70c64b1",
+      "words_by_whitespace": 1000,
+      "unique_surface_words": 11,
+      "utf8_bytes": 10453,
+      "observations": [
+        {
+          "timings": {
+            "analysis_seconds": 1.114514800021425,
+            "candidates_seconds": 0.07060519998776726,
+            "matching_seconds": 0.03321009999490343,
+            "ranking_seconds": 0.007132099999580532,
+            "details_seconds": 0.12099630001466721,
+            "total_seconds": 1.3464585000183433
+          },
+          "diagnostics": {
+            "sentences": 182,
+            "tokens": 1181,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 3454,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.8559956999961287,
+            "candidates_seconds": 0.04251070000464097,
+            "matching_seconds": 0.034276199992746115,
+            "ranking_seconds": 0.00994320001336746,
+            "details_seconds": 0.1252288999967277,
+            "total_seconds": 1.067954700003611
+          },
+          "diagnostics": {
+            "sentences": 182,
+            "tokens": 1181,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 3454,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 1.0879827000026125,
+            "candidates_seconds": 0.0674730000027921,
+            "matching_seconds": 0.050283299991860986,
+            "ranking_seconds": 0.008470800006762147,
+            "details_seconds": 0.17111200001090765,
+            "total_seconds": 1.3853218000149354
+          },
+          "diagnostics": {
+            "sentences": 182,
+            "tokens": 1181,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 3454,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.9333284999884199,
+            "candidates_seconds": 0.046709800022654235,
+            "matching_seconds": 0.029794699978083372,
+            "ranking_seconds": 0.009284700005082414,
+            "details_seconds": 0.10804789999383502,
+            "total_seconds": 1.127165599988075
+          },
+          "diagnostics": {
+            "sentences": 182,
+            "tokens": 1181,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 3454,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.8677719999977853,
+            "candidates_seconds": 0.07744190000812523,
+            "matching_seconds": 0.05541079997783527,
+            "ranking_seconds": 0.011445800017099828,
+            "details_seconds": 0.1345359999977518,
+            "total_seconds": 1.1466064999985974
+          },
+          "diagnostics": {
+            "sentences": 182,
+            "tokens": 1181,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 3454,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        }
+      ],
+      "first": {
+        "timings": {
+          "analysis_seconds": 1.114514800021425,
+          "candidates_seconds": 0.07060519998776726,
+          "matching_seconds": 0.03321009999490343,
+          "ranking_seconds": 0.007132099999580532,
+          "details_seconds": 0.12099630001466721,
+          "total_seconds": 1.3464585000183433
+        },
+        "diagnostics": {
+          "sentences": 182,
+          "tokens": 1181,
+          "ambiguous_tokens": 0,
+          "fallback_tokens": 0,
+          "candidate_occurrences": 3454,
+          "unique_keys": 75,
+          "matched_label_keys": 8,
+          "suppressed_nested_concepts": 0,
+          "sql_calls": 5
+        },
+        "result_ids": [
+          "EMS003867",
+          "EMS174969",
+          "EMS000500",
+          "EMS000807",
+          "EMS021557",
+          "EMS138297"
+        ]
+      },
+      "all_runs_summary": {
+        "analysis_seconds": {
+          "count": 5,
+          "median_seconds": 0.9333284999884199,
+          "p95_seconds": 1.114514800021425
+        },
+        "candidates_seconds": {
+          "count": 5,
+          "median_seconds": 0.0674730000027921,
+          "p95_seconds": 0.07744190000812523
+        },
+        "matching_seconds": {
+          "count": 5,
+          "median_seconds": 0.034276199992746115,
+          "p95_seconds": 0.05541079997783527
+        },
+        "ranking_seconds": {
+          "count": 5,
+          "median_seconds": 0.009284700005082414,
+          "p95_seconds": 0.011445800017099828
+        },
+        "details_seconds": {
+          "count": 5,
+          "median_seconds": 0.1252288999967277,
+          "p95_seconds": 0.17111200001090765
+        },
+        "total_seconds": {
+          "count": 5,
+          "median_seconds": 1.1466064999985974,
+          "p95_seconds": 1.3853218000149354
+        }
+      },
+      "repeats_summary": {
+        "analysis_seconds": {
+          "count": 4,
+          "median_seconds": 0.9005502499931026,
+          "p95_seconds": 1.0879827000026125
+        },
+        "candidates_seconds": {
+          "count": 4,
+          "median_seconds": 0.05709140001272317,
+          "p95_seconds": 0.07744190000812523
+        },
+        "matching_seconds": {
+          "count": 4,
+          "median_seconds": 0.04227974999230355,
+          "p95_seconds": 0.05541079997783527
+        },
+        "ranking_seconds": {
+          "count": 4,
+          "median_seconds": 0.009613950009224936,
+          "p95_seconds": 0.011445800017099828
+        },
+        "details_seconds": {
+          "count": 4,
+          "median_seconds": 0.12988244999723975,
+          "p95_seconds": 0.17111200001090765
+        },
+        "total_seconds": {
+          "count": 4,
+          "median_seconds": 1.1368860499933362,
+          "p95_seconds": 1.3853218000149354
+        }
+      },
+      "peak_rss_bytes": 256802816,
+      "query_plan": "┌─────────────────────────────────────┐\n│┌───────────────────────────────────┐│\n││    Query Profiling Information    ││\n│└───────────────────────────────────┘│\n└─────────────────────────────────────┘\nEXPLAIN ANALYZE SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.surface_key WHERE k.kind='exact' AND s.language='et' AND s.role IN ('preferred','alternative') UNION ALL SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.lemma_key WHERE k.kind='lemma' AND s.language='et' AND s.role IN ('preferred','alternative')\n┌────────────────────────────────────────────────┐\n│┌──────────────────────────────────────────────┐│\n││              Total Time: 0.0124s             ││\n│└──────────────────────────────────────────────┘│\n└────────────────────────────────────────────────┘\n┌───────────────────────────┐\n│           QUERY           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│      EXPLAIN_ANALYZE      │\n│    ────────────────────   │\n│                           │\n│           0 rows          │\n│           0.00s           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│           UNION           │\n│    ────────────────────   │\n│                           ├───────────────────────────────────────────┐\n│           8 rows          │                                           │\n│           0.00s           │                                           │\n└─────────────┬─────────────┘                                           │\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         PROJECTION        │                             │         PROJECTION        │\n│    ────────────────────   │                             │    ────────────────────   │\n│            kind           │                             │            kind           │\n│         match_key         │                             │         match_key         │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│            role           │                             │            role           │\n│          language         │                             │          language         │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│           2 rows          │                             │           6 rows          │\n│           0.00s           │                             │           0.00s           │\n└─────────────┬─────────────┘                             └─────────────┬─────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         HASH_JOIN         │                             │         HASH_JOIN         │\n│    ────────────────────   │                             │    ────────────────────   │\n│      Join Type: INNER     │                             │      Join Type: INNER     │\n│                           │                             │                           │\n│        Conditions:        │                             │        Conditions:        │\n│  surface_key = match_key  ├──────────────┐              │   lemma_key = match_key   ├──────────────┐\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│           2 rows          │              │              │           6 rows          │              │\n│           0.00s           │              │              │           0.00s           │              │\n└─────────────┬─────────────┘              │              └─────────────┬─────────────┘              │\n┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐\n│           FILTER          ││         TABLE_SCAN        ││           FILTER          ││         TABLE_SCAN        │\n│    ────────────────────   ││    ────────────────────   ││    ────────────────────   ││    ────────────────────   │\n│ ((role = 'preferred') OR  ││           Table:          ││ ((role = 'preferred') OR  ││           Table:          │\n│  (role = 'alternative'))  ││ \"temp\".main.candidate_keys││  (role = 'alternative'))  ││ \"temp\".main.candidate_keys│\n│                           ││                           ││                           ││                           │\n│                           ││   Type: Sequential Scan   ││                           ││   Type: Sequential Scan   │\n│                           ││                           ││                           ││                           │\n│                           ││        Projections:       ││                           ││        Projections:       │\n│           0.00s           ││         match_key         ││           0.00s           ││         match_key         │\n│                           ││            kind           ││                           ││            kind           │\n│                           ││                           ││                           ││                           │\n│                           ││   Filters: kind='exact'   ││                           ││   Filters: kind='lemma'   │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│          268 rows         ││          38 rows          ││          256 rows         ││          37 rows          │\n│          (0.00s)          ││           0.00s           ││          (0.00s)          ││           0.00s           │\n└─────────────┬─────────────┘└───────────────────────────┘└─────────────┬─────────────┘└───────────────────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         TABLE_SCAN        │                             │         TABLE_SCAN        │\n│    ────────────────────   │                             │    ────────────────────   │\n│           Table:          │                             │           Table:          │\n│   idx.main.search_label   │                             │   idx.main.search_label   │\n│                           │                             │                           │\n│   Type: Sequential Scan   │                             │   Type: Sequential Scan   │\n│                           │                             │                           │\n│        Projections:       │                             │        Projections:       │\n│        surface_key        │                             │         lemma_key         │\n│          language         │                             │          language         │\n│            role           │                             │            role           │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│          Filters:         │                             │          Filters:         │\n│       language='et'       │                             │       language='et'       │\n│    optional: role IN (    │                             │    optional: role IN (    │\n│'preferred', 'alternative')│                             │'preferred', 'alternative')│\n│                           │                             │                           │\n│      Dynamic Filters:     │                             │      Dynamic Filters:     │\n│ optional: surface_key IN (│                             │ optional: lemma_key IN ('[│\n│      '[\"kasutatakse\",     │                             │ \"tehisintellekt\",\"ja\"]', '│\n│  \"tehisintellekti\",\"ja\",  │                             │ [\"raamatukogu\",\"kasutama\"]│\n│ \"masinõppe\"]', '[\"ja\"]', '│                             │  ', '[\"ja\"]', '[\"eesti\",  │\n│    [\"kasutatakse\"]', '[   │                             │ \"raamatukogu\",\"kasutama\", │\n│ \"raamatukogud\",\"säilitavad│                             │   \"tehisintellekt\"]', '[  │\n│       \",\"vanu\"]', '[      │                             │ \"kasutama\"]', '[\"raamat\"]'│\n│  \"tehisintellekti\",\"ja\",  │                             │    , '[\"raamatukogu\",\"s   │\n│ \"masinõppe\",\"meetodeid\"]',│                             │  äilitama\"]', '[\"eesti\",  │\n│  '[\"vanu\",\"raamatuid\"]', '│                             │ \"raamatukogu\",\"kasutama\"]'│\n│ [\"eesti\",\"raamatukogudes\"]│                             │ , '[\"masinõpe\",\"meetod\"]',│\n│    ', '[\"kasutatakse\",    │                             │  '[\"raamatukogu\",\"kasutama│\n│  \"tehisintellekti\",\"ja\",  │                             │  \",\"tehisintellekt\",\"ja\", │\n│ \"masinõppe\",\"meetodeid\"]',│                             │ \"masinõpe\"]', '[\"kasutama\"│\n│     '[\"ja\",\"masinõppe\",   │                             │  ,\"tehisintellekt\",\"ja\",  │\n│ \"meetodeid\"]', '[\"vanu\"]',│                             │ \"masinõpe\"]', '[\"säilitama│\n│  '[\"säilitavad\",\"vanu\"]', │                             │  \",\"vana\",\"raamat\"]', '[  │\n│    '[\"raamatukogudes\",    │                             │ \"kasutama\",\"tehisintellekt│\n│       \"kasutatakse\",      │                             │ \",\"ja\",\"masinõpe\",\"meetod\"│\n│  \"tehisintellekti\"]', '[  │                             │   ]', '[\"ja\",\"masinõpe\",  │\n│ \"eesti\",\"raamatukogudes\", │                             │ \"meetod\"]', '[\"raamatukogu│\n│       \"kasutatakse\",      │                             │       \",\"kasutama\",       │\n│ \"tehisintellekti\",\"ja\"]', │                             │ \"tehisintellekt\",\"ja\"]', '│\n│ '[\"tehisintellekti\",\"ja\", │                             │        [\"kasutama\",       │\n│     \"masinõppe\"]', '[     │                             │   \"tehisintellekt\"]', '[  │\n│     \"raamatukogudes\",     │                             │ \"raamatukogu\",\"säilitama\",│\n│       \"kasutatakse\",      │                             │    \"vana\"]', '[\"eesti\",   │\n│  \"tehisintellekti\",\"ja\",  │                             │ \"raamatukogu\",\"kasutama\", │\n│ \"masinõppe\"]', '[\"eesti\", │                             │   \"tehisintellekt\",\"ja\",  │\n│     \"raamatukogudes\",     │                             │ \"masinõpe\",\"meetod\"]', '[ │\n│       \"kasutatakse\",      │                             │ \"eesti\"]', '[\"säilitama\"]'│\n│  \"tehisintellekti\",\"ja\",  │                             │ , '[\"ja\",\"masinõpe\"]', '[ │\n│     \"masinõppe\"]', '[     │                             │   \"eesti\",\"raamatukogu\",  │\n│ \"raamatukogud\",\"säilitavad│                             │ \"kasutama\",\"tehisintellekt│\n│    \"]', '[\"eesti\"]', '[   │                             │  \",\"ja\",\"masinõpe\"]', '[  │\n│  \"tehisintellekti\"]', '[  │                             │   \"tehisintellekt\",\"ja\",  │\n│ \"masinõppe\",\"meetodeid\"]',│                             │  \"masinõpe\"]', '[\"eesti\", │\n│     '[\"raamatukogudes\",   │                             │ \"raamatukogu\",\"kasutama\", │\n│       \"kasutatakse\",      │                             │ \"tehisintellekt\",\"ja\"]', '│\n│  \"tehisintellekti\",\"ja\",  │                             │ [\"masinõpe\"]', '[\"meetod\"]│\n│ \"masinõppe\",\"meetodeid\"]',│                             │      ', '[\"kasutama\",     │\n│  '[\"eesti\",\"raamatukogudes│                             │ \"tehisintellekt\",\"ja\"]', '│\n│   \",\"kasutatakse\"]', '[   │                             │ [\"säilitama\",\"vana\"]', '[ │\n│     \"meetodeid\"]', '[     │                             │   \"vana\",\"raamat\"]', '[   │\n│   \"raamatukogudes\"]', '[  │                             │   \"tehisintellekt\",\"ja\",  │\n│ \"tehisintellekti\",\"ja\"]', │                             │ \"masinõpe\",\"meetod\"]', '[ │\n│    '[\"raamatukogudes\",    │                             │ \"raamatukogu\"]', '[\"vana\"]│\n│  \"kasutatakse\"]', '[\"ja\", │                             │   ', '[\"raamatukogu\",\"s   │\n│     \"masinõppe\"]', '[     │                             │ äilitama\",\"vana\",\"raamat\" │\n│     \"raamatukogudes\",     │                             │    ]', '[\"raamatukogu\",   │\n│       \"kasutatakse\",      │                             │ \"kasutama\",\"tehisintellekt│\n│ \"tehisintellekti\",\"ja\"]', │                             │ \",\"ja\",\"masinõpe\",\"meetod\"│\n│    '[\"säilitavad\"]', '[   │                             │ ]', '[\"tehisintellekt\"]', │\n│       \"kasutatakse\",      │                             │ '[\"eesti\",\"raamatukogu\"]',│\n│  \"tehisintellekti\"]', '[  │                             │  '[\"raamatukogu\",\"kasutama│\n│       \"kasutatakse\",      │                             │ \",\"tehisintellekt\"]') AND │\n│ \"tehisintellekti\",\"ja\"]', │                             │   optional: lemma_key>='[ │\n│ '[\"eesti\",\"raamatukogudes\"│                             │   \"eesti\",\"raamatukogu\",  │\n│      ,\"kasutatakse\",      │                             │ \"kasutama\",\"tehisintellekt│\n│  \"tehisintellekti\",\"ja\",  │                             │ \",\"ja\",\"masinõpe\",\"meetod\"│\n│ \"masinõppe\",\"meetodeid\"]',│                             │ ]' AND optional: lemma_key│\n│     '[\"masinõppe\"]', '[   │                             │ <='[\"vana\"]' AND optional:│\n│    \"raamatukogud\"]', '[   │                             │ lemma_key IN BF(match_key)│\n│ \"raamatukogud\",\"säilitavad│                             │                           │\n│ \",\"vanu\",\"raamatuid\"]', '[│                             │                           │\n│ \"eesti\",\"raamatukogudes\", │                             │                           │\n│       \"kasutatakse\",      │                             │                           │\n│ \"tehisintellekti\"]', '[\"s │                             │           0.01s           │\n│     äilitavad\",\"vanu\",    │                             │                           │\n│     \"raamatuid\"]', '[     │                             │                           │\n│     \"raamatuid\"]') AND    │                             │                           │\n│  optional: surface_key>='[│                             │                           │\n│ \"eesti\",\"raamatukogudes\", │                             │                           │\n│       \"kasutatakse\",      │                             │                           │\n│  \"tehisintellekti\",\"ja\",  │                             │                           │\n│ \"masinõppe\",\"meetodeid\"]' │                             │                           │\n│  AND optional: surface_key│                             │                           │\n│ <='[\"vanu\"]' AND optional:│                             │                           │\n│      surface_key IN BF    │                             │                           │\n│        (match_key)        │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│          268 rows         │                             │          256 rows         │\n│           0.01s           │                             │          (0.01s)          │\n└───────────────────────────┘                             └───────────────────────────┘\n"
+    },
+    {
+      "corpus": "repeated",
+      "words": 10000,
+      "path": "reports\\etapp5_inputs\\repeated_10000.txt",
+      "sha256": "5cd97afd6e412c2e5e600b7a3d8ab484190d49fecfe5c474e9db190a76a9aeca",
+      "session_startup_seconds": 4.570312700001523,
+      "environment": {
+        "python": "3.11.9",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "cpu": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+        "logical_cpus": 12,
+        "system_memory_bytes": 33528926208,
+        "container_memory_limit": null,
+        "duckdb_memory_limit": "512MB",
+        "duckdb_threads": 2,
+        "packages": {
+          "duckdb": "1.5.5",
+          "estnltk": "1.7.5",
+          "estnltk-core": "1.7.5",
+          "nltk": "3.10.4",
+          "regex": "2026.9.29"
+        },
+        "p95_method": "nearest rank; with 5 observations p95 equals max",
+        "cache_policy": "fresh Python process per case; OS file cache is not cleared"
+      },
+      "index_manifest": {
+        "index_id": "20261028T224121Z-16c4d5f2069f",
+        "index_version": 1,
+        "source_run_id": "20261028T222627Z-73b1935b3360",
+        "analyzer_fingerprint": "1071c94e8c05e5858365406d171ffaeb17df822c0dd6aa167d97ec59a3049927",
+        "directory": "search_indexes/20261028T224121Z-16c4d5f2069f"
+      },
+      "input_sha256": "5cd97afd6e412c2e5e600b7a3d8ab484190d49fecfe5c474e9db190a76a9aeca",
+      "words_by_whitespace": 10000,
+      "unique_surface_words": 11,
+      "utf8_bytes": 104540,
+      "observations": [
+        {
+          "timings": {
+            "analysis_seconds": 8.76565310001024,
+            "candidates_seconds": 0.501510000001872,
+            "matching_seconds": 0.030825599998934194,
+            "ranking_seconds": 0.09816409999621101,
+            "details_seconds": 0.15148540001246147,
+            "total_seconds": 9.547638200019719
+          },
+          "diagnostics": {
+            "sentences": 1819,
+            "tokens": 11818,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 34543,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 8.767230700002983,
+            "candidates_seconds": 0.42791749999742024,
+            "matching_seconds": 0.03562089998740703,
+            "ranking_seconds": 0.13590079999994487,
+            "details_seconds": 0.14160360000096262,
+            "total_seconds": 9.508273499988718
+          },
+          "diagnostics": {
+            "sentences": 1819,
+            "tokens": 11818,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 34543,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 9.612039500003448,
+            "candidates_seconds": 0.4451104999752715,
+            "matching_seconds": 0.025964300002669916,
+            "ranking_seconds": 0.10559830002603121,
+            "details_seconds": 0.08055529999546707,
+            "total_seconds": 10.269267900002887
+          },
+          "diagnostics": {
+            "sentences": 1819,
+            "tokens": 11818,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 34543,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 9.475483299989719,
+            "candidates_seconds": 0.4201232999912463,
+            "matching_seconds": 0.0262924000271596,
+            "ranking_seconds": 0.09552469998016022,
+            "details_seconds": 0.1012062999943737,
+            "total_seconds": 10.118629999982659
+          },
+          "diagnostics": {
+            "sentences": 1819,
+            "tokens": 11818,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 34543,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 8.903268599999137,
+            "candidates_seconds": 0.2705957999860402,
+            "matching_seconds": 0.024261600017780438,
+            "ranking_seconds": 0.1034737000009045,
+            "details_seconds": 0.07938899999135174,
+            "total_seconds": 9.380988699995214
+          },
+          "diagnostics": {
+            "sentences": 1819,
+            "tokens": 11818,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 34543,
+            "unique_keys": 75,
+            "matched_label_keys": 8,
+            "suppressed_nested_concepts": 0,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS003867",
+            "EMS174969",
+            "EMS000500",
+            "EMS000807",
+            "EMS021557",
+            "EMS138297"
+          ]
+        }
+      ],
+      "first": {
+        "timings": {
+          "analysis_seconds": 8.76565310001024,
+          "candidates_seconds": 0.501510000001872,
+          "matching_seconds": 0.030825599998934194,
+          "ranking_seconds": 0.09816409999621101,
+          "details_seconds": 0.15148540001246147,
+          "total_seconds": 9.547638200019719
+        },
+        "diagnostics": {
+          "sentences": 1819,
+          "tokens": 11818,
+          "ambiguous_tokens": 0,
+          "fallback_tokens": 0,
+          "candidate_occurrences": 34543,
+          "unique_keys": 75,
+          "matched_label_keys": 8,
+          "suppressed_nested_concepts": 0,
+          "sql_calls": 5
+        },
+        "result_ids": [
+          "EMS003867",
+          "EMS174969",
+          "EMS000500",
+          "EMS000807",
+          "EMS021557",
+          "EMS138297"
+        ]
+      },
+      "all_runs_summary": {
+        "analysis_seconds": {
+          "count": 5,
+          "median_seconds": 8.903268599999137,
+          "p95_seconds": 9.612039500003448
+        },
+        "candidates_seconds": {
+          "count": 5,
+          "median_seconds": 0.42791749999742024,
+          "p95_seconds": 0.501510000001872
+        },
+        "matching_seconds": {
+          "count": 5,
+          "median_seconds": 0.0262924000271596,
+          "p95_seconds": 0.03562089998740703
+        },
+        "ranking_seconds": {
+          "count": 5,
+          "median_seconds": 0.1034737000009045,
+          "p95_seconds": 0.13590079999994487
+        },
+        "details_seconds": {
+          "count": 5,
+          "median_seconds": 0.1012062999943737,
+          "p95_seconds": 0.15148540001246147
+        },
+        "total_seconds": {
+          "count": 5,
+          "median_seconds": 9.547638200019719,
+          "p95_seconds": 10.269267900002887
+        }
+      },
+      "repeats_summary": {
+        "analysis_seconds": {
+          "count": 4,
+          "median_seconds": 9.189375949994428,
+          "p95_seconds": 9.612039500003448
+        },
+        "candidates_seconds": {
+          "count": 4,
+          "median_seconds": 0.4240203999943333,
+          "p95_seconds": 0.4451104999752715
+        },
+        "matching_seconds": {
+          "count": 4,
+          "median_seconds": 0.02612835001491476,
+          "p95_seconds": 0.03562089998740703
+        },
+        "ranking_seconds": {
+          "count": 4,
+          "median_seconds": 0.10453600001346786,
+          "p95_seconds": 0.13590079999994487
+        },
+        "details_seconds": {
+          "count": 4,
+          "median_seconds": 0.09088079999492038,
+          "p95_seconds": 0.14160360000096262
+        },
+        "total_seconds": {
+          "count": 4,
+          "median_seconds": 9.813451749985688,
+          "p95_seconds": 10.269267900002887
+        }
+      },
+      "peak_rss_bytes": 316272640,
+      "query_plan": "┌─────────────────────────────────────┐\n│┌───────────────────────────────────┐│\n││    Query Profiling Information    ││\n│└───────────────────────────────────┘│\n└─────────────────────────────────────┘\nEXPLAIN ANALYZE SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.surface_key WHERE k.kind='exact' AND s.language='et' AND s.role IN ('preferred','alternative') UNION ALL SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.lemma_key WHERE k.kind='lemma' AND s.language='et' AND s.role IN ('preferred','alternative')\n┌────────────────────────────────────────────────┐\n│┌──────────────────────────────────────────────┐│\n││              Total Time: 0.0142s             ││\n│└──────────────────────────────────────────────┘│\n└────────────────────────────────────────────────┘\n┌───────────────────────────┐\n│           QUERY           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│      EXPLAIN_ANALYZE      │\n│    ────────────────────   │\n│                           │\n│           0 rows          │\n│           0.00s           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│           UNION           │\n│    ────────────────────   │\n│                           ├───────────────────────────────────────────┐\n│           8 rows          │                                           │\n│           0.00s           │                                           │\n└─────────────┬─────────────┘                                           │\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         PROJECTION        │                             │         PROJECTION        │\n│    ────────────────────   │                             │    ────────────────────   │\n│            kind           │                             │            kind           │\n│         match_key         │                             │         match_key         │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│            role           │                             │            role           │\n│          language         │                             │          language         │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│           2 rows          │                             │           6 rows          │\n│           0.00s           │                             │           0.00s           │\n└─────────────┬─────────────┘                             └─────────────┬─────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         HASH_JOIN         │                             │         HASH_JOIN         │\n│    ────────────────────   │                             │    ────────────────────   │\n│      Join Type: INNER     │                             │      Join Type: INNER     │\n│                           │                             │                           │\n│        Conditions:        │                             │        Conditions:        │\n│  surface_key = match_key  ├──────────────┐              │   lemma_key = match_key   ├──────────────┐\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│           2 rows          │              │              │           6 rows          │              │\n│           0.00s           │              │              │           0.00s           │              │\n└─────────────┬─────────────┘              │              └─────────────┬─────────────┘              │\n┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐\n│           FILTER          ││         TABLE_SCAN        ││           FILTER          ││         TABLE_SCAN        │\n│    ────────────────────   ││    ────────────────────   ││    ────────────────────   ││    ────────────────────   │\n│ ((role = 'preferred') OR  ││           Table:          ││ ((role = 'preferred') OR  ││           Table:          │\n│  (role = 'alternative'))  ││ \"temp\".main.candidate_keys││  (role = 'alternative'))  ││ \"temp\".main.candidate_keys│\n│                           ││                           ││                           ││                           │\n│                           ││   Type: Sequential Scan   ││                           ││   Type: Sequential Scan   │\n│                           ││                           ││                           ││                           │\n│                           ││        Projections:       ││                           ││        Projections:       │\n│           0.00s           ││         match_key         ││           0.00s           ││         match_key         │\n│                           ││            kind           ││                           ││            kind           │\n│                           ││                           ││                           ││                           │\n│                           ││   Filters: kind='exact'   ││                           ││   Filters: kind='lemma'   │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│          268 rows         ││          38 rows          ││          256 rows         ││          37 rows          │\n│          (0.00s)          ││           0.00s           ││          (0.00s)          ││           0.00s           │\n└─────────────┬─────────────┘└───────────────────────────┘└─────────────┬─────────────┘└───────────────────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         TABLE_SCAN        │                             │         TABLE_SCAN        │\n│    ────────────────────   │                             │    ────────────────────   │\n│           Table:          │                             │           Table:          │\n│   idx.main.search_label   │                             │   idx.main.search_label   │\n│                           │                             │                           │\n│   Type: Sequential Scan   │                             │   Type: Sequential Scan   │\n│                           │                             │                           │\n│        Projections:       │                             │        Projections:       │\n│        surface_key        │                             │         lemma_key         │\n│          language         │                             │          language         │\n│            role           │                             │            role           │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│          Filters:         │                             │          Filters:         │\n│       language='et'       │                             │       language='et'       │\n│    optional: role IN (    │                             │    optional: role IN (    │\n│'preferred', 'alternative')│                             │'preferred', 'alternative')│\n│                           │                             │                           │\n│      Dynamic Filters:     │                             │      Dynamic Filters:     │\n│ optional: surface_key IN (│                             │ optional: lemma_key IN ('[│\n│      '[\"kasutatakse\",     │                             │ \"tehisintellekt\",\"ja\"]', '│\n│  \"tehisintellekti\",\"ja\",  │                             │ [\"raamatukogu\",\"kasutama\"]│\n│ \"masinõppe\"]', '[\"ja\"]', '│                             │  ', '[\"ja\"]', '[\"eesti\",  │\n│    [\"kasutatakse\"]', '[   │                             │ \"raamatukogu\",\"kasutama\", │\n│ \"raamatukogud\",\"säilitavad│                             │   \"tehisintellekt\"]', '[  │\n│       \",\"vanu\"]', '[      │                             │ \"kasutama\"]', '[\"raamat\"]'│\n│  \"tehisintellekti\",\"ja\",  │                             │    , '[\"raamatukogu\",\"s   │\n│ \"masinõppe\",\"meetodeid\"]',│                             │  äilitama\"]', '[\"eesti\",  │\n│  '[\"vanu\",\"raamatuid\"]', '│                             │ \"raamatukogu\",\"kasutama\"]'│\n│ [\"eesti\",\"raamatukogudes\"]│                             │ , '[\"masinõpe\",\"meetod\"]',│\n│    ', '[\"kasutatakse\",    │                             │  '[\"raamatukogu\",\"kasutama│\n│  \"tehisintellekti\",\"ja\",  │                             │  \",\"tehisintellekt\",\"ja\", │\n│ \"masinõppe\",\"meetodeid\"]',│                             │ \"masinõpe\"]', '[\"kasutama\"│\n│     '[\"ja\",\"masinõppe\",   │                             │  ,\"tehisintellekt\",\"ja\",  │\n│ \"meetodeid\"]', '[\"vanu\"]',│                             │ \"masinõpe\"]', '[\"säilitama│\n│  '[\"säilitavad\",\"vanu\"]', │                             │  \",\"vana\",\"raamat\"]', '[  │\n│    '[\"raamatukogudes\",    │                             │ \"kasutama\",\"tehisintellekt│\n│       \"kasutatakse\",      │                             │ \",\"ja\",\"masinõpe\",\"meetod\"│\n│  \"tehisintellekti\"]', '[  │                             │   ]', '[\"ja\",\"masinõpe\",  │\n│ \"eesti\",\"raamatukogudes\", │                             │ \"meetod\"]', '[\"raamatukogu│\n│       \"kasutatakse\",      │                             │       \",\"kasutama\",       │\n│ \"tehisintellekti\",\"ja\"]', │                             │ \"tehisintellekt\",\"ja\"]', '│\n│ '[\"tehisintellekti\",\"ja\", │                             │        [\"kasutama\",       │\n│     \"masinõppe\"]', '[     │                             │   \"tehisintellekt\"]', '[  │\n│     \"raamatukogudes\",     │                             │ \"raamatukogu\",\"säilitama\",│\n│       \"kasutatakse\",      │                             │    \"vana\"]', '[\"eesti\",   │\n│  \"tehisintellekti\",\"ja\",  │                             │ \"raamatukogu\",\"kasutama\", │\n│ \"masinõppe\"]', '[\"eesti\", │                             │   \"tehisintellekt\",\"ja\",  │\n│     \"raamatukogudes\",     │                             │ \"masinõpe\",\"meetod\"]', '[ │\n│       \"kasutatakse\",      │                             │ \"eesti\"]', '[\"säilitama\"]'│\n│  \"tehisintellekti\",\"ja\",  │                             │ , '[\"ja\",\"masinõpe\"]', '[ │\n│     \"masinõppe\"]', '[     │                             │   \"eesti\",\"raamatukogu\",  │\n│ \"raamatukogud\",\"säilitavad│                             │ \"kasutama\",\"tehisintellekt│\n│    \"]', '[\"eesti\"]', '[   │                             │  \",\"ja\",\"masinõpe\"]', '[  │\n│  \"tehisintellekti\"]', '[  │                             │   \"tehisintellekt\",\"ja\",  │\n│ \"masinõppe\",\"meetodeid\"]',│                             │  \"masinõpe\"]', '[\"eesti\", │\n│     '[\"raamatukogudes\",   │                             │ \"raamatukogu\",\"kasutama\", │\n│       \"kasutatakse\",      │                             │ \"tehisintellekt\",\"ja\"]', '│\n│  \"tehisintellekti\",\"ja\",  │                             │ [\"masinõpe\"]', '[\"meetod\"]│\n│ \"masinõppe\",\"meetodeid\"]',│                             │      ', '[\"kasutama\",     │\n│  '[\"eesti\",\"raamatukogudes│                             │ \"tehisintellekt\",\"ja\"]', '│\n│   \",\"kasutatakse\"]', '[   │                             │ [\"säilitama\",\"vana\"]', '[ │\n│     \"meetodeid\"]', '[     │                             │   \"vana\",\"raamat\"]', '[   │\n│   \"raamatukogudes\"]', '[  │                             │   \"tehisintellekt\",\"ja\",  │\n│ \"tehisintellekti\",\"ja\"]', │                             │ \"masinõpe\",\"meetod\"]', '[ │\n│    '[\"raamatukogudes\",    │                             │ \"raamatukogu\"]', '[\"vana\"]│\n│  \"kasutatakse\"]', '[\"ja\", │                             │   ', '[\"raamatukogu\",\"s   │\n│     \"masinõppe\"]', '[     │                             │ äilitama\",\"vana\",\"raamat\" │\n│     \"raamatukogudes\",     │                             │    ]', '[\"raamatukogu\",   │\n│       \"kasutatakse\",      │                             │ \"kasutama\",\"tehisintellekt│\n│ \"tehisintellekti\",\"ja\"]', │                             │ \",\"ja\",\"masinõpe\",\"meetod\"│\n│    '[\"säilitavad\"]', '[   │                             │ ]', '[\"tehisintellekt\"]', │\n│       \"kasutatakse\",      │                             │ '[\"eesti\",\"raamatukogu\"]',│\n│  \"tehisintellekti\"]', '[  │                             │  '[\"raamatukogu\",\"kasutama│\n│       \"kasutatakse\",      │                             │ \",\"tehisintellekt\"]') AND │\n│ \"tehisintellekti\",\"ja\"]', │                             │   optional: lemma_key>='[ │\n│ '[\"eesti\",\"raamatukogudes\"│                             │   \"eesti\",\"raamatukogu\",  │\n│      ,\"kasutatakse\",      │                             │ \"kasutama\",\"tehisintellekt│\n│  \"tehisintellekti\",\"ja\",  │                             │ \",\"ja\",\"masinõpe\",\"meetod\"│\n│ \"masinõppe\",\"meetodeid\"]',│                             │ ]' AND optional: lemma_key│\n│     '[\"masinõppe\"]', '[   │                             │ <='[\"vana\"]' AND optional:│\n│    \"raamatukogud\"]', '[   │                             │ lemma_key IN BF(match_key)│\n│ \"raamatukogud\",\"säilitavad│                             │                           │\n│ \",\"vanu\",\"raamatuid\"]', '[│                             │                           │\n│ \"eesti\",\"raamatukogudes\", │                             │                           │\n│       \"kasutatakse\",      │                             │                           │\n│ \"tehisintellekti\"]', '[\"s │                             │           0.01s           │\n│     äilitavad\",\"vanu\",    │                             │                           │\n│     \"raamatuid\"]', '[     │                             │                           │\n│     \"raamatuid\"]') AND    │                             │                           │\n│  optional: surface_key>='[│                             │                           │\n│ \"eesti\",\"raamatukogudes\", │                             │                           │\n│       \"kasutatakse\",      │                             │                           │\n│  \"tehisintellekti\",\"ja\",  │                             │                           │\n│ \"masinõppe\",\"meetodeid\"]' │                             │                           │\n│  AND optional: surface_key│                             │                           │\n│ <='[\"vanu\"]' AND optional:│                             │                           │\n│      surface_key IN BF    │                             │                           │\n│        (match_key)        │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│          268 rows         │                             │          256 rows         │\n│           0.01s           │                             │          (0.01s)          │\n└───────────────────────────┘                             └───────────────────────────┘\n"
+    },
+    {
+      "corpus": "varied",
+      "words": 100,
+      "path": "reports\\etapp5_inputs\\varied_100.txt",
+      "sha256": "e0929dc0ef29e6b8a36991ed017d0fc95676560c8ed150e326806dfc24a56cd3",
+      "session_startup_seconds": 4.484528300003149,
+      "environment": {
+        "python": "3.11.9",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "cpu": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+        "logical_cpus": 12,
+        "system_memory_bytes": 33528926208,
+        "container_memory_limit": null,
+        "duckdb_memory_limit": "512MB",
+        "duckdb_threads": 2,
+        "packages": {
+          "duckdb": "1.5.5",
+          "estnltk": "1.7.5",
+          "estnltk-core": "1.7.5",
+          "nltk": "3.10.4",
+          "regex": "2026.9.29"
+        },
+        "p95_method": "nearest rank; with 5 observations p95 equals max",
+        "cache_policy": "fresh Python process per case; OS file cache is not cleared"
+      },
+      "index_manifest": {
+        "index_id": "20261028T224121Z-16c4d5f2069f",
+        "index_version": 1,
+        "source_run_id": "20261028T222627Z-73b1935b3360",
+        "analyzer_fingerprint": "1071c94e8c05e5858365406d171ffaeb17df822c0dd6aa167d97ec59a3049927",
+        "directory": "search_indexes/20261028T224121Z-16c4d5f2069f"
+      },
+      "input_sha256": "e0929dc0ef29e6b8a36991ed017d0fc95676560c8ed150e326806dfc24a56cd3",
+      "words_by_whitespace": 100,
+      "unique_surface_words": 31,
+      "utf8_bytes": 1128,
+      "observations": [
+        {
+          "timings": {
+            "analysis_seconds": 0.27110099999117665,
+            "candidates_seconds": 0.005605600017588586,
+            "matching_seconds": 0.02578289998928085,
+            "ranking_seconds": 0.0010101000079885125,
+            "details_seconds": 0.08806579999509268,
+            "total_seconds": 0.3915654000011273
+          },
+          "diagnostics": {
+            "sentences": 11,
+            "tokens": 152,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 492,
+            "unique_keys": 672,
+            "matched_label_keys": 53,
+            "suppressed_nested_concepts": 6,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS007920",
+            "EMS021045",
+            "EMS027745",
+            "EMS000786",
+            "EMS003492",
+            "EMS006749",
+            "EMS007064",
+            "EMS009856",
+            "EMS010276",
+            "EMS012463"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.0651720000023488,
+            "candidates_seconds": 0.005701299989596009,
+            "matching_seconds": 0.025156399991828948,
+            "ranking_seconds": 0.0012209000124130398,
+            "details_seconds": 0.08665789998485707,
+            "total_seconds": 0.18390849998104386
+          },
+          "diagnostics": {
+            "sentences": 11,
+            "tokens": 152,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 492,
+            "unique_keys": 672,
+            "matched_label_keys": 53,
+            "suppressed_nested_concepts": 6,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS007920",
+            "EMS021045",
+            "EMS027745",
+            "EMS000786",
+            "EMS003492",
+            "EMS006749",
+            "EMS007064",
+            "EMS009856",
+            "EMS010276",
+            "EMS012463"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.06230419999337755,
+            "candidates_seconds": 0.00730130000738427,
+            "matching_seconds": 0.03374309997889213,
+            "ranking_seconds": 0.001157500024419278,
+            "details_seconds": 0.09375689999433234,
+            "total_seconds": 0.19826299999840558
+          },
+          "diagnostics": {
+            "sentences": 11,
+            "tokens": 152,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 492,
+            "unique_keys": 672,
+            "matched_label_keys": 53,
+            "suppressed_nested_concepts": 6,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS007920",
+            "EMS021045",
+            "EMS027745",
+            "EMS000786",
+            "EMS003492",
+            "EMS006749",
+            "EMS007064",
+            "EMS009856",
+            "EMS010276",
+            "EMS012463"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.058014300011564046,
+            "candidates_seconds": 0.004898799990769476,
+            "matching_seconds": 0.025672699994174764,
+            "ranking_seconds": 0.0007102000236045569,
+            "details_seconds": 0.08589079999364913,
+            "total_seconds": 0.17518680001376197
+          },
+          "diagnostics": {
+            "sentences": 11,
+            "tokens": 152,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 492,
+            "unique_keys": 672,
+            "matched_label_keys": 53,
+            "suppressed_nested_concepts": 6,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS007920",
+            "EMS021045",
+            "EMS027745",
+            "EMS000786",
+            "EMS003492",
+            "EMS006749",
+            "EMS007064",
+            "EMS009856",
+            "EMS010276",
+            "EMS012463"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.07322089999797754,
+            "candidates_seconds": 0.0067115999991074204,
+            "matching_seconds": 0.04973729999619536,
+            "ranking_seconds": 0.0018577000009827316,
+            "details_seconds": 0.190036499989219,
+            "total_seconds": 0.32156399998348206
+          },
+          "diagnostics": {
+            "sentences": 11,
+            "tokens": 152,
+            "ambiguous_tokens": 0,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 492,
+            "unique_keys": 672,
+            "matched_label_keys": 53,
+            "suppressed_nested_concepts": 6,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS007920",
+            "EMS021045",
+            "EMS027745",
+            "EMS000786",
+            "EMS003492",
+            "EMS006749",
+            "EMS007064",
+            "EMS009856",
+            "EMS010276",
+            "EMS012463"
+          ]
+        }
+      ],
+      "first": {
+        "timings": {
+          "analysis_seconds": 0.27110099999117665,
+          "candidates_seconds": 0.005605600017588586,
+          "matching_seconds": 0.02578289998928085,
+          "ranking_seconds": 0.0010101000079885125,
+          "details_seconds": 0.08806579999509268,
+          "total_seconds": 0.3915654000011273
+        },
+        "diagnostics": {
+          "sentences": 11,
+          "tokens": 152,
+          "ambiguous_tokens": 0,
+          "fallback_tokens": 0,
+          "candidate_occurrences": 492,
+          "unique_keys": 672,
+          "matched_label_keys": 53,
+          "suppressed_nested_concepts": 6,
+          "sql_calls": 5
+        },
+        "result_ids": [
+          "EMS007920",
+          "EMS021045",
+          "EMS027745",
+          "EMS000786",
+          "EMS003492",
+          "EMS006749",
+          "EMS007064",
+          "EMS009856",
+          "EMS010276",
+          "EMS012463"
+        ]
+      },
+      "all_runs_summary": {
+        "analysis_seconds": {
+          "count": 5,
+          "median_seconds": 0.0651720000023488,
+          "p95_seconds": 0.27110099999117665
+        },
+        "candidates_seconds": {
+          "count": 5,
+          "median_seconds": 0.005701299989596009,
+          "p95_seconds": 0.00730130000738427
+        },
+        "matching_seconds": {
+          "count": 5,
+          "median_seconds": 0.02578289998928085,
+          "p95_seconds": 0.04973729999619536
+        },
+        "ranking_seconds": {
+          "count": 5,
+          "median_seconds": 0.001157500024419278,
+          "p95_seconds": 0.0018577000009827316
+        },
+        "details_seconds": {
+          "count": 5,
+          "median_seconds": 0.08806579999509268,
+          "p95_seconds": 0.190036499989219
+        },
+        "total_seconds": {
+          "count": 5,
+          "median_seconds": 0.19826299999840558,
+          "p95_seconds": 0.3915654000011273
+        }
+      },
+      "repeats_summary": {
+        "analysis_seconds": {
+          "count": 4,
+          "median_seconds": 0.06373809999786317,
+          "p95_seconds": 0.07322089999797754
+        },
+        "candidates_seconds": {
+          "count": 4,
+          "median_seconds": 0.006206449994351715,
+          "p95_seconds": 0.00730130000738427
+        },
+        "matching_seconds": {
+          "count": 4,
+          "median_seconds": 0.029707899986533448,
+          "p95_seconds": 0.04973729999619536
+        },
+        "ranking_seconds": {
+          "count": 4,
+          "median_seconds": 0.0011892000184161589,
+          "p95_seconds": 0.0018577000009827316
+        },
+        "details_seconds": {
+          "count": 4,
+          "median_seconds": 0.0902073999895947,
+          "p95_seconds": 0.190036499989219
+        },
+        "total_seconds": {
+          "count": 4,
+          "median_seconds": 0.19108574998972472,
+          "p95_seconds": 0.32156399998348206
+        }
+      },
+      "peak_rss_bytes": 250728448,
+      "query_plan": "┌─────────────────────────────────────┐\n│┌───────────────────────────────────┐│\n││    Query Profiling Information    ││\n│└───────────────────────────────────┘│\n└─────────────────────────────────────┘\nEXPLAIN ANALYZE SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.surface_key WHERE k.kind='exact' AND s.language='et' AND s.role IN ('preferred','alternative') UNION ALL SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.lemma_key WHERE k.kind='lemma' AND s.language='et' AND s.role IN ('preferred','alternative')\n┌────────────────────────────────────────────────┐\n│┌──────────────────────────────────────────────┐│\n││              Total Time: 0.0146s             ││\n│└──────────────────────────────────────────────┘│\n└────────────────────────────────────────────────┘\n┌───────────────────────────┐\n│           QUERY           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│      EXPLAIN_ANALYZE      │\n│    ────────────────────   │\n│                           │\n│           0 rows          │\n│           0.00s           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│           UNION           │\n│    ────────────────────   │\n│                           ├───────────────────────────────────────────┐\n│          53 rows          │                                           │\n│           0.00s           │                                           │\n└─────────────┬─────────────┘                                           │\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         PROJECTION        │                             │         PROJECTION        │\n│    ────────────────────   │                             │    ────────────────────   │\n│            kind           │                             │            kind           │\n│         match_key         │                             │         match_key         │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│            role           │                             │            role           │\n│          language         │                             │          language         │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│          24 rows          │                             │          29 rows          │\n│           0.00s           │                             │           0.00s           │\n└─────────────┬─────────────┘                             └─────────────┬─────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         HASH_JOIN         │                             │         HASH_JOIN         │\n│    ────────────────────   │                             │    ────────────────────   │\n│      Join Type: INNER     │                             │      Join Type: INNER     │\n│                           │                             │                           │\n│        Conditions:        │                             │        Conditions:        │\n│  surface_key = match_key  ├──────────────┐              │   lemma_key = match_key   ├──────────────┐\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│          24 rows          │              │              │          29 rows          │              │\n│           0.00s           │              │              │           0.00s           │              │\n└─────────────┬─────────────┘              │              └─────────────┬─────────────┘              │\n┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐\n│           FILTER          ││         TABLE_SCAN        ││           FILTER          ││         TABLE_SCAN        │\n│    ────────────────────   ││    ────────────────────   ││    ────────────────────   ││    ────────────────────   │\n│ ((role = 'preferred') OR  ││           Table:          ││ ((role = 'preferred') OR  ││           Table:          │\n│  (role = 'alternative'))  ││ \"temp\".main.candidate_keys││  (role = 'alternative'))  ││ \"temp\".main.candidate_keys│\n│                           ││                           ││                           ││                           │\n│                           ││   Type: Sequential Scan   ││                           ││   Type: Sequential Scan   │\n│                           ││                           ││                           ││                           │\n│                           ││        Projections:       ││                           ││        Projections:       │\n│           0.00s           ││         match_key         ││           0.00s           ││         match_key         │\n│                           ││            kind           ││                           ││            kind           │\n│                           ││                           ││                           ││                           │\n│                           ││   Filters: kind='exact'   ││                           ││   Filters: kind='lemma'   │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│          589 rows         ││          336 rows         ││          509 rows         ││          336 rows         │\n│          (0.00s)          ││           0.00s           ││          (0.00s)          ││           0.00s           │\n└─────────────┬─────────────┘└───────────────────────────┘└─────────────┬─────────────┘└───────────────────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         TABLE_SCAN        │                             │         TABLE_SCAN        │\n│    ────────────────────   │                             │    ────────────────────   │\n│           Table:          │                             │           Table:          │\n│   idx.main.search_label   │                             │   idx.main.search_label   │\n│                           │                             │                           │\n│   Type: Sequential Scan   │                             │   Type: Sequential Scan   │\n│                           │                             │                           │\n│        Projections:       │                             │        Projections:       │\n│        surface_key        │                             │         lemma_key         │\n│          language         │                             │          language         │\n│            role           │                             │            role           │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│          Filters:         │                             │          Filters:         │\n│       language='et'       │                             │       language='et'       │\n│    optional: role IN (    │                             │    optional: role IN (    │\n│'preferred', 'alternative')│                             │'preferred', 'alternative')│\n│                           │                             │                           │\n│      Dynamic Filters:     │                             │      Dynamic Filters:     │\n│ optional: surface_key>='[ │                             │  optional: lemma_key>='[  │\n│ \"eestlus\"]' AND optional: │                             │ \"eestlus\"]' AND optional: │\n│  surface_key<='[\"võrdlevad│                             │  lemma_key<='[\"võrdlema\"]'│\n│     \"]' AND optional:     │                             │   AND optional: lemma_key │\n│      surface_key IN BF    │                             │      IN BF(match_key)     │\n│        (match_key)        │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│          589 rows         │                             │           0.01s           │\n│           0.01s           │                             │          (0.01s)          │\n└───────────────────────────┘                             └───────────────────────────┘\n"
+    },
+    {
+      "corpus": "varied",
+      "words": 1000,
+      "path": "reports\\etapp5_inputs\\varied_1000.txt",
+      "sha256": "13de7ac68cd1f992d6139bb2f2d734ad56df4c23d56d86eb6f8ff711878648b1",
+      "session_startup_seconds": 4.446512899972731,
+      "environment": {
+        "python": "3.11.9",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "cpu": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+        "logical_cpus": 12,
+        "system_memory_bytes": 33528926208,
+        "container_memory_limit": null,
+        "duckdb_memory_limit": "512MB",
+        "duckdb_threads": 2,
+        "packages": {
+          "duckdb": "1.5.5",
+          "estnltk": "1.7.5",
+          "estnltk-core": "1.7.5",
+          "nltk": "3.10.4",
+          "regex": "2026.9.29"
+        },
+        "p95_method": "nearest rank; with 5 observations p95 equals max",
+        "cache_policy": "fresh Python process per case; OS file cache is not cleared"
+      },
+      "index_manifest": {
+        "index_id": "20261028T224121Z-16c4d5f2069f",
+        "index_version": 1,
+        "source_run_id": "20261028T222627Z-73b1935b3360",
+        "analyzer_fingerprint": "1071c94e8c05e5858365406d171ffaeb17df822c0dd6aa167d97ec59a3049927",
+        "directory": "search_indexes/20261028T224121Z-16c4d5f2069f"
+      },
+      "input_sha256": "13de7ac68cd1f992d6139bb2f2d734ad56df4c23d56d86eb6f8ff711878648b1",
+      "words_by_whitespace": 1000,
+      "unique_surface_words": 249,
+      "utf8_bytes": 11293,
+      "observations": [
+        {
+          "timings": {
+            "analysis_seconds": 0.8714211999904364,
+            "candidates_seconds": 0.052824600017629564,
+            "matching_seconds": 0.044583599985344335,
+            "ranking_seconds": 0.007590699999127537,
+            "details_seconds": 0.0783794000162743,
+            "total_seconds": 1.0547995000088122
+          },
+          "diagnostics": {
+            "sentences": 108,
+            "tokens": 1537,
+            "ambiguous_tokens": 6,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 4978,
+            "unique_keys": 6523,
+            "matched_label_keys": 494,
+            "suppressed_nested_concepts": 30,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS000314",
+            "EMS001812",
+            "EMS004308",
+            "EMS007920",
+            "EMS010352",
+            "EMS010864",
+            "EMS013745",
+            "EMS015881",
+            "EMS015898",
+            "EMS021045"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.6847371000039857,
+            "candidates_seconds": 0.05656810000073165,
+            "matching_seconds": 0.03707539997412823,
+            "ranking_seconds": 0.010731000016676262,
+            "details_seconds": 0.07992509999894537,
+            "total_seconds": 0.8690366999944672
+          },
+          "diagnostics": {
+            "sentences": 108,
+            "tokens": 1537,
+            "ambiguous_tokens": 6,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 4978,
+            "unique_keys": 6523,
+            "matched_label_keys": 494,
+            "suppressed_nested_concepts": 30,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS000314",
+            "EMS001812",
+            "EMS004308",
+            "EMS007920",
+            "EMS010352",
+            "EMS010864",
+            "EMS013745",
+            "EMS015881",
+            "EMS015898",
+            "EMS021045"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.7619804999849293,
+            "candidates_seconds": 0.1779629000229761,
+            "matching_seconds": 0.05535609999787994,
+            "ranking_seconds": 0.013856200006557629,
+            "details_seconds": 0.09364609999465756,
+            "total_seconds": 1.1028018000070006
+          },
+          "diagnostics": {
+            "sentences": 108,
+            "tokens": 1537,
+            "ambiguous_tokens": 6,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 4978,
+            "unique_keys": 6523,
+            "matched_label_keys": 494,
+            "suppressed_nested_concepts": 30,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS000314",
+            "EMS001812",
+            "EMS004308",
+            "EMS007920",
+            "EMS010352",
+            "EMS010864",
+            "EMS013745",
+            "EMS015881",
+            "EMS015898",
+            "EMS021045"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.5675596999935806,
+            "candidates_seconds": 0.05474409999442287,
+            "matching_seconds": 0.03931439999723807,
+            "ranking_seconds": 0.006627900002058595,
+            "details_seconds": 0.07914430001983419,
+            "total_seconds": 0.7473904000071343
+          },
+          "diagnostics": {
+            "sentences": 108,
+            "tokens": 1537,
+            "ambiguous_tokens": 6,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 4978,
+            "unique_keys": 6523,
+            "matched_label_keys": 494,
+            "suppressed_nested_concepts": 30,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS000314",
+            "EMS001812",
+            "EMS004308",
+            "EMS007920",
+            "EMS010352",
+            "EMS010864",
+            "EMS013745",
+            "EMS015881",
+            "EMS015898",
+            "EMS021045"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 0.8078313000150956,
+            "candidates_seconds": 0.054020200012018904,
+            "matching_seconds": 0.048094899975694716,
+            "ranking_seconds": 0.0075634999957401305,
+            "details_seconds": 0.07889570001862012,
+            "total_seconds": 0.9964056000171695
+          },
+          "diagnostics": {
+            "sentences": 108,
+            "tokens": 1537,
+            "ambiguous_tokens": 6,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 4978,
+            "unique_keys": 6523,
+            "matched_label_keys": 494,
+            "suppressed_nested_concepts": 30,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS000314",
+            "EMS001812",
+            "EMS004308",
+            "EMS007920",
+            "EMS010352",
+            "EMS010864",
+            "EMS013745",
+            "EMS015881",
+            "EMS015898",
+            "EMS021045"
+          ]
+        }
+      ],
+      "first": {
+        "timings": {
+          "analysis_seconds": 0.8714211999904364,
+          "candidates_seconds": 0.052824600017629564,
+          "matching_seconds": 0.044583599985344335,
+          "ranking_seconds": 0.007590699999127537,
+          "details_seconds": 0.0783794000162743,
+          "total_seconds": 1.0547995000088122
+        },
+        "diagnostics": {
+          "sentences": 108,
+          "tokens": 1537,
+          "ambiguous_tokens": 6,
+          "fallback_tokens": 0,
+          "candidate_occurrences": 4978,
+          "unique_keys": 6523,
+          "matched_label_keys": 494,
+          "suppressed_nested_concepts": 30,
+          "sql_calls": 5
+        },
+        "result_ids": [
+          "EMS000314",
+          "EMS001812",
+          "EMS004308",
+          "EMS007920",
+          "EMS010352",
+          "EMS010864",
+          "EMS013745",
+          "EMS015881",
+          "EMS015898",
+          "EMS021045"
+        ]
+      },
+      "all_runs_summary": {
+        "analysis_seconds": {
+          "count": 5,
+          "median_seconds": 0.7619804999849293,
+          "p95_seconds": 0.8714211999904364
+        },
+        "candidates_seconds": {
+          "count": 5,
+          "median_seconds": 0.05474409999442287,
+          "p95_seconds": 0.1779629000229761
+        },
+        "matching_seconds": {
+          "count": 5,
+          "median_seconds": 0.044583599985344335,
+          "p95_seconds": 0.05535609999787994
+        },
+        "ranking_seconds": {
+          "count": 5,
+          "median_seconds": 0.007590699999127537,
+          "p95_seconds": 0.013856200006557629
+        },
+        "details_seconds": {
+          "count": 5,
+          "median_seconds": 0.07914430001983419,
+          "p95_seconds": 0.09364609999465756
+        },
+        "total_seconds": {
+          "count": 5,
+          "median_seconds": 0.9964056000171695,
+          "p95_seconds": 1.1028018000070006
+        }
+      },
+      "repeats_summary": {
+        "analysis_seconds": {
+          "count": 4,
+          "median_seconds": 0.7233587999944575,
+          "p95_seconds": 0.8078313000150956
+        },
+        "candidates_seconds": {
+          "count": 4,
+          "median_seconds": 0.05565609999757726,
+          "p95_seconds": 0.1779629000229761
+        },
+        "matching_seconds": {
+          "count": 4,
+          "median_seconds": 0.04370464998646639,
+          "p95_seconds": 0.05535609999787994
+        },
+        "ranking_seconds": {
+          "count": 4,
+          "median_seconds": 0.009147250006208196,
+          "p95_seconds": 0.013856200006557629
+        },
+        "details_seconds": {
+          "count": 4,
+          "median_seconds": 0.07953470000938978,
+          "p95_seconds": 0.09364609999465756
+        },
+        "total_seconds": {
+          "count": 4,
+          "median_seconds": 0.9327211500058183,
+          "p95_seconds": 1.1028018000070006
+        }
+      },
+      "peak_rss_bytes": 259084288,
+      "query_plan": "┌─────────────────────────────────────┐\n│┌───────────────────────────────────┐│\n││    Query Profiling Information    ││\n│└───────────────────────────────────┘│\n└─────────────────────────────────────┘\nEXPLAIN ANALYZE SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.surface_key WHERE k.kind='exact' AND s.language='et' AND s.role IN ('preferred','alternative') UNION ALL SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.lemma_key WHERE k.kind='lemma' AND s.language='et' AND s.role IN ('preferred','alternative')\n┌────────────────────────────────────────────────┐\n│┌──────────────────────────────────────────────┐│\n││              Total Time: 0.0199s             ││\n│└──────────────────────────────────────────────┘│\n└────────────────────────────────────────────────┘\n┌───────────────────────────┐\n│           QUERY           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│      EXPLAIN_ANALYZE      │\n│    ────────────────────   │\n│                           │\n│           0 rows          │\n│           0.00s           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│           UNION           │\n│    ────────────────────   │\n│                           ├───────────────────────────────────────────┐\n│          494 rows         │                                           │\n│           0.00s           │                                           │\n└─────────────┬─────────────┘                                           │\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         PROJECTION        │                             │         PROJECTION        │\n│    ────────────────────   │                             │    ────────────────────   │\n│            kind           │                             │            kind           │\n│         match_key         │                             │         match_key         │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│            role           │                             │            role           │\n│          language         │                             │          language         │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│          239 rows         │                             │          255 rows         │\n│           0.00s           │                             │           0.00s           │\n└─────────────┬─────────────┘                             └─────────────┬─────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         HASH_JOIN         │                             │         HASH_JOIN         │\n│    ────────────────────   │                             │    ────────────────────   │\n│      Join Type: INNER     │                             │      Join Type: INNER     │\n│                           │                             │                           │\n│        Conditions:        │                             │        Conditions:        │\n│  surface_key = match_key  ├──────────────┐              │   lemma_key = match_key   ├──────────────┐\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│          239 rows         │              │              │          255 rows         │              │\n│           0.00s           │              │              │           0.00s           │              │\n└─────────────┬─────────────┘              │              └─────────────┬─────────────┘              │\n┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐\n│           FILTER          ││         TABLE_SCAN        ││           FILTER          ││         TABLE_SCAN        │\n│    ────────────────────   ││    ────────────────────   ││    ────────────────────   ││    ────────────────────   │\n│ ((role = 'preferred') OR  ││           Table:          ││ ((role = 'preferred') OR  ││           Table:          │\n│  (role = 'alternative'))  ││ \"temp\".main.candidate_keys││  (role = 'alternative'))  ││ \"temp\".main.candidate_keys│\n│                           ││                           ││                           ││                           │\n│                           ││   Type: Sequential Scan   ││                           ││   Type: Sequential Scan   │\n│                           ││                           ││                           ││                           │\n│                           ││        Projections:       ││                           ││        Projections:       │\n│           0.00s           ││         match_key         ││           0.00s           ││         match_key         │\n│                           ││            kind           ││                           ││            kind           │\n│                           ││                           ││                           ││                           │\n│                           ││   Filters: kind='exact'   ││                           ││   Filters: kind='lemma'   │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│          428 rows         ││         3,262 rows        ││          441 rows         ││         3,261 rows        │\n│          (0.00s)          ││           0.00s           ││          (0.00s)          ││           0.00s           │\n└─────────────┬─────────────┘└───────────────────────────┘└─────────────┬─────────────┘└───────────────────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         TABLE_SCAN        │                             │         TABLE_SCAN        │\n│    ────────────────────   │                             │    ────────────────────   │\n│           Table:          │                             │           Table:          │\n│   idx.main.search_label   │                             │   idx.main.search_label   │\n│                           │                             │                           │\n│   Type: Sequential Scan   │                             │   Type: Sequential Scan   │\n│                           │                             │                           │\n│        Projections:       │                             │        Projections:       │\n│        surface_key        │                             │         lemma_key         │\n│          language         │                             │          language         │\n│            role           │                             │            role           │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│          Filters:         │                             │          Filters:         │\n│       language='et'       │                             │       language='et'       │\n│    optional: role IN (    │                             │    optional: role IN (    │\n│'preferred', 'alternative')│                             │'preferred', 'alternative')│\n│                           │                             │                           │\n│      Dynamic Filters:     │                             │      Dynamic Filters:     │\n│ optional: surface_key>='[ │                             │  optional: lemma_key>='[  │\n│   \"agarkultuurid\"]' AND   │                             │    \"agarkultuur\"]' AND    │\n│  optional: surface_key<='[│                             │  optional: lemma_key<='[\" │\n│ \"šarolee\"]' AND optional: │                             │  šarolee\"]' AND optional: │\n│      surface_key IN BF    │                             │ lemma_key IN BF(match_key)│\n│        (match_key)        │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│          428 rows         │                             │           0.01s           │\n│           0.01s           │                             │          (0.01s)          │\n└───────────────────────────┘                             └───────────────────────────┘\n"
+    },
+    {
+      "corpus": "varied",
+      "words": 10000,
+      "path": "reports\\etapp5_inputs\\varied_10000.txt",
+      "sha256": "1bd4008dfac58b55aad595641a007918fc7166f852fba61831bea56b22af6edd",
+      "session_startup_seconds": 4.694292400003178,
+      "environment": {
+        "python": "3.11.9",
+        "platform": "Windows-10-10.0.26200-SP0",
+        "cpu": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+        "logical_cpus": 12,
+        "system_memory_bytes": 33528926208,
+        "container_memory_limit": null,
+        "duckdb_memory_limit": "512MB",
+        "duckdb_threads": 2,
+        "packages": {
+          "duckdb": "1.5.5",
+          "estnltk": "1.7.5",
+          "estnltk-core": "1.7.5",
+          "nltk": "3.10.4",
+          "regex": "2026.9.29"
+        },
+        "p95_method": "nearest rank; with 5 observations p95 equals max",
+        "cache_policy": "fresh Python process per case; OS file cache is not cleared"
+      },
+      "index_manifest": {
+        "index_id": "20261028T224121Z-16c4d5f2069f",
+        "index_version": 1,
+        "source_run_id": "20261028T222627Z-73b1935b3360",
+        "analyzer_fingerprint": "1071c94e8c05e5858365406d171ffaeb17df822c0dd6aa167d97ec59a3049927",
+        "directory": "search_indexes/20261028T224121Z-16c4d5f2069f"
+      },
+      "input_sha256": "1bd4008dfac58b55aad595641a007918fc7166f852fba61831bea56b22af6edd",
+      "words_by_whitespace": 10000,
+      "unique_surface_words": 2422,
+      "utf8_bytes": 113153,
+      "observations": [
+        {
+          "timings": {
+            "analysis_seconds": 7.03599820000818,
+            "candidates_seconds": 0.8550308000121731,
+            "matching_seconds": 0.26906269998289645,
+            "ranking_seconds": 0.07784060001722537,
+            "details_seconds": 0.07282909998320974,
+            "total_seconds": 8.310761400003685
+          },
+          "diagnostics": {
+            "sentences": 1072,
+            "tokens": 15355,
+            "ambiguous_tokens": 72,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 50050,
+            "unique_keys": 65140,
+            "matched_label_keys": 4779,
+            "suppressed_nested_concepts": 271,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS006823",
+            "EMS015384",
+            "EMS022757",
+            "EMS023335",
+            "EMS026412",
+            "EMS029544",
+            "EMS029840",
+            "EMS030463",
+            "EMS137819",
+            "EMS139978"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 7.122577800008003,
+            "candidates_seconds": 0.8445032000017818,
+            "matching_seconds": 0.22075749997748062,
+            "ranking_seconds": 0.09756530000595376,
+            "details_seconds": 0.07072190000326373,
+            "total_seconds": 8.356125699996483
+          },
+          "diagnostics": {
+            "sentences": 1072,
+            "tokens": 15355,
+            "ambiguous_tokens": 72,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 50050,
+            "unique_keys": 65140,
+            "matched_label_keys": 4779,
+            "suppressed_nested_concepts": 271,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS006823",
+            "EMS015384",
+            "EMS022757",
+            "EMS023335",
+            "EMS026412",
+            "EMS029544",
+            "EMS029840",
+            "EMS030463",
+            "EMS137819",
+            "EMS139978"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 6.796526399994036,
+            "candidates_seconds": 0.4849224000063259,
+            "matching_seconds": 0.22266829997533932,
+            "ranking_seconds": 0.11264080001274124,
+            "details_seconds": 0.10421779999160208,
+            "total_seconds": 7.720975699980045
+          },
+          "diagnostics": {
+            "sentences": 1072,
+            "tokens": 15355,
+            "ambiguous_tokens": 72,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 50050,
+            "unique_keys": 65140,
+            "matched_label_keys": 4779,
+            "suppressed_nested_concepts": 271,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS006823",
+            "EMS015384",
+            "EMS022757",
+            "EMS023335",
+            "EMS026412",
+            "EMS029544",
+            "EMS029840",
+            "EMS030463",
+            "EMS137819",
+            "EMS139978"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 7.144020799983991,
+            "candidates_seconds": 1.0249871000123676,
+            "matching_seconds": 0.3022849999833852,
+            "ranking_seconds": 0.09928530000615865,
+            "details_seconds": 0.07042229999206029,
+            "total_seconds": 8.641000499977963
+          },
+          "diagnostics": {
+            "sentences": 1072,
+            "tokens": 15355,
+            "ambiguous_tokens": 72,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 50050,
+            "unique_keys": 65140,
+            "matched_label_keys": 4779,
+            "suppressed_nested_concepts": 271,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS006823",
+            "EMS015384",
+            "EMS022757",
+            "EMS023335",
+            "EMS026412",
+            "EMS029544",
+            "EMS029840",
+            "EMS030463",
+            "EMS137819",
+            "EMS139978"
+          ]
+        },
+        {
+          "timings": {
+            "analysis_seconds": 7.384759100008523,
+            "candidates_seconds": 0.9574210999999195,
+            "matching_seconds": 0.2531806000042707,
+            "ranking_seconds": 0.12356139998883009,
+            "details_seconds": 0.0705032000259962,
+            "total_seconds": 8.78942540002754
+          },
+          "diagnostics": {
+            "sentences": 1072,
+            "tokens": 15355,
+            "ambiguous_tokens": 72,
+            "fallback_tokens": 0,
+            "candidate_occurrences": 50050,
+            "unique_keys": 65140,
+            "matched_label_keys": 4779,
+            "suppressed_nested_concepts": 271,
+            "sql_calls": 5
+          },
+          "result_ids": [
+            "EMS006823",
+            "EMS015384",
+            "EMS022757",
+            "EMS023335",
+            "EMS026412",
+            "EMS029544",
+            "EMS029840",
+            "EMS030463",
+            "EMS137819",
+            "EMS139978"
+          ]
+        }
+      ],
+      "first": {
+        "timings": {
+          "analysis_seconds": 7.03599820000818,
+          "candidates_seconds": 0.8550308000121731,
+          "matching_seconds": 0.26906269998289645,
+          "ranking_seconds": 0.07784060001722537,
+          "details_seconds": 0.07282909998320974,
+          "total_seconds": 8.310761400003685
+        },
+        "diagnostics": {
+          "sentences": 1072,
+          "tokens": 15355,
+          "ambiguous_tokens": 72,
+          "fallback_tokens": 0,
+          "candidate_occurrences": 50050,
+          "unique_keys": 65140,
+          "matched_label_keys": 4779,
+          "suppressed_nested_concepts": 271,
+          "sql_calls": 5
+        },
+        "result_ids": [
+          "EMS006823",
+          "EMS015384",
+          "EMS022757",
+          "EMS023335",
+          "EMS026412",
+          "EMS029544",
+          "EMS029840",
+          "EMS030463",
+          "EMS137819",
+          "EMS139978"
+        ]
+      },
+      "all_runs_summary": {
+        "analysis_seconds": {
+          "count": 5,
+          "median_seconds": 7.122577800008003,
+          "p95_seconds": 7.384759100008523
+        },
+        "candidates_seconds": {
+          "count": 5,
+          "median_seconds": 0.8550308000121731,
+          "p95_seconds": 1.0249871000123676
+        },
+        "matching_seconds": {
+          "count": 5,
+          "median_seconds": 0.2531806000042707,
+          "p95_seconds": 0.3022849999833852
+        },
+        "ranking_seconds": {
+          "count": 5,
+          "median_seconds": 0.09928530000615865,
+          "p95_seconds": 0.12356139998883009
+        },
+        "details_seconds": {
+          "count": 5,
+          "median_seconds": 0.07072190000326373,
+          "p95_seconds": 0.10421779999160208
+        },
+        "total_seconds": {
+          "count": 5,
+          "median_seconds": 8.356125699996483,
+          "p95_seconds": 8.78942540002754
+        }
+      },
+      "repeats_summary": {
+        "analysis_seconds": {
+          "count": 4,
+          "median_seconds": 7.133299299995997,
+          "p95_seconds": 7.384759100008523
+        },
+        "candidates_seconds": {
+          "count": 4,
+          "median_seconds": 0.9009621500008507,
+          "p95_seconds": 1.0249871000123676
+        },
+        "matching_seconds": {
+          "count": 4,
+          "median_seconds": 0.237924449989805,
+          "p95_seconds": 0.3022849999833852
+        },
+        "ranking_seconds": {
+          "count": 4,
+          "median_seconds": 0.10596305000944994,
+          "p95_seconds": 0.12356139998883009
+        },
+        "details_seconds": {
+          "count": 4,
+          "median_seconds": 0.07061255001462996,
+          "p95_seconds": 0.10421779999160208
+        },
+        "total_seconds": {
+          "count": 4,
+          "median_seconds": 8.498563099987223,
+          "p95_seconds": 8.78942540002754
+        }
+      },
+      "peak_rss_bytes": 354787328,
+      "query_plan": "┌─────────────────────────────────────┐\n│┌───────────────────────────────────┐│\n││    Query Profiling Information    ││\n│└───────────────────────────────────┘│\n└─────────────────────────────────────┘\nEXPLAIN ANALYZE SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.surface_key WHERE k.kind='exact' AND s.language='et' AND s.role IN ('preferred','alternative') UNION ALL SELECT k.kind,k.match_key,s.label_id,s.ems_id,s.original_text,s.role,s.language,s.token_count FROM candidate_keys k JOIN idx.search_label s             ON k.match_key=s.lemma_key WHERE k.kind='lemma' AND s.language='et' AND s.role IN ('preferred','alternative')\n┌────────────────────────────────────────────────┐\n│┌──────────────────────────────────────────────┐│\n││              Total Time: 0.0445s             ││\n│└──────────────────────────────────────────────┘│\n└────────────────────────────────────────────────┘\n┌───────────────────────────┐\n│           QUERY           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│      EXPLAIN_ANALYZE      │\n│    ────────────────────   │\n│                           │\n│           0 rows          │\n│           0.00s           │\n└─────────────┬─────────────┘\n┌─────────────┴─────────────┐\n│           UNION           │\n│    ────────────────────   │\n│                           ├───────────────────────────────────────────┐\n│         4,779 rows        │                                           │\n│           0.00s           │                                           │\n└─────────────┬─────────────┘                                           │\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         PROJECTION        │                             │         PROJECTION        │\n│    ────────────────────   │                             │    ────────────────────   │\n│            kind           │                             │            kind           │\n│         match_key         │                             │         match_key         │\n│          label_id         │                             │          label_id         │\n│           ems_id          │                             │           ems_id          │\n│       original_text       │                             │       original_text       │\n│            role           │                             │            role           │\n│          language         │                             │          language         │\n│        token_count        │                             │        token_count        │\n│                           │                             │                           │\n│                           │                             │                           │\n│                           │                             │                           │\n│         2,342 rows        │                             │         2,437 rows        │\n│           0.00s           │                             │           0.00s           │\n└─────────────┬─────────────┘                             └─────────────┬─────────────┘\n┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n│         HASH_JOIN         │                             │         HASH_JOIN         │\n│    ────────────────────   │                             │    ────────────────────   │\n│      Join Type: INNER     │                             │      Join Type: INNER     │\n│                           │                             │                           │\n│        Conditions:        │                             │        Conditions:        │\n│  match_key = surface_key  ├──────────────┐              │   match_key = lemma_key   ├──────────────┐\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│                           │              │              │                           │              │\n│         2,342 rows        │              │              │         2,437 rows        │              │\n│           0.02s           │              │              │           0.02s           │              │\n└─────────────┬─────────────┘              │              └─────────────┬─────────────┘              │\n┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐┌─────────────┴─────────────┐\n│         TABLE_SCAN        ││           FILTER          ││         TABLE_SCAN        ││           FILTER          │\n│    ────────────────────   ││    ────────────────────   ││    ────────────────────   ││    ────────────────────   │\n│           Table:          ││ ((role = 'preferred') OR  ││           Table:          ││ ((role = 'preferred') OR  │\n│ \"temp\".main.candidate_keys││  (role = 'alternative'))  ││ \"temp\".main.candidate_keys││  (role = 'alternative'))  │\n│                           ││                           ││                           ││                           │\n│   Type: Sequential Scan   ││                           ││   Type: Sequential Scan   ││                           │\n│                           ││                           ││                           ││                           │\n│        Projections:       ││                           ││        Projections:       ││                           │\n│         match_key         ││           0.00s           ││         match_key         ││           0.00s           │\n│            kind           ││                           ││            kind           ││                           │\n│                           ││                           ││                           ││                           │\n│   Filters: kind='exact'   ││                           ││   Filters: kind='lemma'   ││                           │\n│                           ││                           ││                           ││                           │\n│      Dynamic Filters:     ││                           ││      Dynamic Filters:     ││                           │\n│ optional: match_key>='[\".\"││                           ││ optional: match_key>='[\".\"││                           │\n│  ,\"net\",\"framework\",\"(\",  ││                           ││  ,\"net\",\"framework\",\"(\",  ││                           │\n│    \"tarkvara\",\")\"]' AND   ││                           ││    \"tarkvara\",\")\"]' AND   ││                           │\n│  optional: match_key<='[\"λ││                           ││  optional: match_key<='[\"λ││                           │\n│         αύρειο\"]'         ││                           ││         αύρειο\"]'         ││                           │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│                           ││                           ││                           ││                           │\n│        32,605 rows        ││        66,255 rows        ││        32,535 rows        ││        66,255 rows        │\n│           0.00s           ││          (0.00s)          ││           0.00s           ││          (0.00s)          │\n└───────────────────────────┘└─────────────┬─────────────┘└───────────────────────────┘└─────────────┬─────────────┘\n                             ┌─────────────┴─────────────┐                             ┌─────────────┴─────────────┐\n                             │         TABLE_SCAN        │                             │         TABLE_SCAN        │\n                             │    ────────────────────   │                             │    ────────────────────   │\n                             │           Table:          │                             │           Table:          │\n                             │   idx.main.search_label   │                             │   idx.main.search_label   │\n                             │                           │                             │                           │\n                             │   Type: Sequential Scan   │                             │   Type: Sequential Scan   │\n                             │                           │                             │                           │\n                             │        Projections:       │                             │        Projections:       │\n                             │        surface_key        │                             │         lemma_key         │\n                             │          language         │                             │          language         │\n                             │            role           │                             │            role           │\n                             │          label_id         │                             │          label_id         │\n                             │           ems_id          │                             │           ems_id          │\n                             │       original_text       │                             │       original_text       │\n                             │        token_count        │                             │        token_count        │\n                             │                           │                             │                           │\n                             │          Filters:         │                             │          Filters:         │\n                             │       language='et'       │                             │       language='et'       │\n                             │    optional: role IN (    │                             │    optional: role IN (    │\n                             │'preferred', 'alternative')│                             │'preferred', 'alternative')│\n                             │                           │                             │                           │\n                             │                           │                             │                           │\n                             │                           │                             │                           │\n                             │        66,255 rows        │                             │        66,255 rows        │\n                             │           0.01s           │                             │           0.01s           │\n                             └───────────────────────────┘                             └───────────────────────────┘\n"
+    }
+  ],
+  "corpus_notes": {
+    "repeated": "Repeated fixed sentences; highly deduplicated optimistic case.",
+    "varied": "Deterministic synthetic sentences containing shuffled EMS preferred terms; high dictionary-match density, not natural prose."
+  },
+  "source_sha256": {
+    "ems\\__init__.py": "24ab0622a27af9c922fe23c17c5daba4e824354fab33294fdf6b8e6b8a7f9de5",
+    "ems\\__main__.py": "602701e4f741c95c4d34c66df3961f28ed4cff7da2554adde9b78544cb50c10c",
+    "ems\\importer.py": "e9057b8aba22d21fdbdd4a2b8f89b656f59032e70a0da8559d4cdfb022095be9",
+    "ems\\linguistics.py": "aeeb10a6a3412d617c021e6b614ec2a27194fed9ebaa002b6d1b650ca342fb7e",
+    "ems\\ranking.py": "d1cfc5ba7d2a16105ce391af17f1759517ca6369f6d7d865c206453d3e4f7915",
+    "ems\\schema.py": "01fb8dae2fe8efe1bc31191f01e3486c415aa6db522aa3fd8f5a25890b537121",
+    "ems\\search.py": "a5b7922b5f0a086bbb0de52162cb15c37280fcf3c834388fc0b64199d62a7a89",
+    "ems\\search_index.py": "8970579de82aa8e05193878658be4cfea64df61acc62f792364827ba573cfad8",
+    "ems\\storage.py": "35121ab42b06e7714e605fd753444a78c67cce63961a3bb8f2d10a8c16203c1e",
+    "ems\\validation.py": "625a1875440a40a79a3ff22eadac8dbadb75ec8f018d4f37bfe94e0e27409aa9",
+    "ems\\web.py": "5eff21a15a9575f2910cb423e2e5f0b39dc5003939fcdb2cce852dc9d5bab5ce",
+    "ems\\xmlio.py": "ebe30b8f921bb62a3e928f8b2ba6fd2947524cab1710fa9a4d2b15656ed1879c"
+  },
+  "base_manifest": {
+    "run_id": "20261028T222627Z-73b1935b3360",
+    "generation": "generations/20261028T222627Z-73b1935b3360",
+    "schema_version": 1,
+    "import_version": "2.0.0",
+    "source_sha256": "cc9bd08ab1a29a38d7d7e279b9ef051ea885ce5219ed5d42ae2cd8f5517e2081",
+    "activated_at_utc": "2026-10-28T22:29:36.973902+00:00"
+  },
+  "application_startup": {
+    "observations": [
+      {
+        "uvicorn_to_ready_seconds": 4.9557964999985415,
+        "actions": {
+          "base_action": "reused",
+          "index_action": "reused"
+        },
+        "health": {
+          "status": "ready"
+        },
+        "peak_rss_bytes": 232488960,
+        "process_to_ready_seconds": 6.530022999999346
+      },
+      {
+        "uvicorn_to_ready_seconds": 4.599217700015288,
+        "actions": {
+          "base_action": "reused",
+          "index_action": "reused"
+        },
+        "health": {
+          "status": "ready"
+        },
+        "peak_rss_bytes": 233017344,
+        "process_to_ready_seconds": 5.928014600009192
+      },
+      {
+        "uvicorn_to_ready_seconds": 4.426727000012761,
+        "actions": {
+          "base_action": "reused",
+          "index_action": "reused"
+        },
+        "health": {
+          "status": "ready"
+        },
+        "peak_rss_bytes": 232804352,
+        "process_to_ready_seconds": 5.607039199996507
+      },
+      {
+        "uvicorn_to_ready_seconds": 4.894578800012823,
+        "actions": {
+          "base_action": "reused",
+          "index_action": "reused"
+        },
+        "health": {
+          "status": "ready"
+        },
+        "peak_rss_bytes": 232701952,
+        "process_to_ready_seconds": 6.357215000025462
+      },
+      {
+        "uvicorn_to_ready_seconds": 4.543150400015293,
+        "actions": {
+          "base_action": "reused",
+          "index_action": "reused"
+        },
+        "health": {
+          "status": "ready"
+        },
+        "peak_rss_bytes": 232898560,
+        "process_to_ready_seconds": 6.667310900025768
+      }
+    ],
+    "scope": "fresh Python process to real Uvicorn /health HTTP 200, with ephemeral loopback TCP port and graceful shutdown",
+    "process_summary": {
+      "count": 5,
+      "median_seconds": 6.357215000025462,
+      "p95_seconds": 6.667310900025768
+    },
+    "uvicorn_summary": {
+      "count": 5,
+      "median_seconds": 4.599217700015288,
+      "p95_seconds": 4.9557964999985415
+    }
+  }
+}

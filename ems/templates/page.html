@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ 'Otsi EMS-ist' if view == 'search' else 'Leia tekstist märksõnad' }} · EMS</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+</head>
+<body>
+  <a class="skip" href="#main">Liigu sisu juurde</a>
+  <header class="topbar wrap">
+    <a class="brand" href="/search" aria-label="EMS-i otsingu avaleht"><span class="brand-mark">E</span><span>EMS<span class="brand-sub">Eesti märksõnastik</span></span></a>
+    <span class="local-label"><span class="dot"></span>Kohalik otsing · LLM-ita</span>
+  </header>
+  <main class="wrap" id="main">
+    <div class="intro"><p class="eyebrow">SÕNADEST MÄRKSÕNADENI</p>
+      <h1>{{ 'Leia õige märksõna.' if view == 'search' else 'Leia tekstist märksõnad.' }}</h1>
+      <p class="lead">{{ 'Otsi Eesti märksõnastikust nimetusi ja sünonüüme eesti või inglise keeles.' if view == 'search' else 'Lisa eestikeelne tekst ja leia selles esinevad normitud EMS-i terminid koos põhjendustega.' }}</p>
+    </div>
+    <nav class="tabs" aria-label="Tööriistad">
+      <a href="/search" {% if view == 'search' %}aria-current="page"{% endif %}>Otsi EMS-ist</a>
+      <a href="/keywords" {% if view == 'keywords' %}aria-current="page"{% endif %}>Leia tekstist märksõnad</a>
+    </nav>
+    <section class="workspace" aria-label="Sisend">
+      {% if error %}<div class="error" role="alert"><strong>Kontrolli sisendit</strong><p>{{ error }}</p></div>{% endif %}
+      {% if view == 'search' %}
+      <form method="post" action="/search">
+        <label for="query">Sõna või fraas</label>
+        <div class="search-line"><input id="query" name="query" value="{{ values.get('query', '') }}" placeholder="Näiteks raamatukogud" required autofocus><button type="submit">Otsi märksõna <span aria-hidden="true">→</span></button></div>
+        <div class="options">
+          <div><label for="mode">Otsingu liik</label><select id="mode" name="mode">{% for key, name in [('all','Algkuju ja lemmafraas'),('exact','Täpne algkuju'),('lemma','Lemmafraas'),('prefix','Sõna algus')] %}<option value="{{ key }}" {% if values.get('mode', 'all') == key %}selected{% endif %}>{{ name }}</option>{% endfor %}</select></div>
+          <div><label for="language">Keel</label><select id="language" name="language">{% for key, name in [('all','Eesti ja inglise'),('et','Eesti'),('en','Inglise')] %}<option value="{{ key }}" {% if values.get('language', 'all') == key %}selected{% endif %}>{{ name }}</option>{% endfor %}</select></div>
+          <div class="number"><label for="limit">Kuni tulemusi</label><input id="limit" type="number" name="limit" min="1" max="50" value="{{ values.get('limit') or '10' }}" required></div>
+        </div>
+        <p class="hint">Lemmafraas leiab ka käändevorme: „raamatukogudes” → „raamatukogud”. Inglise vasted on leitavad algkuju järgi.</p>
+      </form>
+      {% else %}
+      <form method="post" action="/keywords" enctype="multipart/form-data">
+        <label for="text">Sinu tekst</label>
+        <textarea id="text" name="text" rows="7" placeholder="Kleebi siia eestikeelne tekst. Näiteks: Eesti raamatukogudes kasutatakse tehisintellekti.">{{ values.get('text', '') }}</textarea>
+        <div class="input-bottom"><div class="upload"><label for="file">Või vali tekstifail</label><input id="file" type="file" name="file" accept=".txt,text/plain"><p class="hint">UTF-8 või UTF-8 BOM · .txt · kuni {{ maximum }} baiti</p></div>
+          <div class="number"><label for="limit">Kuni märksõnu</label><input id="limit" type="number" name="limit" min="1" max="50" value="{{ values.get('limit') or '10' }}" required></div></div>
+        <div class="form-footer"><p>Vali tekstikast või fail. Sinu teksti ei salvestata.</p><button type="submit">Leia märksõnad <span aria-hidden="true">→</span></button></div>
+      </form>
+      {% endif %}
+    </section>
+    {% if result is not none %}
+    <section class="results" aria-labelledby="results-title" aria-live="polite">
+      <div class="results-heading"><div><p class="eyebrow">TULEMUSED</p><h2 id="results-title">{{ result.results | length }} {{ 'märksõna' if view == 'keywords' else ('vaste' if result.results | length == 1 else 'vastet') }}</h2></div>
+        <p class="duration">Töötlus {{ '%.3f' | format(result.timings.total_seconds if view == 'keywords' else result.total_seconds) }} s{% if filename %}<br><span>Fail: {{ filename }}</span>{% endif %}</p></div>
+      {% if not result.results %}<div class="empty"><h3>Otseseid vasteid ei leitud.</h3><p>{{ 'Proovi teist sõna või sõna alguse otsingut.' if view == 'search' else 'Tekstis ei pruugi olla EMS-i termineid. Seotud mõisteid ei lisata otseste vastete asemele.' }}</p></div>{% endif %}
+      {% for item in result.results %}
+      <article class="result-card">
+        <div class="result-top"><div><span class="result-number">{{ '%02d' | format(loop.index) }}</span><span class="tag">{{ match_names.get(item.match_type, item.match_type) }}</span></div>{% if view == 'keywords' %}<span class="score">{{ item.score }} <span>punkti</span></span>{% endif %}</div>
+        <h3>{% if item.uri | ems_url %}<a href="{{ item.uri | ems_url }}" target="_blank" rel="noopener noreferrer">{{ item.preferred_label }} <span aria-hidden="true">↗</span></a>{% else %}{{ item.preferred_label }}{% endif %}</h3>
+        <p class="record-id">{{ item.ems_id }}{% if item.domains %}<span>Valdkonnad: {{ item.domains | join(', ') }}</span>{% endif %}</p>
+        <p class="matched">{{ 'Leitud tekstist' if view == 'keywords' else 'Sobiv nimetus' }}: <strong>„{{ item.matched_text if view == 'keywords' else item.matched_label }}”</strong>{% if view == 'keywords' %} · {{ item.frequency }} {{ 'esinemine' if item.frequency == 1 else 'esinemist' }}{% endif %}</p>
+        {% if view == 'keywords' %}
+          {% for e in item.evidence %}<blockquote>{{ e.snippet[:e.highlight_start] }}<mark>{{ e.snippet[e.highlight_start:e.highlight_end] }}</mark>{{ e.snippet[e.highlight_end:] }}</blockquote>{% endfor %}
+          {% if item.evidence_total > 5 %}<p class="hint">Näidatud on viis katkendit {{ item.evidence_total }} esinemisest.</p>{% endif %}
+          <details><summary>Skoori põhjendus</summary><p>{{ item.score_explanation }}</p></details>
+        {% endif %}
+        {% if item.relations %}<details><summary>Seosed EMS-is <span class="hint">· lisainfo, mitte tekstivasted</span></summary>
+          {% for kind, name in relation_names.items() %}{% set related = item.relations | selectattr('kind', 'equalto', kind) | list %}{% if related %}<div class="relations"><h4>{{ name }}</h4><ul>{% for rel in related %}<li>{% if rel.uri | ems_url %}<a href="{{ rel.uri | ems_url }}" target="_blank" rel="noopener noreferrer">{{ rel.target_preferred_label or rel.target_label_raw }}</a>{% else %}{{ rel.target_preferred_label or rel.target_label_raw }}{% endif %}{% if not rel.target_id %} <span class="hint">(lahendamata viide)</span>{% endif %}</li>{% endfor %}</ul>{% if related[0].kind_total > 5 %}<p class="hint">Näidatud 5 seost {{ related[0].kind_total }} seosest.</p>{% endif %}</div>{% endif %}{% endfor %}
+        </details>{% endif %}
+      </article>
+      {% endfor %}
+    </section>
+    {% endif %}
+    <aside class="note"><span class="note-icon" aria-hidden="true">i</span><div><strong>Sõnastikupõhine leidmine, mitte dokumendi teemaotsustus.</strong><p>Lahendus otsib tekstist EMS-i termineid ega taga kõigi põhiteemade tuvastamist. Mitmetähenduslikud käändevormid võivad anda ekslikke vasteid; kontrolli katkendeid. LLM-i ei kasutata. Reeglipõhine skoor ei ole tõenäosus ega kindlusprotsent.</p></div></aside>
+  </main>
+  <footer class="wrap footer"><span>EMS-i kohalik otsing</span><a href="https://ems.elnet.ee/abi.php" target="_blank" rel="noopener noreferrer">Eesti märksõnastiku juhend ↗</a></footer>
+</body>
+</html>

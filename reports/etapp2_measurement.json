@@ -1,0 +1,17 @@
+{
+  "measurement": "DB avamine + nimetuste rühmitus; ei mõõda tekstiotsingut",
+  "runs": 5,
+  "seconds": [
+    0.06477580001228489,
+    0.06911579999723472,
+    0.06784979999065399,
+    0.06695929999114014,
+    0.06966539999120869
+  ],
+  "first_seconds": 0.06477580001228489,
+  "median_seconds": 0.06784979999065399,
+  "p95_seconds": 0.06966539999120869,
+  "repeat_median_seconds": 0.06848279999394435,
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0"
+}

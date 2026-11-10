@@ -1,0 +1,1845 @@
+{
+  "validated_at_utc": "2026-10-28T22:31:04.575940+00:00",
+  "ok": true,
+  "errors": [],
+  "source_sha256": "cc9bd08ab1a29a38d7d7e279b9ef051ea885ce5219ed5d42ae2cd8f5517e2081",
+  "source_counts": {
+    "fields": {
+      "001": 42245,
+      "003": 42245,
+      "008": 42245,
+      "024": 42245,
+      "040": 42245,
+      "072": 57024,
+      "148": 121,
+      "150": 33717,
+      "151": 7130,
+      "155": 1277,
+      "448": 121,
+      "450": 67106,
+      "451": 11855,
+      "455": 2285,
+      "548": 215,
+      "550": 150713,
+      "551": 19226,
+      "555": 5381,
+      "670": 11423,
+      "680": 12329,
+      "leader": 42245
+    },
+    "indicators": {
+      "024| |8": 42245,
+      "040| | ": 42245,
+      "072| |7": 57024,
+      "148| | ": 121,
+      "150| | ": 33717,
+      "151| | ": 7130,
+      "155| | ": 1277,
+      "448| |9": 121,
+      "450| | ": 19922,
+      "450| |9": 47184,
+      "451| | ": 3497,
+      "451| |9": 8358,
+      "455| | ": 591,
+      "455| |9": 1694,
+      "548| | ": 215,
+      "550| | ": 150713,
+      "551| | ": 19226,
+      "555| | ": 5381,
+      "670| | ": 11423,
+      "680| | ": 12329
+    },
+    "leader_status": {
+      "n": 42245
+    },
+    "record_type": {
+      "a": 42245
+    },
+    "records": 42245,
+    "subfields": {
+      "024$0": 42245,
+      "040$a": 42245,
+      "040$b": 42245,
+      "040$c": 42245,
+      "040$f": 42245,
+      "072$2": 57024,
+      "072$a": 57024,
+      "148$0": 121,
+      "148$a": 121,
+      "150$0": 33717,
+      "150$a": 33717,
+      "151$0": 7130,
+      "151$a": 7130,
+      "155$0": 1277,
+      "155$a": 1277,
+      "448$a": 121,
+      "450$a": 67106,
+      "451$a": 11855,
+      "455$a": 2285,
+      "548$0": 215,
+      "548$a": 215,
+      "548$w": 172,
+      "550$0": 150713,
+      "550$a": 150713,
+      "550$w": 80629,
+      "551$0": 19226,
+      "551$a": 19226,
+      "551$w": 17185,
+      "555$0": 5381,
+      "555$a": 5381,
+      "555$w": 3056,
+      "670$a": 11423,
+      "680$i": 12329
+    }
+  },
+  "imported_counts": {
+    "records": 42245,
+    "fields": {
+      "455": 2285,
+      "151": 7130,
+      "024": 42245,
+      "072": 57024,
+      "040": 42245,
+      "001": 42245,
+      "003": 42245,
+      "leader": 42245,
+      "450": 67106,
+      "548": 215,
+      "448": 121,
+      "550": 150713,
+      "155": 1277,
+      "555": 5381,
+      "680": 12329,
+      "008": 42245,
+      "670": 11423,
+      "148": 121,
+      "451": 11855,
+      "551": 19226,
+      "150": 33717
+    },
+    "subfields": {
+      "550$0": 150713,
+      "150$a": 33717,
+      "555$0": 5381,
+      "155$0": 1277,
+      "455$a": 2285,
+      "151$0": 7130,
+      "040$c": 42245,
+      "072$a": 57024,
+      "670$a": 11423,
+      "148$a": 121,
+      "555$w": 3056,
+      "448$a": 121,
+      "072$2": 57024,
+      "040$f": 42245,
+      "680$i": 12329,
+      "451$a": 11855,
+      "551$w": 17185,
+      "551$0": 19226,
+      "550$w": 80629,
+      "555$a": 5381,
+      "040$b": 42245,
+      "450$a": 67106,
+      "151$a": 7130,
+      "551$a": 19226,
+      "155$a": 1277,
+      "040$a": 42245,
+      "150$0": 33717,
+      "548$w": 172,
+      "024$0": 42245,
+      "548$a": 215,
+      "550$a": 150713,
+      "548$0": 215,
+      "148$0": 121
+    },
+    "indicators": {
+      "072| |7": 57024,
+      "551| | ": 19226,
+      "024| |8": 42245,
+      "450| |9": 47184,
+      "550| | ": 150713,
+      "150| | ": 33717,
+      "451| | ": 3497,
+      "151| | ": 7130,
+      "680| | ": 12329,
+      "448| |9": 121,
+      "455| | ": 591,
+      "040| | ": 42245,
+      "155| | ": 1277,
+      "451| |9": 8358,
+      "670| | ": 11423,
+      "548| | ": 215,
+      "555| | ": 5381,
+      "450| | ": 19922,
+      "455| |9": 1694,
+      "148| | ": 121
+    },
+    "leader_status": {
+      "n": 42245
+    },
+    "record_type": {
+      "a": 42245
+    }
+  },
+  "concepts": 42245,
+  "labels": [
+    {
+      "language": "en",
+      "role": "english_equivalent",
+      "count": 57357
+    },
+    {
+      "language": "et",
+      "role": "alternative",
+      "count": 24010
+    },
+    {
+      "language": "et",
+      "role": "preferred",
+      "count": 42245
+    }
+  ],
+  "concept_types": [
+    {
+      "concept_type": "genre_form",
+      "count": 1277
+    },
+    {
+      "concept_type": "geographic",
+      "count": 7130
+    },
+    {
+      "concept_type": "temporal",
+      "count": 121
+    },
+    {
+      "concept_type": "topical",
+      "count": 33717
+    }
+  ],
+  "relations": [
+    {
+      "kind": "broad",
+      "resolution": "resolved",
+      "count": 50542
+    },
+    {
+      "kind": "narrow",
+      "resolution": "resolved",
+      "count": 50500
+    },
+    {
+      "kind": "related",
+      "resolution": "resolved",
+      "count": 74493
+    }
+  ],
+  "relation_resolution_methods": [
+    {
+      "resolution_method": "unique_candidate_type_warning",
+      "count": 2
+    },
+    {
+      "resolution_method": "unique_type",
+      "count": 175533
+    }
+  ],
+  "shared_uri_count": 1254,
+  "shared_uri_examples": [
+    {
+      "uri": "https://ems.elnet.ee/id/EMS000444",
+      "record_ids": [
+        "EMS000444",
+        "EMS155000444"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS000460",
+      "record_ids": [
+        "EMS000460",
+        "EMS155000460"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS000576",
+      "record_ids": [
+        "EMS000576",
+        "EMS155000576"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS000645",
+      "record_ids": [
+        "EMS000645",
+        "EMS155000645"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS000699",
+      "record_ids": [
+        "EMS000699",
+        "EMS155000699"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS000729",
+      "record_ids": [
+        "EMS000729",
+        "EMS155000729"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS000864",
+      "record_ids": [
+        "EMS000864",
+        "EMS155000864"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS000871",
+      "record_ids": [
+        "EMS000871",
+        "EMS155000871"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS001219",
+      "record_ids": [
+        "EMS001219",
+        "EMS155001219"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS001406",
+      "record_ids": [
+        "EMS001406",
+        "EMS155001406"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS001510",
+      "record_ids": [
+        "EMS001510",
+        "EMS155001510"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS001587",
+      "record_ids": [
+        "EMS001587",
+        "EMS155001587"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS001721",
+      "record_ids": [
+        "EMS001721",
+        "EMS155001721"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS002167",
+      "record_ids": [
+        "EMS002167",
+        "EMS155002167"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS002274",
+      "record_ids": [
+        "EMS002274",
+        "EMS155002274"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS002472",
+      "record_ids": [
+        "EMS002472",
+        "EMS155002472"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS002819",
+      "record_ids": [
+        "EMS002819",
+        "EMS155002819"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS003168",
+      "record_ids": [
+        "EMS003168",
+        "EMS155003168"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS003494",
+      "record_ids": [
+        "EMS003494",
+        "EMS155003494"
+      ]
+    },
+    {
+      "uri": "https://ems.elnet.ee/id/EMS003521",
+      "record_ids": [
+        "EMS003521",
+        "EMS155003521"
+      ]
+    }
+  ],
+  "domains": 48,
+  "domain_memberships": 57024,
+  "notes": [
+    {
+      "kind": "scope",
+      "count": 12329
+    },
+    {
+      "kind": "source",
+      "count": 11423
+    }
+  ],
+  "missing_ids": 0,
+  "duplicate_ids": [],
+  "id_lengths": [
+    {
+      "length": 9,
+      "count": 40991
+    },
+    {
+      "length": 12,
+      "count": 1254
+    }
+  ],
+  "unresolved_relation_count": 0,
+  "unresolved_relation_examples": [],
+  "redirects": [],
+  "unresolved_redirect_count": 0,
+  "excluded_records": [],
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "blank_optional_note",
+      "count": 8
+    },
+    {
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "count": 1254
+    },
+    {
+      "severity": "warning",
+      "code": "record_uri_differs_from_record_id",
+      "count": 1254
+    },
+    {
+      "severity": "warning",
+      "code": "relation_target_type_mismatch",
+      "count": 2
+    }
+  ],
+  "issue_examples": [
+    {
+      "issue_id": 1,
+      "severity": "warning",
+      "code": "blank_optional_note",
+      "record_pk": 7271,
+      "field_id": 134830,
+      "detail": "Tühikutest koosnev märkus säilib muutmata."
+    },
+    {
+      "issue_id": 2,
+      "severity": "warning",
+      "code": "blank_optional_note",
+      "record_pk": 7986,
+      "field_id": 145608,
+      "detail": "Tühikutest koosnev märkus säilib muutmata."
+    },
+    {
+      "issue_id": 3,
+      "severity": "warning",
+      "code": "blank_optional_note",
+      "record_pk": 27461,
+      "field_id": 434623,
+      "detail": "Tühikutest koosnev märkus säilib muutmata."
+    },
+    {
+      "issue_id": 4,
+      "severity": "warning",
+      "code": "blank_optional_note",
+      "record_pk": 27949,
+      "field_id": 441267,
+      "detail": "Tühikutest koosnev märkus säilib muutmata."
+    },
+    {
+      "issue_id": 5,
+      "severity": "warning",
+      "code": "blank_optional_note",
+      "record_pk": 28628,
+      "field_id": 450217,
+      "detail": "Tühikutest koosnev märkus säilib muutmata."
+    },
+    {
+      "issue_id": 6,
+      "severity": "warning",
+      "code": "blank_optional_note",
+      "record_pk": 30781,
+      "field_id": 477593,
+      "detail": "Tühikutest koosnev märkus säilib muutmata."
+    },
+    {
+      "issue_id": 7,
+      "severity": "warning",
+      "code": "blank_optional_note",
+      "record_pk": 30809,
+      "field_id": 477928,
+      "detail": "Tühikutest koosnev märkus säilib muutmata."
+    },
+    {
+      "issue_id": 8,
+      "severity": "warning",
+      "code": "blank_optional_note",
+      "record_pk": 30893,
+      "field_id": 478915,
+      "detail": "Tühikutest koosnev märkus säilib muutmata."
+    },
+    {
+      "issue_id": 9,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 266,
+      "field_id": 5014,
+      "detail": "https://ems.elnet.ee/id/EMS000444"
+    },
+    {
+      "issue_id": 10,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 276,
+      "field_id": 5304,
+      "detail": "https://ems.elnet.ee/id/EMS000460"
+    },
+    {
+      "issue_id": 11,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 348,
+      "field_id": 6608,
+      "detail": "https://ems.elnet.ee/id/EMS000576"
+    },
+    {
+      "issue_id": 12,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 383,
+      "field_id": 7232,
+      "detail": "https://ems.elnet.ee/id/EMS000645"
+    },
+    {
+      "issue_id": 13,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 407,
+      "field_id": 7641,
+      "detail": "https://ems.elnet.ee/id/EMS000699"
+    },
+    {
+      "issue_id": 14,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 431,
+      "field_id": 8108,
+      "detail": "https://ems.elnet.ee/id/EMS000729"
+    },
+    {
+      "issue_id": 15,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 517,
+      "field_id": 9769,
+      "detail": "https://ems.elnet.ee/id/EMS000864"
+    },
+    {
+      "issue_id": 16,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 523,
+      "field_id": 9899,
+      "detail": "https://ems.elnet.ee/id/EMS000871"
+    },
+    {
+      "issue_id": 17,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 728,
+      "field_id": 13902,
+      "detail": "https://ems.elnet.ee/id/EMS001219"
+    },
+    {
+      "issue_id": 18,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 825,
+      "field_id": 15880,
+      "detail": "https://ems.elnet.ee/id/EMS001406"
+    },
+    {
+      "issue_id": 19,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 886,
+      "field_id": 17026,
+      "detail": "https://ems.elnet.ee/id/EMS001510"
+    },
+    {
+      "issue_id": 20,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 927,
+      "field_id": 17861,
+      "detail": "https://ems.elnet.ee/id/EMS001587"
+    },
+    {
+      "issue_id": 21,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 1012,
+      "field_id": 19441,
+      "detail": "https://ems.elnet.ee/id/EMS001721"
+    },
+    {
+      "issue_id": 22,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 1283,
+      "field_id": 24841,
+      "detail": "https://ems.elnet.ee/id/EMS002167"
+    },
+    {
+      "issue_id": 23,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 1334,
+      "field_id": 25945,
+      "detail": "https://ems.elnet.ee/id/EMS002274"
+    },
+    {
+      "issue_id": 24,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 1442,
+      "field_id": 28110,
+      "detail": "https://ems.elnet.ee/id/EMS002472"
+    },
+    {
+      "issue_id": 25,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 1643,
+      "field_id": 31811,
+      "detail": "https://ems.elnet.ee/id/EMS002819"
+    },
+    {
+      "issue_id": 26,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 1842,
+      "field_id": 35731,
+      "detail": "https://ems.elnet.ee/id/EMS003168"
+    },
+    {
+      "issue_id": 27,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2012,
+      "field_id": 38976,
+      "detail": "https://ems.elnet.ee/id/EMS003494"
+    },
+    {
+      "issue_id": 28,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2029,
+      "field_id": 39286,
+      "detail": "https://ems.elnet.ee/id/EMS003521"
+    },
+    {
+      "issue_id": 29,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2105,
+      "field_id": 40774,
+      "detail": "https://ems.elnet.ee/id/EMS003683"
+    },
+    {
+      "issue_id": 30,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2132,
+      "field_id": 41264,
+      "detail": "https://ems.elnet.ee/id/EMS003731"
+    },
+    {
+      "issue_id": 31,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2180,
+      "field_id": 42233,
+      "detail": "https://ems.elnet.ee/id/EMS003833"
+    },
+    {
+      "issue_id": 32,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2190,
+      "field_id": 42390,
+      "detail": "https://ems.elnet.ee/id/EMS003858"
+    },
+    {
+      "issue_id": 33,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2303,
+      "field_id": 44535,
+      "detail": "https://ems.elnet.ee/id/EMS004071"
+    },
+    {
+      "issue_id": 34,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2308,
+      "field_id": 44646,
+      "detail": "https://ems.elnet.ee/id/EMS004075"
+    },
+    {
+      "issue_id": 35,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2311,
+      "field_id": 44781,
+      "detail": "https://ems.elnet.ee/id/EMS004080"
+    },
+    {
+      "issue_id": 36,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2356,
+      "field_id": 45719,
+      "detail": "https://ems.elnet.ee/id/EMS004147"
+    },
+    {
+      "issue_id": 37,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2591,
+      "field_id": 50561,
+      "detail": "https://ems.elnet.ee/id/EMS004558"
+    },
+    {
+      "issue_id": 38,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2712,
+      "field_id": 52697,
+      "detail": "https://ems.elnet.ee/id/EMS004800"
+    },
+    {
+      "issue_id": 39,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2726,
+      "field_id": 52937,
+      "detail": "https://ems.elnet.ee/id/EMS004823"
+    },
+    {
+      "issue_id": 40,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2849,
+      "field_id": 55153,
+      "detail": "https://ems.elnet.ee/id/EMS005049"
+    },
+    {
+      "issue_id": 41,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2879,
+      "field_id": 55713,
+      "detail": "https://ems.elnet.ee/id/EMS005102"
+    },
+    {
+      "issue_id": 42,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2908,
+      "field_id": 56243,
+      "detail": "https://ems.elnet.ee/id/EMS005145"
+    },
+    {
+      "issue_id": 43,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 2948,
+      "field_id": 57180,
+      "detail": "https://ems.elnet.ee/id/EMS005194"
+    },
+    {
+      "issue_id": 44,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 3173,
+      "field_id": 61539,
+      "detail": "https://ems.elnet.ee/id/EMS005554"
+    },
+    {
+      "issue_id": 45,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 3208,
+      "field_id": 62231,
+      "detail": "https://ems.elnet.ee/id/EMS005607"
+    },
+    {
+      "issue_id": 46,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 3245,
+      "field_id": 62963,
+      "detail": "https://ems.elnet.ee/id/EMS005668"
+    },
+    {
+      "issue_id": 47,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 3304,
+      "field_id": 64169,
+      "detail": "https://ems.elnet.ee/id/EMS005752"
+    },
+    {
+      "issue_id": 48,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 3411,
+      "field_id": 66131,
+      "detail": "https://ems.elnet.ee/id/EMS005972"
+    },
+    {
+      "issue_id": 49,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 3513,
+      "field_id": 68065,
+      "detail": "https://ems.elnet.ee/id/EMS006173"
+    },
+    {
+      "issue_id": 50,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 3768,
+      "field_id": 73171,
+      "detail": "https://ems.elnet.ee/id/EMS006599"
+    },
+    {
+      "issue_id": 51,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 3805,
+      "field_id": 73912,
+      "detail": "https://ems.elnet.ee/id/EMS006661"
+    },
+    {
+      "issue_id": 52,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4060,
+      "field_id": 78549,
+      "detail": "https://ems.elnet.ee/id/EMS007156"
+    },
+    {
+      "issue_id": 53,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4094,
+      "field_id": 79281,
+      "detail": "https://ems.elnet.ee/id/EMS007196"
+    },
+    {
+      "issue_id": 54,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4236,
+      "field_id": 81743,
+      "detail": "https://ems.elnet.ee/id/EMS007484"
+    },
+    {
+      "issue_id": 55,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4353,
+      "field_id": 83942,
+      "detail": "https://ems.elnet.ee/id/EMS007700"
+    },
+    {
+      "issue_id": 56,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4445,
+      "field_id": 85455,
+      "detail": "https://ems.elnet.ee/id/EMS007922"
+    },
+    {
+      "issue_id": 57,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4447,
+      "field_id": 85494,
+      "detail": "https://ems.elnet.ee/id/EMS007923"
+    },
+    {
+      "issue_id": 58,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4449,
+      "field_id": 85526,
+      "detail": "https://ems.elnet.ee/id/EMS007925"
+    },
+    {
+      "issue_id": 59,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4860,
+      "field_id": 92884,
+      "detail": "https://ems.elnet.ee/id/EMS009096"
+    },
+    {
+      "issue_id": 60,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4862,
+      "field_id": 92913,
+      "detail": "https://ems.elnet.ee/id/EMS009097"
+    },
+    {
+      "issue_id": 61,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4864,
+      "field_id": 92938,
+      "detail": "https://ems.elnet.ee/id/EMS009099"
+    },
+    {
+      "issue_id": 62,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4866,
+      "field_id": 92959,
+      "detail": "https://ems.elnet.ee/id/EMS009100"
+    },
+    {
+      "issue_id": 63,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4868,
+      "field_id": 92990,
+      "detail": "https://ems.elnet.ee/id/EMS009102"
+    },
+    {
+      "issue_id": 64,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4873,
+      "field_id": 93070,
+      "detail": "https://ems.elnet.ee/id/EMS009107"
+    },
+    {
+      "issue_id": 65,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4875,
+      "field_id": 93096,
+      "detail": "https://ems.elnet.ee/id/EMS009108"
+    },
+    {
+      "issue_id": 66,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4877,
+      "field_id": 93120,
+      "detail": "https://ems.elnet.ee/id/EMS009109"
+    },
+    {
+      "issue_id": 67,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4879,
+      "field_id": 93149,
+      "detail": "https://ems.elnet.ee/id/EMS009111"
+    },
+    {
+      "issue_id": 68,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4881,
+      "field_id": 93190,
+      "detail": "https://ems.elnet.ee/id/EMS009112"
+    },
+    {
+      "issue_id": 69,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4883,
+      "field_id": 93225,
+      "detail": "https://ems.elnet.ee/id/EMS009113"
+    },
+    {
+      "issue_id": 70,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4885,
+      "field_id": 93263,
+      "detail": "https://ems.elnet.ee/id/EMS009115"
+    },
+    {
+      "issue_id": 71,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4887,
+      "field_id": 93297,
+      "detail": "https://ems.elnet.ee/id/EMS009117"
+    },
+    {
+      "issue_id": 72,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4889,
+      "field_id": 93325,
+      "detail": "https://ems.elnet.ee/id/EMS009118"
+    },
+    {
+      "issue_id": 73,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4891,
+      "field_id": 93354,
+      "detail": "https://ems.elnet.ee/id/EMS009119"
+    },
+    {
+      "issue_id": 74,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4893,
+      "field_id": 93376,
+      "detail": "https://ems.elnet.ee/id/EMS009122"
+    },
+    {
+      "issue_id": 75,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4895,
+      "field_id": 93428,
+      "detail": "https://ems.elnet.ee/id/EMS009123"
+    },
+    {
+      "issue_id": 76,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4897,
+      "field_id": 93481,
+      "detail": "https://ems.elnet.ee/id/EMS009126"
+    },
+    {
+      "issue_id": 77,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4901,
+      "field_id": 93541,
+      "detail": "https://ems.elnet.ee/id/EMS009130"
+    },
+    {
+      "issue_id": 78,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4903,
+      "field_id": 93573,
+      "detail": "https://ems.elnet.ee/id/EMS009131"
+    },
+    {
+      "issue_id": 79,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4905,
+      "field_id": 93596,
+      "detail": "https://ems.elnet.ee/id/EMS009132"
+    },
+    {
+      "issue_id": 80,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4909,
+      "field_id": 93643,
+      "detail": "https://ems.elnet.ee/id/EMS009135"
+    },
+    {
+      "issue_id": 81,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4911,
+      "field_id": 93672,
+      "detail": "https://ems.elnet.ee/id/EMS009138"
+    },
+    {
+      "issue_id": 82,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4914,
+      "field_id": 93708,
+      "detail": "https://ems.elnet.ee/id/EMS009140"
+    },
+    {
+      "issue_id": 83,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4916,
+      "field_id": 93744,
+      "detail": "https://ems.elnet.ee/id/EMS009141"
+    },
+    {
+      "issue_id": 84,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4918,
+      "field_id": 93783,
+      "detail": "https://ems.elnet.ee/id/EMS009142"
+    },
+    {
+      "issue_id": 85,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4921,
+      "field_id": 93818,
+      "detail": "https://ems.elnet.ee/id/EMS009145"
+    },
+    {
+      "issue_id": 86,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4924,
+      "field_id": 93852,
+      "detail": "https://ems.elnet.ee/id/EMS009147"
+    },
+    {
+      "issue_id": 87,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4926,
+      "field_id": 93881,
+      "detail": "https://ems.elnet.ee/id/EMS009148"
+    },
+    {
+      "issue_id": 88,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4928,
+      "field_id": 93909,
+      "detail": "https://ems.elnet.ee/id/EMS009151"
+    },
+    {
+      "issue_id": 89,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4930,
+      "field_id": 93932,
+      "detail": "https://ems.elnet.ee/id/EMS009152"
+    },
+    {
+      "issue_id": 90,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4940,
+      "field_id": 94116,
+      "detail": "https://ems.elnet.ee/id/EMS009164"
+    },
+    {
+      "issue_id": 91,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4943,
+      "field_id": 94156,
+      "detail": "https://ems.elnet.ee/id/EMS009167"
+    },
+    {
+      "issue_id": 92,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4945,
+      "field_id": 94197,
+      "detail": "https://ems.elnet.ee/id/EMS009168"
+    },
+    {
+      "issue_id": 93,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4950,
+      "field_id": 94297,
+      "detail": "https://ems.elnet.ee/id/EMS009173"
+    },
+    {
+      "issue_id": 94,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4952,
+      "field_id": 94336,
+      "detail": "https://ems.elnet.ee/id/EMS009176"
+    },
+    {
+      "issue_id": 95,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4954,
+      "field_id": 94380,
+      "detail": "https://ems.elnet.ee/id/EMS009177"
+    },
+    {
+      "issue_id": 96,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4957,
+      "field_id": 94440,
+      "detail": "https://ems.elnet.ee/id/EMS009180"
+    },
+    {
+      "issue_id": 97,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4959,
+      "field_id": 94475,
+      "detail": "https://ems.elnet.ee/id/EMS009182"
+    },
+    {
+      "issue_id": 98,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4961,
+      "field_id": 94501,
+      "detail": "https://ems.elnet.ee/id/EMS009183"
+    },
+    {
+      "issue_id": 99,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4968,
+      "field_id": 94595,
+      "detail": "https://ems.elnet.ee/id/EMS009191"
+    },
+    {
+      "issue_id": 100,
+      "severity": "warning",
+      "code": "heading_uri_differs_from_record_id",
+      "record_pk": 4972,
+      "field_id": 94651,
+      "detail": "https://ems.elnet.ee/id/EMS009195"
+    }
+  ],
+  "integrity": {
+    "fields_without_record": 0,
+    "subfields_without_field": 0,
+    "missing_preferred_label": 0
+  },
+  "raw_fidelity": {
+    "records_checked": 42245,
+    "mismatch_examples": []
+  },
+  "source_sample_checks": [
+    {
+      "record_pk": 1,
+      "equal": true,
+      "sha256": "036f13e0f4c00b00239d951e87e1fd01eeebb493a1a585d0dd7bbc71e9f0f73d",
+      "field_count": 11
+    },
+    {
+      "record_pk": 2,
+      "equal": true,
+      "sha256": "513489374e78c9c5533510b7108fed144b01ebc24325ccc761cae72ec518789e",
+      "field_count": 16
+    },
+    {
+      "record_pk": 3,
+      "equal": true,
+      "sha256": "578e2f2c50bd23f07cf65ce3a3c2d1f8999c6f270f9847e0e3f1e85488ed014e",
+      "field_count": 15
+    },
+    {
+      "record_pk": 4,
+      "equal": true,
+      "sha256": "8b970a8e1769a1362d791d5e5531bb8064af909652322ab9642ddcd63b44eef6",
+      "field_count": 15
+    },
+    {
+      "record_pk": 5,
+      "equal": true,
+      "sha256": "8711dfdcf3f4bfa0b4f86c2d7a016ca6c42f40fcaf159caec4600526f682635a",
+      "field_count": 47
+    },
+    {
+      "record_pk": 24,
+      "equal": true,
+      "sha256": "4ba51c17c366937d7881e9381693685197fbd16b477d23eb1c1a436e140ab2b4",
+      "field_count": 27
+    },
+    {
+      "record_pk": 265,
+      "equal": true,
+      "sha256": "1a9694cf6c1efd8141815178c0ff91d5420ffcf486ba5587a8f00459d3551e5a",
+      "field_count": 15
+    },
+    {
+      "record_pk": 266,
+      "equal": true,
+      "sha256": "ac580a38592a2a7a879fbdfcfb232e683db0ffdf10ba891d1753ec3c6508eeb8",
+      "field_count": 15
+    },
+    {
+      "record_pk": 1195,
+      "equal": true,
+      "sha256": "bea72ffa743962afedff45caad3e5b28caa89c6bf05d3591c56777bd829e53cd",
+      "field_count": 20
+    },
+    {
+      "record_pk": 7271,
+      "equal": true,
+      "sha256": "4b83408e8568d3450a012ad836716922f212db1a645d10561f50bff008809645",
+      "field_count": 33
+    },
+    {
+      "record_pk": 21122,
+      "equal": true,
+      "sha256": "c31ec6357c20640e3b5f1f433b7ec4b4ab4eff7932771f4ff8000dfb5235e771",
+      "field_count": 12
+    },
+    {
+      "record_pk": 42245,
+      "equal": true,
+      "sha256": "c8ce82b22a291b732f1bfd153a5e5f0624f7504aca95230fba8261331e8ecdf9",
+      "field_count": 13
+    }
+  ],
+  "hierarchy": {
+    "missing_reverse_count": 792,
+    "missing_reverse_examples": [
+      {
+        "ems_id": "EMS155000460",
+        "kind": "broad",
+        "target_id": "EMS010172"
+      },
+      {
+        "ems_id": "EMS155000729",
+        "kind": "broad",
+        "target_id": "EMS164286"
+      },
+      {
+        "ems_id": "EMS155000871",
+        "kind": "broad",
+        "target_id": "EMS005082"
+      },
+      {
+        "ems_id": "EMS155000871",
+        "kind": "broad",
+        "target_id": "EMS021658"
+      },
+      {
+        "ems_id": "EMS155001219",
+        "kind": "broad",
+        "target_id": "EMS001220"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "broad",
+        "target_id": "EMS001407"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS001626"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS001940"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS007537"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS011010"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS011117"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS015769"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS020813"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS020814"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS020971"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS021048"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS026521"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS026551"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS026564"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS026574"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS026575"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS026576"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS026577"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS026578"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS026579"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS026614"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS026620"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS140004"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS153055"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS158882"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS162995"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS166884"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS167060"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS171246"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS173092"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS173905"
+      },
+      {
+        "ems_id": "EMS155001406",
+        "kind": "narrow",
+        "target_id": "EMS174232"
+      },
+      {
+        "ems_id": "EMS155001587",
+        "kind": "broad",
+        "target_id": "EMS003415"
+      },
+      {
+        "ems_id": "EMS155001587",
+        "kind": "broad",
+        "target_id": "EMS014794"
+      },
+      {
+        "ems_id": "EMS155001587",
+        "kind": "broad",
+        "target_id": "EMS021345"
+      },
+      {
+        "ems_id": "EMS155001587",
+        "kind": "narrow",
+        "target_id": "EMS019785"
+      },
+      {
+        "ems_id": "EMS155001587",
+        "kind": "narrow",
+        "target_id": "EMS148074"
+      },
+      {
+        "ems_id": "EMS155001587",
+        "kind": "narrow",
+        "target_id": "EMS152651"
+      },
+      {
+        "ems_id": "EMS155001587",
+        "kind": "narrow",
+        "target_id": "EMS166163"
+      },
+      {
+        "ems_id": "EMS155002167",
+        "kind": "broad",
+        "target_id": "EMS014935"
+      },
+      {
+        "ems_id": "EMS155002274",
+        "kind": "broad",
+        "target_id": "EMS005628"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "broad",
+        "target_id": "EMS003916"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS009129"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS009192"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS009212"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS009219"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS009231"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS017632"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS027390"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS027391"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS027393"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS170419"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS173853"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS174149"
+      },
+      {
+        "ems_id": "EMS155002472",
+        "kind": "narrow",
+        "target_id": "EMS176226"
+      },
+      {
+        "ems_id": "EMS155003521",
+        "kind": "narrow",
+        "target_id": "EMS004295"
+      },
+      {
+        "ems_id": "EMS155003521",
+        "kind": "narrow",
+        "target_id": "EMS006911"
+      },
+      {
+        "ems_id": "EMS155003521",
+        "kind": "narrow",
+        "target_id": "EMS011117"
+      },
+      {
+        "ems_id": "EMS155003521",
+        "kind": "narrow",
+        "target_id": "EMS015695"
+      },
+      {
+        "ems_id": "EMS155003521",
+        "kind": "narrow",
+        "target_id": "EMS015769"
+      },
+      {
+        "ems_id": "EMS155003521",
+        "kind": "narrow",
+        "target_id": "EMS015770"
+      },
+      {
+        "ems_id": "EMS155003521",
+        "kind": "narrow",
+        "target_id": "EMS171252"
+      },
+      {
+        "ems_id": "EMS155003521",
+        "kind": "narrow",
+        "target_id": "EMS173907"
+      },
+      {
+        "ems_id": "EMS155003833",
+        "kind": "broad",
+        "target_id": "EMS023363"
+      },
+      {
+        "ems_id": "EMS155003833",
+        "kind": "broad",
+        "target_id": "EMS153368"
+      },
+      {
+        "ems_id": "EMS155003833",
+        "kind": "narrow",
+        "target_id": "EMS161134"
+      },
+      {
+        "ems_id": "EMS155003858",
+        "kind": "broad",
+        "target_id": "EMS005628"
+      },
+      {
+        "ems_id": "EMS155003858",
+        "kind": "broad",
+        "target_id": "EMS017904"
+      },
+      {
+        "ems_id": "EMS155003858",
+        "kind": "broad",
+        "target_id": "EMS164286"
+      },
+      {
+        "ems_id": "EMS155003858",
+        "kind": "broad",
+        "target_id": "EMS170893"
+      },
+      {
+        "ems_id": "EMS155003858",
+        "kind": "narrow",
+        "target_id": "EMS164107"
+      },
+      {
+        "ems_id": "EMS155004071",
+        "kind": "broad",
+        "target_id": "EMS000807"
+      },
+      {
+        "ems_id": "EMS155004071",
+        "kind": "broad",
+        "target_id": "EMS014935"
+      },
+      {
+        "ems_id": "EMS155004071",
+        "kind": "narrow",
+        "target_id": "EMS170716"
+      },
+      {
+        "ems_id": "EMS155004071",
+        "kind": "narrow",
+        "target_id": "EMS171450"
+      },
+      {
+        "ems_id": "EMS155004075",
+        "kind": "broad",
+        "target_id": "EMS001829"
+      },
+      {
+        "ems_id": "EMS155004075",
+        "kind": "broad",
+        "target_id": "EMS010172"
+      },
+      {
+        "ems_id": "EMS155004075",
+        "kind": "narrow",
+        "target_id": "EMS022927"
+      },
+      {
+        "ems_id": "EMS155004075",
+        "kind": "narrow",
+        "target_id": "EMS153605"
+      },
+      {
+        "ems_id": "EMS155004075",
+        "kind": "narrow",
+        "target_id": "EMS164568"
+      },
+      {
+        "ems_id": "EMS155004075",
+        "kind": "narrow",
+        "target_id": "EMS168597"
+      },
+      {
+        "ems_id": "EMS155004080",
+        "kind": "broad",
+        "target_id": "EMS000979"
+      },
+      {
+        "ems_id": "EMS155004080",
+        "kind": "broad",
+        "target_id": "EMS026652"
+      },
+      {
+        "ems_id": "EMS155004080",
+        "kind": "broad",
+        "target_id": "EMS165810"
+      },
+      {
+        "ems_id": "EMS155004080",
+        "kind": "narrow",
+        "target_id": "EMS172231"
+      },
+      {
+        "ems_id": "EMS155004080",
+        "kind": "narrow",
+        "target_id": "EMS172377"
+      },
+      {
+        "ems_id": "EMS155004080",
+        "kind": "narrow",
+        "target_id": "EMS175559"
+      },
+      {
+        "ems_id": "EMS155004080",
+        "kind": "narrow",
+        "target_id": "EMS175561"
+      },
+      {
+        "ems_id": "EMS155004080",
+        "kind": "narrow",
+        "target_id": "EMS175562"
+      },
+      {
+        "ems_id": "EMS155004080",
+        "kind": "narrow",
+        "target_id": "EMS175683"
+      },
+      {
+        "ems_id": "EMS155004147",
+        "kind": "broad",
+        "target_id": "EMS141972"
+      },
+      {
+        "ems_id": "EMS155004147",
+        "kind": "narrow",
+        "target_id": "EMS004150"
+      },
+      {
+        "ems_id": "EMS155004823",
+        "kind": "broad",
+        "target_id": "EMS001829"
+      },
+      {
+        "ems_id": "EMS155004823",
+        "kind": "broad",
+        "target_id": "EMS020965"
+      },
+      {
+        "ems_id": "EMS155005049",
+        "kind": "broad",
+        "target_id": "EMS026056"
+      }
+    ],
+    "cycle_example": [
+      "EMS147780",
+      "EMS151719",
+      "EMS005246",
+      "EMS147780"
+    ],
+    "cycles_exhaustively_enumerated": false
+  },
+  "limitations": [
+    "Eraldi äraviitekirjete semantiline teisendamine pole EMS-i tegeliku XML-näitega kinnitatud.",
+    "Hierarhia vastastikkuse erinevused, tsüklid ja nimeteksti erinevused on hoiatused; algseoseid ei muudeta.",
+    "Lemmatiseerimine ja otsinguindeks kuuluvad etappi 3."
+  ],
+  "run_id": "20261028T222627Z-73b1935b3360",
+  "validation_seconds": 27.04622320001363
+}

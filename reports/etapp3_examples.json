@@ -1,0 +1,2504 @@
+[
+  {
+    "arguments": [
+      "keywords",
+      "--file",
+      "C:\\TextMining\\Ylesanded\\YL08_EMS\\examples\\library.txt",
+      "--limit",
+      "5"
+    ],
+    "response": {
+      "results": [
+        {
+          "ems_id": "EMS003867",
+          "score": 112.755,
+          "score_explanation": "Täpne algkuju: 100; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 2, piiratud boonus: 4.755",
+          "match_type": "exact",
+          "matched_label": "raamatukogud",
+          "matched_text": "Raamatukogud",
+          "frequency": 2,
+          "evidence": [
+            {
+              "sentence_id": 1,
+              "start": 70,
+              "end": 82,
+              "text": "Raamatukogud",
+              "label_id": 42487,
+              "matched_label": "raamatukogud",
+              "role": "preferred",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": "Eesti raamatukogudes kasutatakse infotehnoloogiat ja tehisintellekti. Raamatukogud säilitavad vanu raamatuid ning aitavad lugejatel leida teaduskirjandu",
+              "snippet_start": 0,
+              "highlight_start": 70,
+              "highlight_end": 82
+            },
+            {
+              "sentence_id": 0,
+              "start": 6,
+              "end": 20,
+              "text": "raamatukogudes",
+              "label_id": 42487,
+              "matched_label": "raamatukogud",
+              "role": "preferred",
+              "match_type": "lemma",
+              "token_count": 1,
+              "snippet": "Eesti raamatukogudes kasutatakse infotehnoloogiat ja tehisintellekti. Raamatukogud säilita",
+              "snippet_start": 0,
+              "highlight_start": 6,
+              "highlight_end": 20
+            }
+          ],
+          "preferred_label": "raamatukogud",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS003867",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS014733",
+              "target_label_raw": "kogud",
+              "target_preferred_label": "kogud",
+              "uri": "https://ems.elnet.ee/id/EMS014733",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS142506",
+              "target_label_raw": "kultuuriasutused",
+              "target_preferred_label": "kultuuriasutused",
+              "uri": "https://ems.elnet.ee/id/EMS142506",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS166767",
+              "target_label_raw": "mäluasutused",
+              "target_preferred_label": "mäluasutused",
+              "uri": "https://ems.elnet.ee/id/EMS166767",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS004517",
+              "target_label_raw": "rahvusraamatukogud",
+              "target_preferred_label": "rahvusraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS004517",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS006583",
+              "target_label_raw": "erialaraamatukogud",
+              "target_preferred_label": "erialaraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS006583",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014228",
+              "target_label_raw": "eriraamatukogud",
+              "target_preferred_label": "eriraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS014228",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014229",
+              "target_label_raw": "eraraamatukogud",
+              "target_preferred_label": "eraraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS014229",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014231",
+              "target_label_raw": "rahvaraamatukogud",
+              "target_preferred_label": "rahvaraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS014231",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS001533",
+              "target_label_raw": "kultuurikeskused",
+              "target_preferred_label": "kultuurikeskused",
+              "uri": "https://ems.elnet.ee/id/EMS001533",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS005915",
+              "target_label_raw": "infokeskused",
+              "target_preferred_label": "infokeskused",
+              "uri": "https://ems.elnet.ee/id/EMS005915",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS011296",
+              "target_label_raw": "raamatukogude ajalugu",
+              "target_preferred_label": "raamatukogude ajalugu",
+              "uri": "https://ems.elnet.ee/id/EMS011296",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS012369",
+              "target_label_raw": "raamatukoguhooned",
+              "target_preferred_label": "raamatukoguhooned",
+              "uri": "https://ems.elnet.ee/id/EMS012369",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS014778",
+              "target_label_raw": "raamatukogundus",
+              "target_preferred_label": "raamatukogundus",
+              "uri": "https://ems.elnet.ee/id/EMS014778",
+              "resolution": "resolved",
+              "kind_total": 9
+            }
+          ],
+          "domains": [
+            "53"
+          ],
+          "evidence_total": 2
+        },
+        {
+          "ems_id": "EMS174969",
+          "score": 111.0,
+          "score_explanation": "Täpne algkuju: 100; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "exact",
+          "matched_label": "eesti",
+          "matched_text": "Eesti",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 0,
+              "start": 0,
+              "end": 5,
+              "text": "Eesti",
+              "label_id": 620163,
+              "matched_label": "eesti",
+              "role": "preferred",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": "Eesti raamatukogudes kasutatakse infotehnoloogiat ja tehisintellekti. Raama",
+              "snippet_start": 0,
+              "highlight_start": 0,
+              "highlight_end": 5
+            }
+          ],
+          "preferred_label": "eesti",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS174969",
+          "relations": [
+            {
+              "kind": "related",
+              "target_id": "EMS021662",
+              "target_label_raw": "väliseesti",
+              "target_preferred_label": "väliseesti",
+              "uri": "https://ems.elnet.ee/id/EMS021662",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS131705",
+              "target_label_raw": "Eesti (riik)",
+              "target_preferred_label": "Eesti (riik)",
+              "uri": "https://ems.elnet.ee/id/EMS131705",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS140834",
+              "target_label_raw": "eestirootsi",
+              "target_preferred_label": "eestirootsi",
+              "uri": "https://ems.elnet.ee/id/EMS140834",
+              "resolution": "resolved",
+              "kind_total": 3
+            }
+          ],
+          "domains": [
+            "00"
+          ],
+          "evidence_total": 1
+        },
+        {
+          "ems_id": "EMS000500",
+          "score": 91.0,
+          "score_explanation": "Lemmafraas: 80; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "lemma",
+          "matched_label": "tehisintellekt",
+          "matched_text": "tehisintellekti",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 0,
+              "start": 53,
+              "end": 68,
+              "text": "tehisintellekti",
+              "label_id": 5737,
+              "matched_label": "tehisintellekt",
+              "role": "preferred",
+              "match_type": "lemma",
+              "token_count": 1,
+              "snippet": "Eesti raamatukogudes kasutatakse infotehnoloogiat ja tehisintellekti. Raamatukogud säilitavad vanu raamatuid ning aitavad lugejatel leida ",
+              "snippet_start": 0,
+              "highlight_start": 53,
+              "highlight_end": 68
+            }
+          ],
+          "preferred_label": "tehisintellekt",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS000500",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS003397",
+              "target_label_raw": "informaatika",
+              "target_preferred_label": "informaatika",
+              "uri": "https://ems.elnet.ee/id/EMS003397",
+              "resolution": "resolved",
+              "kind_total": 2
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS139626",
+              "target_label_raw": "kognitiivteadus",
+              "target_preferred_label": "kognitiivteadus",
+              "uri": "https://ems.elnet.ee/id/EMS139626",
+              "resolution": "resolved",
+              "kind_total": 2
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS007745",
+              "target_label_raw": "kõnesüntees",
+              "target_preferred_label": "kõnesüntees",
+              "uri": "https://ems.elnet.ee/id/EMS007745",
+              "resolution": "resolved",
+              "kind_total": 21
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS007746",
+              "target_label_raw": "kõnetuvastus",
+              "target_preferred_label": "kõnetuvastus",
+              "uri": "https://ems.elnet.ee/id/EMS007746",
+              "resolution": "resolved",
+              "kind_total": 21
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS027249",
+              "target_label_raw": "tehisnärvivõrgud",
+              "target_preferred_label": "tehisnärvivõrgud",
+              "uri": "https://ems.elnet.ee/id/EMS027249",
+              "resolution": "resolved",
+              "kind_total": 21
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS027294",
+              "target_label_raw": "raalnägemine",
+              "target_preferred_label": "raalnägemine",
+              "uri": "https://ems.elnet.ee/id/EMS027294",
+              "resolution": "resolved",
+              "kind_total": 21
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS138293",
+              "target_label_raw": "teadmussüsteemid",
+              "target_preferred_label": "teadmussüsteemid",
+              "uri": "https://ems.elnet.ee/id/EMS138293",
+              "resolution": "resolved",
+              "kind_total": 21
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS000749",
+              "target_label_raw": "bioonika",
+              "target_preferred_label": "bioonika",
+              "uri": "https://ems.elnet.ee/id/EMS000749",
+              "resolution": "resolved",
+              "kind_total": 12
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS001318",
+              "target_label_raw": "arvutid",
+              "target_preferred_label": "arvutid",
+              "uri": "https://ems.elnet.ee/id/EMS001318",
+              "resolution": "resolved",
+              "kind_total": 12
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS006060",
+              "target_label_raw": "robotid",
+              "target_preferred_label": "robotid",
+              "uri": "https://ems.elnet.ee/id/EMS006060",
+              "resolution": "resolved",
+              "kind_total": 12
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS006286",
+              "target_label_raw": "iseorganiseeruvad süsteemid",
+              "target_preferred_label": "iseorganiseeruvad süsteemid",
+              "uri": "https://ems.elnet.ee/id/EMS006286",
+              "resolution": "resolved",
+              "kind_total": 12
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS021759",
+              "target_label_raw": "automaatikasüsteemid",
+              "target_preferred_label": "automaatikasüsteemid",
+              "uri": "https://ems.elnet.ee/id/EMS021759",
+              "resolution": "resolved",
+              "kind_total": 12
+            }
+          ],
+          "domains": [
+            "36"
+          ],
+          "evidence_total": 1
+        },
+        {
+          "ems_id": "EMS000807",
+          "score": 91.0,
+          "score_explanation": "Lemmafraas: 80; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "lemma",
+          "matched_label": "raamatud",
+          "matched_text": "raamatuid",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 1,
+              "start": 99,
+              "end": 108,
+              "text": "raamatuid",
+              "label_id": 9166,
+              "matched_label": "raamatud",
+              "role": "preferred",
+              "match_type": "lemma",
+              "token_count": 1,
+              "snippet": "kse infotehnoloogiat ja tehisintellekti. Raamatukogud säilitavad vanu raamatuid ning aitavad lugejatel leida teaduskirjandust. Biblioteegid pakuvad l",
+              "snippet_start": 29,
+              "highlight_start": 70,
+              "highlight_end": 79
+            }
+          ],
+          "preferred_label": "raamatud",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS000807",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS001829",
+              "target_label_raw": "teavikud",
+              "target_preferred_label": "teavikud",
+              "uri": "https://ems.elnet.ee/id/EMS001829",
+              "resolution": "resolved",
+              "kind_total": 2
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS014917",
+              "target_label_raw": "trükised (vormimärksõna)",
+              "target_preferred_label": "trükised (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS014917",
+              "resolution": "resolved",
+              "kind_total": 2
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS004071",
+              "target_label_raw": "käsiraamatud (vormimärksõna)",
+              "target_preferred_label": "käsiraamatud (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS004071",
+              "resolution": "resolved",
+              "kind_total": 37
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS009108",
+              "target_label_raw": "antoloogiad (vormimärksõna)",
+              "target_preferred_label": "antoloogiad (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS009108",
+              "resolution": "resolved",
+              "kind_total": 37
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS010281",
+              "target_label_raw": "sõnaraamatud (vormimärksõna)",
+              "target_preferred_label": "sõnaraamatud (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS010281",
+              "resolution": "resolved",
+              "kind_total": 37
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014587",
+              "target_label_raw": "haruldased raamatud",
+              "target_preferred_label": "haruldased raamatud",
+              "uri": "https://ems.elnet.ee/id/EMS014587",
+              "resolution": "resolved",
+              "kind_total": 37
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014730",
+              "target_label_raw": "keelatud raamatud",
+              "target_preferred_label": "keelatud raamatud",
+              "uri": "https://ems.elnet.ee/id/EMS014730",
+              "resolution": "resolved",
+              "kind_total": 37
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS004075",
+              "target_label_raw": "käsikirjad (vormimärksõna)",
+              "target_preferred_label": "käsikirjad (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS004075",
+              "resolution": "resolved",
+              "kind_total": 11
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS009164",
+              "target_label_raw": "kogutud teosed (vormimärksõna)",
+              "target_preferred_label": "kogutud teosed (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS009164",
+              "resolution": "resolved",
+              "kind_total": 11
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS011295",
+              "target_label_raw": "raamatuajalugu",
+              "target_preferred_label": "raamatuajalugu",
+              "uri": "https://ems.elnet.ee/id/EMS011295",
+              "resolution": "resolved",
+              "kind_total": 11
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS011763",
+              "target_label_raw": "eksliibrised (vormimärksõna)",
+              "target_preferred_label": "eksliibrised (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS011763",
+              "resolution": "resolved",
+              "kind_total": 11
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS014787",
+              "target_label_raw": "raamatuteadus",
+              "target_preferred_label": "raamatuteadus",
+              "uri": "https://ems.elnet.ee/id/EMS014787",
+              "resolution": "resolved",
+              "kind_total": 11
+            }
+          ],
+          "domains": [
+            "53"
+          ],
+          "evidence_total": 1
+        },
+        {
+          "ems_id": "EMS009270",
+          "score": 91.0,
+          "score_explanation": "Lemmafraas: 80; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "lemma",
+          "matched_label": "teaduskirjandus",
+          "matched_text": "teaduskirjandust",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 1,
+              "start": 138,
+              "end": 154,
+              "text": "teaduskirjandust",
+              "label_id": 96115,
+              "matched_label": "teaduskirjandus",
+              "role": "preferred",
+              "match_type": "lemma",
+              "token_count": 1,
+              "snippet": ". Raamatukogud säilitavad vanu raamatuid ning aitavad lugejatel leida teaduskirjandust. Biblioteegid pakuvad ligipääsu andmebaasidele.\n",
+              "snippet_start": 68,
+              "highlight_start": 70,
+              "highlight_end": 86
+            }
+          ],
+          "preferred_label": "teaduskirjandus",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS009270",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS003916",
+              "target_label_raw": "kirjandus",
+              "target_preferred_label": "kirjandus",
+              "uri": "https://ems.elnet.ee/id/EMS003916",
+              "resolution": "resolved",
+              "kind_total": 1
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS005400",
+              "target_label_raw": "teaduse populariseerimine",
+              "target_preferred_label": "teaduse populariseerimine",
+              "uri": "https://ems.elnet.ee/id/EMS005400",
+              "resolution": "resolved",
+              "kind_total": 4
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS006181",
+              "target_label_raw": "teadus",
+              "target_preferred_label": "teadus",
+              "uri": "https://ems.elnet.ee/id/EMS006181",
+              "resolution": "resolved",
+              "kind_total": 4
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS021363",
+              "target_label_raw": "viited",
+              "target_preferred_label": "viited",
+              "uri": "https://ems.elnet.ee/id/EMS021363",
+              "resolution": "resolved",
+              "kind_total": 4
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS022160",
+              "target_label_raw": "teadusajakirjandus",
+              "target_preferred_label": "teadusajakirjandus",
+              "uri": "https://ems.elnet.ee/id/EMS022160",
+              "resolution": "resolved",
+              "kind_total": 4
+            }
+          ],
+          "domains": [
+            "03",
+            "55"
+          ],
+          "evidence_total": 1
+        }
+      ],
+      "strategy": "lemma-synonyms",
+      "limit": 5,
+      "explanation": "Sõnastikupõhised otsesed vasted; skoor ei ole tõenäosus. LLM-i ei kasutata.",
+      "diagnostics": {
+        "sentences": 3,
+        "tokens": 22,
+        "ambiguous_tokens": 0,
+        "fallback_tokens": 0,
+        "candidate_occurrences": 76,
+        "unique_keys": 151,
+        "matched_label_keys": 10,
+        "suppressed_nested_concepts": 0,
+        "sql_calls": 5
+      },
+      "timings": {
+        "analysis_seconds": 0.3060453000070993,
+        "candidates_seconds": 0.0010745999752543867,
+        "matching_seconds": 0.042021800007205456,
+        "ranking_seconds": 0.00035700001171790063,
+        "details_seconds": 0.14651880000019446,
+        "total_seconds": 0.4960175000014715
+      },
+      "session_startup_seconds": 5.621919199998956
+    }
+  },
+  {
+    "arguments": [
+      "keywords",
+      "--file",
+      "C:\\TextMining\\Ylesanded\\YL08_EMS\\examples\\morphology.txt",
+      "--limit",
+      "5"
+    ],
+    "response": {
+      "results": [
+        {
+          "ems_id": "EMS145464",
+          "score": 115.0,
+          "score_explanation": "Lemmafraas: 80; Eelistatud nimetus: 8; Fraasipikkus 3: 24; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "lemma",
+          "matched_label": "loomuliku keele töötlus",
+          "matched_text": "loomuliku keele töötlust",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 0,
+              "start": 41,
+              "end": 65,
+              "text": "loomuliku keele töötlust",
+              "label_id": 456215,
+              "matched_label": "loomuliku keele töötlus",
+              "role": "preferred",
+              "match_type": "lemma",
+              "token_count": 3,
+              "snippet": "Teadlased uurivad masinõppe meetodeid ja loomuliku keele töötlust. Eesti keelt õppivad õpilased loevad raamatuid. Infotehnoloogias tööt",
+              "snippet_start": 0,
+              "highlight_start": 41,
+              "highlight_end": 65
+            }
+          ],
+          "preferred_label": "loomuliku keele töötlus",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS145464",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS000500",
+              "target_label_raw": "tehisintellekt",
+              "target_preferred_label": "tehisintellekt",
+              "uri": "https://ems.elnet.ee/id/EMS000500",
+              "resolution": "resolved",
+              "kind_total": 2
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS010220",
+              "target_label_raw": "arvutilingvistika",
+              "target_preferred_label": "arvutilingvistika",
+              "uri": "https://ems.elnet.ee/id/EMS010220",
+              "resolution": "resolved",
+              "kind_total": 2
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS027127",
+              "target_label_raw": "keeletehnoloogia",
+              "target_preferred_label": "keeletehnoloogia",
+              "uri": "https://ems.elnet.ee/id/EMS027127",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS152798",
+              "target_label_raw": "masintõlge",
+              "target_preferred_label": "masintõlge",
+              "uri": "https://ems.elnet.ee/id/EMS152798",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS167762",
+              "target_label_raw": "tekstikaeve",
+              "target_preferred_label": "tekstikaeve",
+              "uri": "https://ems.elnet.ee/id/EMS167762",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS170314",
+              "target_label_raw": "sügavõpe",
+              "target_preferred_label": "sügavõpe",
+              "uri": "https://ems.elnet.ee/id/EMS170314",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS175690",
+              "target_label_raw": "keelemudelid",
+              "target_preferred_label": "keelemudelid",
+              "uri": "https://ems.elnet.ee/id/EMS175690",
+              "resolution": "resolved",
+              "kind_total": 5
+            }
+          ],
+          "domains": [
+            "36"
+          ],
+          "evidence_total": 1
+        },
+        {
+          "ems_id": "EMS006226",
+          "score": 111.0,
+          "score_explanation": "Täpne algkuju: 100; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "exact",
+          "matched_label": "teadlased",
+          "matched_text": "Teadlased",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 0,
+              "start": 0,
+              "end": 9,
+              "text": "Teadlased",
+              "label_id": 68648,
+              "matched_label": "teadlased",
+              "role": "preferred",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": "Teadlased uurivad masinõppe meetodeid ja loomuliku keele töötlust. Eesti keelt ",
+              "snippet_start": 0,
+              "highlight_start": 0,
+              "highlight_end": 9
+            }
+          ],
+          "preferred_label": "teadlased",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS006226",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS173770",
+              "target_label_raw": "akadeemilised töötajad",
+              "target_preferred_label": "akadeemilised töötajad",
+              "uri": "https://ems.elnet.ee/id/EMS173770",
+              "resolution": "resolved",
+              "kind_total": 1
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS000373",
+              "target_label_raw": "antropoloogid",
+              "target_preferred_label": "antropoloogid",
+              "uri": "https://ems.elnet.ee/id/EMS000373",
+              "resolution": "resolved",
+              "kind_total": 48
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS000816",
+              "target_label_raw": "botaanikud",
+              "target_preferred_label": "botaanikud",
+              "uri": "https://ems.elnet.ee/id/EMS000816",
+              "resolution": "resolved",
+              "kind_total": 48
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS001089",
+              "target_label_raw": "keemikud",
+              "target_preferred_label": "keemikud",
+              "uri": "https://ems.elnet.ee/id/EMS001089",
+              "resolution": "resolved",
+              "kind_total": 48
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS001989",
+              "target_label_raw": "majandusteadlased",
+              "target_preferred_label": "majandusteadlased",
+              "uri": "https://ems.elnet.ee/id/EMS001989",
+              "resolution": "resolved",
+              "kind_total": 48
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS002813",
+              "target_label_raw": "geograafid",
+              "target_preferred_label": "geograafid",
+              "uri": "https://ems.elnet.ee/id/EMS002813",
+              "resolution": "resolved",
+              "kind_total": 48
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS003495",
+              "target_label_raw": "haritlaskond",
+              "target_preferred_label": "haritlaskond",
+              "uri": "https://ems.elnet.ee/id/EMS003495",
+              "resolution": "resolved",
+              "kind_total": 13
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS003824",
+              "target_label_raw": "teaduslikud seltsid",
+              "target_preferred_label": "teaduslikud seltsid",
+              "uri": "https://ems.elnet.ee/id/EMS003824",
+              "resolution": "resolved",
+              "kind_total": 13
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS006118",
+              "target_label_raw": "teaduslik-tehniline potentsiaal",
+              "target_preferred_label": "teaduslik-tehniline potentsiaal",
+              "uri": "https://ems.elnet.ee/id/EMS006118",
+              "resolution": "resolved",
+              "kind_total": 13
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS006181",
+              "target_label_raw": "teadus",
+              "target_preferred_label": "teadus",
+              "uri": "https://ems.elnet.ee/id/EMS006181",
+              "resolution": "resolved",
+              "kind_total": 13
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS006212",
+              "target_label_raw": "teaduspotentsiaal",
+              "target_preferred_label": "teaduspotentsiaal",
+              "uri": "https://ems.elnet.ee/id/EMS006212",
+              "resolution": "resolved",
+              "kind_total": 13
+            }
+          ],
+          "domains": [
+            "03",
+            "08"
+          ],
+          "evidence_total": 1
+        },
+        {
+          "ems_id": "EMS006754",
+          "score": 111.0,
+          "score_explanation": "Täpne algkuju: 100; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "exact",
+          "matched_label": "õpilased",
+          "matched_text": "õpilased",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 1,
+              "start": 87,
+              "end": 95,
+              "text": "õpilased",
+              "label_id": 74842,
+              "matched_label": "õpilased",
+              "role": "preferred",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": " masinõppe meetodeid ja loomuliku keele töötlust. Eesti keelt õppivad õpilased loevad raamatuid. Infotehnoloogias töötavad spetsialistid kasutavad t",
+              "snippet_start": 17,
+              "highlight_start": 70,
+              "highlight_end": 78
+            }
+          ],
+          "preferred_label": "õpilased",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS006754",
+          "relations": [
+            {
+              "kind": "narrow",
+              "target_id": "EMS000117",
+              "target_label_raw": "täiskasvanud õpilased",
+              "target_preferred_label": "täiskasvanud õpilased",
+              "uri": "https://ems.elnet.ee/id/EMS000117",
+              "resolution": "resolved",
+              "kind_total": 4
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS023254",
+              "target_label_raw": "abituurium",
+              "target_preferred_label": "abituurium",
+              "uri": "https://ems.elnet.ee/id/EMS023254",
+              "resolution": "resolved",
+              "kind_total": 4
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS023611",
+              "target_label_raw": "kainikud",
+              "target_preferred_label": "kainikud",
+              "uri": "https://ems.elnet.ee/id/EMS023611",
+              "resolution": "resolved",
+              "kind_total": 4
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS023958",
+              "target_label_raw": "välisõpilased",
+              "target_preferred_label": "välisõpilased",
+              "uri": "https://ems.elnet.ee/id/EMS023958",
+              "resolution": "resolved",
+              "kind_total": 4
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS001092",
+              "target_label_raw": "lapsed",
+              "target_preferred_label": "lapsed",
+              "uri": "https://ems.elnet.ee/id/EMS001092",
+              "resolution": "resolved",
+              "kind_total": 7
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS023674",
+              "target_label_raw": "õpetaja-õpilase suhe",
+              "target_preferred_label": "õpetaja-õpilase suhe",
+              "uri": "https://ems.elnet.ee/id/EMS023674",
+              "resolution": "resolved",
+              "kind_total": 7
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS023675",
+              "target_label_raw": "õpilastevahelised suhted",
+              "target_preferred_label": "õpilastevahelised suhted",
+              "uri": "https://ems.elnet.ee/id/EMS023675",
+              "resolution": "resolved",
+              "kind_total": 7
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS023742",
+              "target_label_raw": "koolitransport",
+              "target_preferred_label": "koolitransport",
+              "uri": "https://ems.elnet.ee/id/EMS023742",
+              "resolution": "resolved",
+              "kind_total": 7
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS023957",
+              "target_label_raw": "õpilashinnangud",
+              "target_preferred_label": "õpilashinnangud",
+              "uri": "https://ems.elnet.ee/id/EMS023957",
+              "resolution": "resolved",
+              "kind_total": 7
+            }
+          ],
+          "domains": [
+            "04"
+          ],
+          "evidence_total": 1
+        },
+        {
+          "ems_id": "EMS153701",
+          "score": 111.0,
+          "score_explanation": "Täpne algkuju: 100; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "exact",
+          "matched_label": "spetsialistid",
+          "matched_text": "spetsialistid",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 2,
+              "start": 140,
+              "end": 153,
+              "text": "spetsialistid",
+              "label_id": 505437,
+              "matched_label": "spetsialistid",
+              "role": "preferred",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": "ti keelt õppivad õpilased loevad raamatuid. Infotehnoloogias töötavad spetsialistid kasutavad tehisintellekti.\n",
+              "snippet_start": 70,
+              "highlight_start": 70,
+              "highlight_end": 83
+            }
+          ],
+          "preferred_label": "spetsialistid",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS153701",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS008098",
+              "target_label_raw": "ametid (töökohad)",
+              "target_preferred_label": "ametid (töökohad)",
+              "uri": "https://ems.elnet.ee/id/EMS008098",
+              "resolution": "resolved",
+              "kind_total": 1
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS001820",
+              "target_label_raw": "tööjaotus",
+              "target_preferred_label": "tööjaotus",
+              "uri": "https://ems.elnet.ee/id/EMS001820",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS003495",
+              "target_label_raw": "haritlaskond",
+              "target_preferred_label": "haritlaskond",
+              "uri": "https://ems.elnet.ee/id/EMS003495",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS006586",
+              "target_label_raw": "spetsialiseerumine",
+              "target_preferred_label": "spetsialiseerumine",
+              "uri": "https://ems.elnet.ee/id/EMS006586",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS015164",
+              "target_label_raw": "ametinimetused",
+              "target_preferred_label": "ametinimetused",
+              "uri": "https://ems.elnet.ee/id/EMS015164",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS169442",
+              "target_label_raw": "kvalifitseeritud tööjõud",
+              "target_preferred_label": "kvalifitseeritud tööjõud",
+              "uri": "https://ems.elnet.ee/id/EMS169442",
+              "resolution": "resolved",
+              "kind_total": 5
+            }
+          ],
+          "domains": [
+            "08"
+          ],
+          "evidence_total": 1
+        },
+        {
+          "ems_id": "EMS010261",
+          "score": 103.0,
+          "score_explanation": "Lemmafraas: 80; Eelistatud nimetus: 8; Fraasipikkus 2: 12; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "lemma",
+          "matched_label": "eesti keel",
+          "matched_text": "Eesti keelt",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 1,
+              "start": 67,
+              "end": 78,
+              "text": "Eesti keelt",
+              "label_id": 109064,
+              "matched_label": "eesti keel",
+              "role": "preferred",
+              "match_type": "lemma",
+              "token_count": 2,
+              "snippet": "Teadlased uurivad masinõppe meetodeid ja loomuliku keele töötlust. Eesti keelt õppivad õpilased loevad raamatuid. Infotehnoloogias töötavad spetsial",
+              "snippet_start": 0,
+              "highlight_start": 67,
+              "highlight_end": 78
+            }
+          ],
+          "preferred_label": "eesti keel",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS010261",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS010262",
+              "target_label_raw": "läänemeresoome keeled",
+              "target_preferred_label": "läänemeresoome keeled",
+              "uri": "https://ems.elnet.ee/id/EMS010262",
+              "resolution": "resolved",
+              "kind_total": 1
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS010263",
+              "target_label_raw": "kirderannikumurre",
+              "target_preferred_label": "kirderannikumurre",
+              "uri": "https://ems.elnet.ee/id/EMS010263",
+              "resolution": "resolved",
+              "kind_total": 20
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS010264",
+              "target_label_raw": "Põhja-Eesti murded",
+              "target_preferred_label": "Põhja-Eesti murded",
+              "uri": "https://ems.elnet.ee/id/EMS010264",
+              "resolution": "resolved",
+              "kind_total": 20
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS010265",
+              "target_label_raw": "Lõuna-Eesti murded",
+              "target_preferred_label": "Lõuna-Eesti murded",
+              "uri": "https://ems.elnet.ee/id/EMS010265",
+              "resolution": "resolved",
+              "kind_total": 20
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS010342",
+              "target_label_raw": "idamurre",
+              "target_preferred_label": "idamurre",
+              "uri": "https://ems.elnet.ee/id/EMS010342",
+              "resolution": "resolved",
+              "kind_total": 20
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS010423",
+              "target_label_raw": "keskmurre",
+              "target_preferred_label": "keskmurre",
+              "uri": "https://ems.elnet.ee/id/EMS010423",
+              "resolution": "resolved",
+              "kind_total": 20
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS157720",
+              "target_label_raw": "eestikeelsed",
+              "target_preferred_label": "eestikeelsed",
+              "uri": "https://ems.elnet.ee/id/EMS157720",
+              "resolution": "resolved",
+              "kind_total": 2
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS173684",
+              "target_label_raw": "rannamurre",
+              "target_preferred_label": "rannamurre",
+              "uri": "https://ems.elnet.ee/id/EMS173684",
+              "resolution": "resolved",
+              "kind_total": 2
+            }
+          ],
+          "domains": [
+            "54"
+          ],
+          "evidence_total": 1
+        }
+      ],
+      "strategy": "lemma-synonyms",
+      "limit": 5,
+      "explanation": "Sõnastikupõhised otsesed vasted; skoor ei ole tõenäosus. LLM-i ei kasutata.",
+      "diagnostics": {
+        "sentences": 3,
+        "tokens": 22,
+        "ambiguous_tokens": 0,
+        "fallback_tokens": 0,
+        "candidate_occurrences": 72,
+        "unique_keys": 143,
+        "matched_label_keys": 17,
+        "suppressed_nested_concepts": 2,
+        "sql_calls": 5
+      },
+      "timings": {
+        "analysis_seconds": 0.3298202999867499,
+        "candidates_seconds": 0.0008515000226907432,
+        "matching_seconds": 0.02321379998466,
+        "ranking_seconds": 0.000284800014924258,
+        "details_seconds": 0.09106179999071173,
+        "total_seconds": 0.4452321999997366
+      },
+      "session_startup_seconds": 4.6569411999953445
+    }
+  },
+  {
+    "arguments": [
+      "keywords",
+      "--file",
+      "C:\\TextMining\\Ylesanded\\YL08_EMS\\examples\\synonyms.txt",
+      "--limit",
+      "5"
+    ],
+    "response": {
+      "results": [
+        {
+          "ems_id": "EMS145598",
+          "score": 114.0,
+          "score_explanation": "Täpne algkuju: 100; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 3, piiratud boonus: 6.0",
+          "match_type": "exact",
+          "matched_label": "alalõualuu",
+          "matched_text": "alalõualuu",
+          "frequency": 3,
+          "evidence": [
+            {
+              "sentence_id": 0,
+              "start": 13,
+              "end": 23,
+              "text": "alalõualuu",
+              "label_id": 457172,
+              "matched_label": "alalõualuu",
+              "role": "preferred",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": "Mandibula on alalõualuu. Alalõualuu kuulub kolju luude hulka.\n",
+              "snippet_start": 0,
+              "highlight_start": 13,
+              "highlight_end": 23
+            },
+            {
+              "sentence_id": 1,
+              "start": 25,
+              "end": 35,
+              "text": "Alalõualuu",
+              "label_id": 457172,
+              "matched_label": "alalõualuu",
+              "role": "preferred",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": "Mandibula on alalõualuu. Alalõualuu kuulub kolju luude hulka.\n",
+              "snippet_start": 0,
+              "highlight_start": 25,
+              "highlight_end": 35
+            },
+            {
+              "sentence_id": 0,
+              "start": 0,
+              "end": 9,
+              "text": "Mandibula",
+              "label_id": 457173,
+              "matched_label": "mandibula",
+              "role": "alternative",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": "Mandibula on alalõualuu. Alalõualuu kuulub kolju luude hulka.\n",
+              "snippet_start": 0,
+              "highlight_start": 0,
+              "highlight_end": 9
+            }
+          ],
+          "preferred_label": "alalõualuu",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS145598",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS029481",
+              "target_label_raw": "lõualuud",
+              "target_preferred_label": "lõualuud",
+              "uri": "https://ems.elnet.ee/id/EMS029481",
+              "resolution": "resolved",
+              "kind_total": 1
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS149978",
+              "target_label_raw": "alalõuapõnt",
+              "target_preferred_label": "alalõuapõnt",
+              "uri": "https://ems.elnet.ee/id/EMS149978",
+              "resolution": "resolved",
+              "kind_total": 1
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS147267",
+              "target_label_raw": "alalõualiiges",
+              "target_preferred_label": "alalõualiiges",
+              "uri": "https://ems.elnet.ee/id/EMS147267",
+              "resolution": "resolved",
+              "kind_total": 1
+            }
+          ],
+          "domains": [
+            "25",
+            "28"
+          ],
+          "evidence_total": 3
+        },
+        {
+          "ems_id": "EMS006408",
+          "score": 111.0,
+          "score_explanation": "Täpne algkuju: 100; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "exact",
+          "matched_label": "kolju",
+          "matched_text": "kolju",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 1,
+              "start": 43,
+              "end": 48,
+              "text": "kolju",
+              "label_id": 70790,
+              "matched_label": "kolju",
+              "role": "preferred",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": "Mandibula on alalõualuu. Alalõualuu kuulub kolju luude hulka.\n",
+              "snippet_start": 0,
+              "highlight_start": 43,
+              "highlight_end": 48
+            }
+          ],
+          "preferred_label": "kolju",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS006408",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS002993",
+              "target_label_raw": "pea",
+              "target_preferred_label": "pea",
+              "uri": "https://ems.elnet.ee/id/EMS002993",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS006401",
+              "target_label_raw": "skelett",
+              "target_preferred_label": "skelett",
+              "uri": "https://ems.elnet.ee/id/EMS006401",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS143428",
+              "target_label_raw": "luud",
+              "target_preferred_label": "luud",
+              "uri": "https://ems.elnet.ee/id/EMS143428",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS143703",
+              "target_label_raw": "näokolju",
+              "target_preferred_label": "näokolju",
+              "uri": "https://ems.elnet.ee/id/EMS143703",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS168504",
+              "target_label_raw": "koljupõhimik",
+              "target_preferred_label": "koljupõhimik",
+              "uri": "https://ems.elnet.ee/id/EMS168504",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS169544",
+              "target_label_raw": "oimuluu",
+              "target_preferred_label": "oimuluu",
+              "uri": "https://ems.elnet.ee/id/EMS169544",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS001481",
+              "target_label_raw": "kranioloogia",
+              "target_preferred_label": "kranioloogia",
+              "uri": "https://ems.elnet.ee/id/EMS001481",
+              "resolution": "resolved",
+              "kind_total": 2
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS150035",
+              "target_label_raw": "koljusisene rõhk",
+              "target_preferred_label": "koljusisene rõhk",
+              "uri": "https://ems.elnet.ee/id/EMS150035",
+              "resolution": "resolved",
+              "kind_total": 2
+            }
+          ],
+          "domains": [
+            "25",
+            "28"
+          ],
+          "evidence_total": 1
+        },
+        {
+          "ems_id": "EMS143428",
+          "score": 91.0,
+          "score_explanation": "Lemmafraas: 80; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "lemma",
+          "matched_label": "luud",
+          "matched_text": "luude",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 1,
+              "start": 49,
+              "end": 54,
+              "text": "luude",
+              "label_id": 442271,
+              "matched_label": "luud",
+              "role": "preferred",
+              "match_type": "lemma",
+              "token_count": 1,
+              "snippet": "Mandibula on alalõualuu. Alalõualuu kuulub kolju luude hulka.\n",
+              "snippet_start": 0,
+              "highlight_start": 49,
+              "highlight_end": 54
+            }
+          ],
+          "preferred_label": "luud",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS143428",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS006401",
+              "target_label_raw": "skelett",
+              "target_preferred_label": "skelett",
+              "uri": "https://ems.elnet.ee/id/EMS006401",
+              "resolution": "resolved",
+              "kind_total": 1
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS006408",
+              "target_label_raw": "kolju",
+              "target_preferred_label": "kolju",
+              "uri": "https://ems.elnet.ee/id/EMS006408",
+              "resolution": "resolved",
+              "kind_total": 12
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS006612",
+              "target_label_raw": "selgroog",
+              "target_preferred_label": "selgroog",
+              "uri": "https://ems.elnet.ee/id/EMS006612",
+              "resolution": "resolved",
+              "kind_total": 12
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS029481",
+              "target_label_raw": "lõualuud",
+              "target_preferred_label": "lõualuud",
+              "uri": "https://ems.elnet.ee/id/EMS029481",
+              "resolution": "resolved",
+              "kind_total": 12
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS139224",
+              "target_label_raw": "luukude",
+              "target_preferred_label": "luukude",
+              "uri": "https://ems.elnet.ee/id/EMS139224",
+              "resolution": "resolved",
+              "kind_total": 12
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS139774",
+              "target_label_raw": "luutihedus",
+              "target_preferred_label": "luutihedus",
+              "uri": "https://ems.elnet.ee/id/EMS139774",
+              "resolution": "resolved",
+              "kind_total": 12
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS002669",
+              "target_label_raw": "luumurrud",
+              "target_preferred_label": "luumurrud",
+              "uri": "https://ems.elnet.ee/id/EMS002669",
+              "resolution": "resolved",
+              "kind_total": 10
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS020826",
+              "target_label_raw": "osteoloogia",
+              "target_preferred_label": "osteoloogia",
+              "uri": "https://ems.elnet.ee/id/EMS020826",
+              "resolution": "resolved",
+              "kind_total": 10
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS028522",
+              "target_label_raw": "luuhaigused",
+              "target_preferred_label": "luuhaigused",
+              "uri": "https://ems.elnet.ee/id/EMS028522",
+              "resolution": "resolved",
+              "kind_total": 10
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS029584",
+              "target_label_raw": "luu morfogeneetilised valgud",
+              "target_preferred_label": "luu morfogeneetilised valgud",
+              "uri": "https://ems.elnet.ee/id/EMS029584",
+              "resolution": "resolved",
+              "kind_total": 10
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS139422",
+              "target_label_raw": "luuainevahetus",
+              "target_preferred_label": "luuainevahetus",
+              "uri": "https://ems.elnet.ee/id/EMS139422",
+              "resolution": "resolved",
+              "kind_total": 10
+            }
+          ],
+          "domains": [
+            "25",
+            "28"
+          ],
+          "evidence_total": 1
+        }
+      ],
+      "strategy": "lemma-synonyms",
+      "limit": 5,
+      "explanation": "Sõnastikupõhised otsesed vasted; skoor ei ole tõenäosus. LLM-i ei kasutata.",
+      "diagnostics": {
+        "sentences": 2,
+        "tokens": 10,
+        "ambiguous_tokens": 0,
+        "fallback_tokens": 0,
+        "candidate_occurrences": 21,
+        "unique_keys": 40,
+        "matched_label_keys": 7,
+        "suppressed_nested_concepts": 0,
+        "sql_calls": 5
+      },
+      "timings": {
+        "analysis_seconds": 0.27682840000488795,
+        "candidates_seconds": 0.00031869998201727867,
+        "matching_seconds": 0.02195320001919754,
+        "ranking_seconds": 0.0001644000003580004,
+        "details_seconds": 0.09114769997540861,
+        "total_seconds": 0.3904123999818694
+      },
+      "session_startup_seconds": 5.433699300017906
+    }
+  },
+  {
+    "arguments": [
+      "keywords",
+      "--file",
+      "C:\\TextMining\\Ylesanded\\YL08_EMS\\examples\\boundary.txt",
+      "--limit",
+      "5"
+    ],
+    "response": {
+      "results": [
+        {
+          "ems_id": "EMS014960",
+          "score": 111.0,
+          "score_explanation": "Täpne algkuju: 100; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "exact",
+          "matched_label": "majandus",
+          "matched_text": "Majandus",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 3,
+              "start": 23,
+              "end": 31,
+              "text": "Majandus",
+              "label_id": 161502,
+              "matched_label": "majandus",
+              "role": "preferred",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": "Eesti. Keel. Roheline. Majandus.\n",
+              "snippet_start": 0,
+              "highlight_start": 23,
+              "highlight_end": 31
+            }
+          ],
+          "preferred_label": "majandus",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS014960",
+          "relations": [
+            {
+              "kind": "narrow",
+              "target_id": "EMS000201",
+              "target_label_raw": "põllumajandus",
+              "target_preferred_label": "põllumajandus",
+              "uri": "https://ems.elnet.ee/id/EMS000201",
+              "resolution": "resolved",
+              "kind_total": 50
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS001958",
+              "target_label_raw": "majandusgeograafia",
+              "target_preferred_label": "majandusgeograafia",
+              "uri": "https://ems.elnet.ee/id/EMS001958",
+              "resolution": "resolved",
+              "kind_total": 50
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS001965",
+              "target_label_raw": "majandusmudelid",
+              "target_preferred_label": "majandusmudelid",
+              "uri": "https://ems.elnet.ee/id/EMS001965",
+              "resolution": "resolved",
+              "kind_total": 50
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS001979",
+              "target_label_raw": "majandussüsteemid",
+              "target_preferred_label": "majandussüsteemid",
+              "uri": "https://ems.elnet.ee/id/EMS001979",
+              "resolution": "resolved",
+              "kind_total": 50
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS002182",
+              "target_label_raw": "energiamajandus",
+              "target_preferred_label": "energiamajandus",
+              "uri": "https://ems.elnet.ee/id/EMS002182",
+              "resolution": "resolved",
+              "kind_total": 50
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS001985",
+              "target_label_raw": "majandusteadus",
+              "target_preferred_label": "majandusteadus",
+              "uri": "https://ems.elnet.ee/id/EMS001985",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS020422",
+              "target_label_raw": "indeksid (majandus)",
+              "target_preferred_label": "indeksid (majandus)",
+              "uri": "https://ems.elnet.ee/id/EMS020422",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS021186",
+              "target_label_raw": "majanduslik efektiivsus",
+              "target_preferred_label": "majanduslik efektiivsus",
+              "uri": "https://ems.elnet.ee/id/EMS021186",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS027207",
+              "target_label_raw": "majanduslikud aspektid",
+              "target_preferred_label": "majanduslikud aspektid",
+              "uri": "https://ems.elnet.ee/id/EMS027207",
+              "resolution": "resolved",
+              "kind_total": 5
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS157045",
+              "target_label_raw": "loomemajandus",
+              "target_preferred_label": "loomemajandus",
+              "uri": "https://ems.elnet.ee/id/EMS157045",
+              "resolution": "resolved",
+              "kind_total": 5
+            }
+          ],
+          "domains": [
+            "29"
+          ],
+          "evidence_total": 1
+        },
+        {
+          "ems_id": "EMS169577",
+          "score": 111.0,
+          "score_explanation": "Täpne algkuju: 100; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "exact",
+          "matched_label": "roheline",
+          "matched_text": "Roheline",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 2,
+              "start": 13,
+              "end": 21,
+              "text": "Roheline",
+              "label_id": 592480,
+              "matched_label": "roheline",
+              "role": "preferred",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": "Eesti. Keel. Roheline. Majandus.\n",
+              "snippet_start": 0,
+              "highlight_start": 13,
+              "highlight_end": 21
+            }
+          ],
+          "preferred_label": "roheline",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS169577",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS001235",
+              "target_label_raw": "värvused",
+              "target_preferred_label": "värvused",
+              "uri": "https://ems.elnet.ee/id/EMS001235",
+              "resolution": "resolved",
+              "kind_total": 1
+            }
+          ],
+          "domains": [
+            "23"
+          ],
+          "evidence_total": 1
+        },
+        {
+          "ems_id": "EMS174969",
+          "score": 111.0,
+          "score_explanation": "Täpne algkuju: 100; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "exact",
+          "matched_label": "eesti",
+          "matched_text": "Eesti",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 0,
+              "start": 0,
+              "end": 5,
+              "text": "Eesti",
+              "label_id": 620163,
+              "matched_label": "eesti",
+              "role": "preferred",
+              "match_type": "exact",
+              "token_count": 1,
+              "snippet": "Eesti. Keel. Roheline. Majandus.\n",
+              "snippet_start": 0,
+              "highlight_start": 0,
+              "highlight_end": 5
+            }
+          ],
+          "preferred_label": "eesti",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS174969",
+          "relations": [
+            {
+              "kind": "related",
+              "target_id": "EMS021662",
+              "target_label_raw": "väliseesti",
+              "target_preferred_label": "väliseesti",
+              "uri": "https://ems.elnet.ee/id/EMS021662",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS131705",
+              "target_label_raw": "Eesti (riik)",
+              "target_preferred_label": "Eesti (riik)",
+              "uri": "https://ems.elnet.ee/id/EMS131705",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS140834",
+              "target_label_raw": "eestirootsi",
+              "target_preferred_label": "eestirootsi",
+              "uri": "https://ems.elnet.ee/id/EMS140834",
+              "resolution": "resolved",
+              "kind_total": 3
+            }
+          ],
+          "domains": [
+            "00"
+          ],
+          "evidence_total": 1
+        },
+        {
+          "ems_id": "EMS010175",
+          "score": 91.0,
+          "score_explanation": "Lemmafraas: 80; Eelistatud nimetus: 8; Fraasipikkus 1: 0; Sagedus 1, piiratud boonus: 3.0",
+          "match_type": "lemma",
+          "matched_label": "keeled",
+          "matched_text": "Keel",
+          "frequency": 1,
+          "evidence": [
+            {
+              "sentence_id": 1,
+              "start": 7,
+              "end": 11,
+              "text": "Keel",
+              "label_id": 108133,
+              "matched_label": "keeled",
+              "role": "preferred",
+              "match_type": "lemma",
+              "token_count": 1,
+              "snippet": "Eesti. Keel. Roheline. Majandus.\n",
+              "snippet_start": 0,
+              "highlight_start": 7,
+              "highlight_end": 11
+            }
+          ],
+          "preferred_label": "keeled",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS010175",
+          "relations": [
+            {
+              "kind": "narrow",
+              "target_id": "EMS000148",
+              "target_label_raw": "Aafrika keeled",
+              "target_preferred_label": "Aafrika keeled",
+              "uri": "https://ems.elnet.ee/id/EMS000148",
+              "resolution": "resolved",
+              "kind_total": 45
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS001000",
+              "target_label_raw": "kaukaasia keeled",
+              "target_preferred_label": "kaukaasia keeled",
+              "uri": "https://ems.elnet.ee/id/EMS001000",
+              "resolution": "resolved",
+              "kind_total": 45
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS001851",
+              "target_label_raw": "draviidi keeled",
+              "target_preferred_label": "draviidi keeled",
+              "uri": "https://ems.elnet.ee/id/EMS001851",
+              "resolution": "resolved",
+              "kind_total": 45
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS003343",
+              "target_label_raw": "indoeuroopa keeled",
+              "target_preferred_label": "indoeuroopa keeled",
+              "uri": "https://ems.elnet.ee/id/EMS003343",
+              "resolution": "resolved",
+              "kind_total": 45
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS003673",
+              "target_label_raw": "jaapani keel",
+              "target_preferred_label": "jaapani keel",
+              "uri": "https://ems.elnet.ee/id/EMS003673",
+              "resolution": "resolved",
+              "kind_total": 45
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS010164",
+              "target_label_raw": "keel (keeleteadus)",
+              "target_preferred_label": "keel (keeleteadus)",
+              "uri": "https://ems.elnet.ee/id/EMS010164",
+              "resolution": "resolved",
+              "kind_total": 2
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS010570",
+              "target_label_raw": "rahvusvaheline keel",
+              "target_preferred_label": "rahvusvaheline keel",
+              "uri": "https://ems.elnet.ee/id/EMS010570",
+              "resolution": "resolved",
+              "kind_total": 2
+            }
+          ],
+          "domains": [
+            "54"
+          ],
+          "evidence_total": 1
+        }
+      ],
+      "strategy": "lemma-synonyms",
+      "limit": 5,
+      "explanation": "Sõnastikupõhised otsesed vasted; skoor ei ole tõenäosus. LLM-i ei kasutata.",
+      "diagnostics": {
+        "sentences": 4,
+        "tokens": 8,
+        "ambiguous_tokens": 0,
+        "fallback_tokens": 0,
+        "candidate_occurrences": 4,
+        "unique_keys": 8,
+        "matched_label_keys": 7,
+        "suppressed_nested_concepts": 0,
+        "sql_calls": 5
+      },
+      "timings": {
+        "analysis_seconds": 0.19878800000878982,
+        "candidates_seconds": 0.00010139998630620539,
+        "matching_seconds": 0.015687800012528896,
+        "ranking_seconds": 0.00018169998656958342,
+        "details_seconds": 0.06773849998717196,
+        "total_seconds": 0.28249739998136647
+      },
+      "session_startup_seconds": 3.664191399991978
+    }
+  },
+  {
+    "arguments": [
+      "keywords",
+      "--file",
+      "C:\\TextMining\\Ylesanded\\YL08_EMS\\examples\\unknown.txt",
+      "--limit",
+      "5"
+    ],
+    "response": {
+      "results": [],
+      "strategy": "lemma-synonyms",
+      "limit": 5,
+      "explanation": "Sõnastikupõhised otsesed vasted; skoor ei ole tõenäosus. LLM-i ei kasutata.",
+      "diagnostics": {
+        "sentences": 1,
+        "tokens": 1,
+        "ambiguous_tokens": 0,
+        "fallback_tokens": 0,
+        "candidate_occurrences": 1,
+        "unique_keys": 2,
+        "matched_label_keys": 0,
+        "suppressed_nested_concepts": 0,
+        "sql_calls": 2
+      },
+      "timings": {
+        "analysis_seconds": 0.2886766000010539,
+        "candidates_seconds": 7.490001735277474e-05,
+        "matching_seconds": 0.018159600003855303,
+        "ranking_seconds": 5.1799986977130175e-05,
+        "details_seconds": 4.8000074457377195e-06,
+        "total_seconds": 0.30696770001668483
+      },
+      "session_startup_seconds": 3.8615796999947634
+    }
+  },
+  {
+    "arguments": [
+      "search",
+      "raamatukogudes",
+      "--mode",
+      "lemma",
+      "--limit",
+      "3"
+    ],
+    "response": {
+      "query": "raamatukogudes",
+      "mode": "lemma",
+      "language": "all",
+      "results": [
+        {
+          "ems_id": "EMS003867",
+          "label_id": 42487,
+          "matched_label": "raamatukogud",
+          "language": "et",
+          "role": "preferred",
+          "match_type": "lemma",
+          "preferred_label": "raamatukogud",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS003867",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS014733",
+              "target_label_raw": "kogud",
+              "target_preferred_label": "kogud",
+              "uri": "https://ems.elnet.ee/id/EMS014733",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS142506",
+              "target_label_raw": "kultuuriasutused",
+              "target_preferred_label": "kultuuriasutused",
+              "uri": "https://ems.elnet.ee/id/EMS142506",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS166767",
+              "target_label_raw": "mäluasutused",
+              "target_preferred_label": "mäluasutused",
+              "uri": "https://ems.elnet.ee/id/EMS166767",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS004517",
+              "target_label_raw": "rahvusraamatukogud",
+              "target_preferred_label": "rahvusraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS004517",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS006583",
+              "target_label_raw": "erialaraamatukogud",
+              "target_preferred_label": "erialaraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS006583",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014228",
+              "target_label_raw": "eriraamatukogud",
+              "target_preferred_label": "eriraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS014228",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014229",
+              "target_label_raw": "eraraamatukogud",
+              "target_preferred_label": "eraraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS014229",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014231",
+              "target_label_raw": "rahvaraamatukogud",
+              "target_preferred_label": "rahvaraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS014231",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS001533",
+              "target_label_raw": "kultuurikeskused",
+              "target_preferred_label": "kultuurikeskused",
+              "uri": "https://ems.elnet.ee/id/EMS001533",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS005915",
+              "target_label_raw": "infokeskused",
+              "target_preferred_label": "infokeskused",
+              "uri": "https://ems.elnet.ee/id/EMS005915",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS011296",
+              "target_label_raw": "raamatukogude ajalugu",
+              "target_preferred_label": "raamatukogude ajalugu",
+              "uri": "https://ems.elnet.ee/id/EMS011296",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS012369",
+              "target_label_raw": "raamatukoguhooned",
+              "target_preferred_label": "raamatukoguhooned",
+              "uri": "https://ems.elnet.ee/id/EMS012369",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS014778",
+              "target_label_raw": "raamatukogundus",
+              "target_preferred_label": "raamatukogundus",
+              "uri": "https://ems.elnet.ee/id/EMS014778",
+              "resolution": "resolved",
+              "kind_total": 9
+            }
+          ],
+          "domains": [
+            "53"
+          ]
+        }
+      ],
+      "total_seconds": 0.27680960000725463,
+      "session_startup_seconds": 3.7881013000151142
+    }
+  },
+  {
+    "arguments": [
+      "search",
+      "libraries",
+      "--language",
+      "en",
+      "--mode",
+      "exact",
+      "--limit",
+      "3"
+    ],
+    "response": {
+      "query": "libraries",
+      "mode": "exact",
+      "language": "en",
+      "results": [
+        {
+          "ems_id": "EMS003867",
+          "label_id": 42488,
+          "matched_label": "libraries",
+          "language": "en",
+          "role": "english_equivalent",
+          "match_type": "exact",
+          "preferred_label": "raamatukogud",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS003867",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS014733",
+              "target_label_raw": "kogud",
+              "target_preferred_label": "kogud",
+              "uri": "https://ems.elnet.ee/id/EMS014733",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS142506",
+              "target_label_raw": "kultuuriasutused",
+              "target_preferred_label": "kultuuriasutused",
+              "uri": "https://ems.elnet.ee/id/EMS142506",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS166767",
+              "target_label_raw": "mäluasutused",
+              "target_preferred_label": "mäluasutused",
+              "uri": "https://ems.elnet.ee/id/EMS166767",
+              "resolution": "resolved",
+              "kind_total": 3
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS004517",
+              "target_label_raw": "rahvusraamatukogud",
+              "target_preferred_label": "rahvusraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS004517",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS006583",
+              "target_label_raw": "erialaraamatukogud",
+              "target_preferred_label": "erialaraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS006583",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014228",
+              "target_label_raw": "eriraamatukogud",
+              "target_preferred_label": "eriraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS014228",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014229",
+              "target_label_raw": "eraraamatukogud",
+              "target_preferred_label": "eraraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS014229",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014231",
+              "target_label_raw": "rahvaraamatukogud",
+              "target_preferred_label": "rahvaraamatukogud",
+              "uri": "https://ems.elnet.ee/id/EMS014231",
+              "resolution": "resolved",
+              "kind_total": 27
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS001533",
+              "target_label_raw": "kultuurikeskused",
+              "target_preferred_label": "kultuurikeskused",
+              "uri": "https://ems.elnet.ee/id/EMS001533",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS005915",
+              "target_label_raw": "infokeskused",
+              "target_preferred_label": "infokeskused",
+              "uri": "https://ems.elnet.ee/id/EMS005915",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS011296",
+              "target_label_raw": "raamatukogude ajalugu",
+              "target_preferred_label": "raamatukogude ajalugu",
+              "uri": "https://ems.elnet.ee/id/EMS011296",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS012369",
+              "target_label_raw": "raamatukoguhooned",
+              "target_preferred_label": "raamatukoguhooned",
+              "uri": "https://ems.elnet.ee/id/EMS012369",
+              "resolution": "resolved",
+              "kind_total": 9
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS014778",
+              "target_label_raw": "raamatukogundus",
+              "target_preferred_label": "raamatukogundus",
+              "uri": "https://ems.elnet.ee/id/EMS014778",
+              "resolution": "resolved",
+              "kind_total": 9
+            }
+          ],
+          "domains": [
+            "53"
+          ]
+        }
+      ],
+      "total_seconds": 0.27142369997454807,
+      "session_startup_seconds": 5.185929799976293
+    }
+  },
+  {
+    "arguments": [
+      "search",
+      "raamatu",
+      "--mode",
+      "prefix",
+      "--limit",
+      "3"
+    ],
+    "response": {
+      "query": "raamatu",
+      "mode": "prefix",
+      "language": "all",
+      "results": [
+        {
+          "ems_id": "EMS000807",
+          "label_id": 9166,
+          "matched_label": "raamatud",
+          "language": "et",
+          "role": "preferred",
+          "match_type": "prefix",
+          "preferred_label": "raamatud",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS000807",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS001829",
+              "target_label_raw": "teavikud",
+              "target_preferred_label": "teavikud",
+              "uri": "https://ems.elnet.ee/id/EMS001829",
+              "resolution": "resolved",
+              "kind_total": 2
+            },
+            {
+              "kind": "broad",
+              "target_id": "EMS014917",
+              "target_label_raw": "trükised (vormimärksõna)",
+              "target_preferred_label": "trükised (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS014917",
+              "resolution": "resolved",
+              "kind_total": 2
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS004071",
+              "target_label_raw": "käsiraamatud (vormimärksõna)",
+              "target_preferred_label": "käsiraamatud (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS004071",
+              "resolution": "resolved",
+              "kind_total": 37
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS009108",
+              "target_label_raw": "antoloogiad (vormimärksõna)",
+              "target_preferred_label": "antoloogiad (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS009108",
+              "resolution": "resolved",
+              "kind_total": 37
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS010281",
+              "target_label_raw": "sõnaraamatud (vormimärksõna)",
+              "target_preferred_label": "sõnaraamatud (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS010281",
+              "resolution": "resolved",
+              "kind_total": 37
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014587",
+              "target_label_raw": "haruldased raamatud",
+              "target_preferred_label": "haruldased raamatud",
+              "uri": "https://ems.elnet.ee/id/EMS014587",
+              "resolution": "resolved",
+              "kind_total": 37
+            },
+            {
+              "kind": "narrow",
+              "target_id": "EMS014730",
+              "target_label_raw": "keelatud raamatud",
+              "target_preferred_label": "keelatud raamatud",
+              "uri": "https://ems.elnet.ee/id/EMS014730",
+              "resolution": "resolved",
+              "kind_total": 37
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS004075",
+              "target_label_raw": "käsikirjad (vormimärksõna)",
+              "target_preferred_label": "käsikirjad (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS004075",
+              "resolution": "resolved",
+              "kind_total": 11
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS009164",
+              "target_label_raw": "kogutud teosed (vormimärksõna)",
+              "target_preferred_label": "kogutud teosed (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS009164",
+              "resolution": "resolved",
+              "kind_total": 11
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS011295",
+              "target_label_raw": "raamatuajalugu",
+              "target_preferred_label": "raamatuajalugu",
+              "uri": "https://ems.elnet.ee/id/EMS011295",
+              "resolution": "resolved",
+              "kind_total": 11
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS011763",
+              "target_label_raw": "eksliibrised (vormimärksõna)",
+              "target_preferred_label": "eksliibrised (vormimärksõna)",
+              "uri": "https://ems.elnet.ee/id/EMS011763",
+              "resolution": "resolved",
+              "kind_total": 11
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS014787",
+              "target_label_raw": "raamatuteadus",
+              "target_preferred_label": "raamatuteadus",
+              "uri": "https://ems.elnet.ee/id/EMS014787",
+              "resolution": "resolved",
+              "kind_total": 11
+            }
+          ],
+          "domains": [
+            "53"
+          ]
+        },
+        {
+          "ems_id": "EMS144987",
+          "label_id": 452772,
+          "matched_label": "raamatuhoid",
+          "language": "et",
+          "role": "preferred",
+          "match_type": "prefix",
+          "preferred_label": "raamatuhoid",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS144987",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS014778",
+              "target_label_raw": "raamatukogundus",
+              "target_preferred_label": "raamatukogundus",
+              "uri": "https://ems.elnet.ee/id/EMS014778",
+              "resolution": "resolved",
+              "kind_total": 1
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS014736",
+              "target_label_raw": "säilitamine",
+              "target_preferred_label": "säilitamine",
+              "uri": "https://ems.elnet.ee/id/EMS014736",
+              "resolution": "resolved",
+              "kind_total": 1
+            }
+          ],
+          "domains": [
+            "53"
+          ]
+        },
+        {
+          "ems_id": "EMS154451",
+          "label_id": 507703,
+          "matched_label": "raamatuturg",
+          "language": "et",
+          "role": "preferred",
+          "match_type": "prefix",
+          "preferred_label": "raamatuturg",
+          "concept_type": "topical",
+          "uri": "https://ems.elnet.ee/id/EMS154451",
+          "relations": [
+            {
+              "kind": "broad",
+              "target_id": "EMS004102",
+              "target_label_raw": "turg (süsteem)",
+              "target_preferred_label": "turg (süsteem)",
+              "uri": "https://ems.elnet.ee/id/EMS004102",
+              "resolution": "resolved",
+              "kind_total": 1
+            },
+            {
+              "kind": "related",
+              "target_id": "EMS021002",
+              "target_label_raw": "raamatukaubandus",
+              "target_preferred_label": "raamatukaubandus",
+              "uri": "https://ems.elnet.ee/id/EMS021002",
+              "resolution": "resolved",
+              "kind_total": 1
+            }
+          ],
+          "domains": [
+            "29"
+          ]
+        }
+      ],
+      "total_seconds": 0.3634815000114031,
+      "session_startup_seconds": 4.29531919999863
+    }
+  }
+]

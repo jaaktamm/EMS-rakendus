@@ -1,0 +1,26 @@
+{
+  "xml_008": "090101|n|annnnbabn           | |n|      ",
+  "webbed_008": "090101|n|annnnbabn           | |n|",
+  "xml_008_length": 40,
+  "webbed_008_length": 34,
+  "exact_equal": false,
+  "source_field_order": [
+    "leader",
+    "001",
+    "072",
+    "072",
+    "003",
+    "008",
+    "024",
+    "040",
+    "148",
+    "448",
+    "548"
+  ],
+  "webbed_columns": [
+    "leader",
+    "controlfield",
+    "datafield"
+  ],
+  "extension": "4b70396"
+}
