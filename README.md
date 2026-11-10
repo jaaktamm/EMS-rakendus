@@ -17,6 +17,53 @@ Tegeliku täisimpordi tulemused ja kontrollide piirangud on [etapi 2 aruandes](E
 
 Otsingu näited, kontrollid ja mõõtmised on [etapi 3 aruandes](ETAPP_3.md).
 
+## Kloonimine, seadistamine ja testimine
+
+Juhised sobivad Windowsi PowerShellile. Rakenduse kõige lihtsamaks proovimiseks kasuta Dockerit; kui soovid käivitada teste või CLI-käske, loo kohalik Pythoni keskkond.
+
+### 1. Klooni projekt
+
+Loo GitHubis hoidla ja kopeeri selle HTTPS-aadress. Asenda allolevas käsus `OWNER/REPOSITORY` enda hoidla omaniku ja nimega:
+
+```powershell
+cd C:\TextMining\Ylesanded
+git clone https://github.com/OWNER/REPOSITORY.git YL08_EMS-test
+cd YL08_EMS-test
+```
+
+### 2. Loo virtuaalkeskkond ja paigalda sõltuvused
+
+Vajalik on Python 3.11. Virtuaalkeskkond hoiab projekti sõltuvused muust Pythoni paigaldusest lahus:
+
+```powershell
+py -3.11 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements-dev.txt -c stage1-requirements-windows.lock.txt
+.\.venv\Scripts\python.exe -m nltk.downloader punkt_tab
+```
+
+### 3. Käivita testid
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```
+
+Eduka käivituse lõpus kuvatakse `OK`. Testid kasutavad ajutisi andmebaase ega vaja EMS-i täisbaasi allalaadimist. Viimases kontrollis läbisid kõik 56 testi.
+
+### 4. Käivita veebirakendus Dockeriga
+
+Paigalda ja käivita Docker Desktop, seejärel projekti kaustas käivita:
+
+```powershell
+docker compose up -d --build
+docker compose ps
+Invoke-RestMethod http://127.0.0.1:8000/health
+```
+
+Kui `health` näitab `ready`, ava [http://127.0.0.1:8000](http://127.0.0.1:8000). Esimesel käivitusel laadib rakendus EMS-i andmestiku alla, impordib selle ja ehitab otsinguindeksi; see võib võtta mitu minutit. Edenemist näed käsuga `docker compose logs -f ems`. Lõpeta logivaade klahvikombinatsiooniga `Ctrl+C`; see ei peata konteinerit. Teenuse peatamiseks kasuta `docker compose down`.
+
+Compose salvestab andmebaasi püsivasse Docker-mahtu, nii et tavaline `docker compose down` andmeid ei kustuta. Ära kasuta `docker compose down -v`, kui soovid seda andmemahtu alles hoida. Kui port 8000 on hõivatud, määra enne käivitust näiteks `$env:EMS_PORT=8001` ning kasuta seejärel aadressi `http://127.0.0.1:8001`.
+
 ## Veebirakenduse kiirkäivitus Dockeriga
 
 ```powershell
